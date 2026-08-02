@@ -1,0 +1,5 @@
+// Homebrewed
+// DEX or CHA +1
+// Immediately after a creature hits you with a melee attack, you can make an Opportunity Attack against that creature
+// Interrupt, Reaction cost, melee attack
+// Once per Long Rest, you can choose a skill in which you have proficiency. You have Expertise until you finish your next Long Rest

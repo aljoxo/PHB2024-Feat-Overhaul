@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <!-- Fey Touched -->
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Fey Touched: Misty Step" />
+          <attribute id="Spells" type="LSString" value="Target_MistyStep" />
+          <attribute id="UUID" type="guid" value="ebaf33da-f0b8-4a43-9f3e-5c54973be7c2" />
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Fey Touched: Divination/Enchantment Level 1 Spells" />
+          <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Target_Command_Container;Target_CompelledDuel;Shout_DetectEvilAndGood;Target_DissonantWhispers;Target_Heroism;Target_Hex;Target_HuntersMark;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter" />
+          <attribute id="UUID" type="guid" value="a752bc58-78a8-4328-a593-4dd7ea093d5a" />
+        </node>
+        <!-- Shadow Touched -->
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Shadow Touched: Invisibility" />
+          <attribute id="Spells" type="LSString" value="Target_Invisibility" />
+          <attribute id="UUID" type="guid" value="5cadd40d-8f25-49bd-b9bd-b3c59e195587" />
+        </node>
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Shadow Touched: Illusion/Necromancy Level 1 Spells" />
+          <attribute id="Spells" type="LSString" value="Zone_ColorSpray;Shout_DisguiseSelf;Shout_FalseLife;Target_InflictWounds;Projectile_RayOfSickness" />
+          <attribute id="UUID" type="guid" value="8559b2a7-2e2f-4832-a113-b21d3f49aa34" />
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

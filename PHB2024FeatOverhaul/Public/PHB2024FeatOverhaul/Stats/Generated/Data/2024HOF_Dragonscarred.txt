@@ -1,0 +1,6 @@
+// Homebrewed a bit as to not require the Origin Feat to function
+// CON or CHA +1
+// Acid, Cold, Fire, Lightning, or Poison Resistance (chosen)
+// When you deal damage to a creature, you can use a Bonus Action (interrupt) to cast Dragon's Terror
+// Dragon's Terror: WIS Save (DC is 8+WIS+Prof) or have the Frightened condition until the end of your next turn
+// If the target succeeds on the save or when the effect ends for a target, the target is immune for 24 hours (changed to 10 turns)

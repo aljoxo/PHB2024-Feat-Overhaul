@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328" />
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Athlete ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_Athlete_Strength,APO_Athlete_Dexterity" />
+                    <attribute id="UUID" type="guid" value="995c871b-5755-4f1f-b741-107ef6a50931" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

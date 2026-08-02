@@ -1,0 +1,23 @@
+// Homebrewed slightly
+// INT WIS or CHA +1
+// Learn Ray of Frost cantrip
+// Advantage on damage die for cold spells
+// Once per turn when you hit a creature with an attack roll and deal Cold damage, you apply Frostbite
+// Frostbite: creature subtracts 1d4 from the next saving throw it makes before the end of your next turn
+
+new entry "APO_FROSTBITE"
+type "StatusData"
+data "StatusType" "BOOST"
+// Frostbite
+data "DisplayName" ";1"
+// This entity's next <LSTag Tooltip="SavingThrow">Saving Throw</LSTag> is reduced by [1].
+data "Description" ";1"
+data "DescriptionParams" "1d4"
+data "Icon" "statIcons_Mag_Increased_Damage_Cold"
+data "StackId" "APO_FROSTBITE"
+data "Boosts" "RollBonus(SavingThrow,-1d4)"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "TickingWithSource"
+data "RemoveConditions" "IsSavingThrow()"
+data "RemoveEvents" "OnAttacked"
+data "StatusGroups" "SG_RemoveOnRespec"

@@ -1,0 +1,39 @@
+// Homebrewed slightly
+// Added Part of 2024 Observant Feat to this (gain proficiency in Insight, Investigation, or Perception)
+// Added ASI from 2024 Observent: INT or WIS +1
+// When you roll Initiative, you can add your Proficiency Bonus to the roll
+// Left in surprised immunity, since 2024 removed surprise rounds but BG3 still has them.
+
+new entry "Alert"
+type "PassiveData"
+using "Alert"
+// Alert
+data "DisplayName" "h54375676ga0c3g474agb1edgf89c18e25928;1"
+// You gain a bonus to Initiative equal to your <LSTag Tooltip="ProficiencyBonus">Proficiency Bonus</LSTag> and can't be <LSTag Type="Status" Tooltip="SURPRISED">Surprised</LSTag>.
+data "Description" "hd01e7811g5ab4g4c5bga46ag4706cd8354f5;1"
+data "DescriptionParams" "5"
+data "Icon" "PassiveFeature_Generic_Threat"
+data "Properties" "Highlighted"
+data "Boosts" "Initiative(2);IF(CharacterLevelGreaterThan(4)):Initiative(1);IF(CharacterLevelGreaterThan(8)):Initiative(1);IF(CharacterLevelGreaterThan(12)):Initiative(1);IF(CharacterLevelGreaterThan(16)):Initiative(1);StatusImmunity(SURPRISED)"
+
+new entry "APO_Alert_Intelligence"
+type "PassiveData"
+// Alert: Intelligence
+data "DisplayName" "h53b33107gaaddg40fdg80c6g171502b4ac28;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_Alert_Wisdom"
+type "PassiveData"
+// Alert: Wisdom
+data "DisplayName" "hf8367656g7c7ag4318gb65cge5f616daede3;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"

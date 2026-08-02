@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<!-- ASI Descriptions -->
+	<content contentuid="h1e78895fg3a0dg45caga7d9gdb94d56ee0da" version="1">Your Strength is increased by [1].</content>
+	<content contentuid="h60cae1c4g80b5g4b9eg9ceeg254006fff361" version="1">Your Dexterity is increased by [1].</content>
+	<content contentuid="ha7a96527gdfeeg4acdgb889g443fa20828e4" version="1">Your Constitution is increased by [1].</content>
+	<content contentuid="h80452fa7g9516g47f2gad46g074bdd071f26" version="1">Your Intelligence is increased by [1].</content>
+	<content contentuid="hd37842d0g24b9g44ecg9a26gba48693c5953" version="1">Your Wisdom is increased by [1].</content>
+	<content contentuid="ha713ab95gbc52g43e3g8750g383e123d6b70" version="1">Your Charisma is increased by [1].</content>
+
+	<!-- TooltipExtraTexts -->
+	<content contentuid="hecdb7347g4721g4bd2ga982g2abe3a43b9fa" version="1">Unused</content>
+
+	<!-- Actor -->
+	<content contentuid="h2d8fab60gdbaeg45fegb7ebg0fc1b882dad5" version="1">Actor</content>
+	<content contentuid="hea43ba2fg6bf6g46bbgbb1eg7682322f8586" version="1">You have become a true thespian. Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by [1]. Your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; is doubled for Deception, Performance, and Persuasion &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Deception and Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;</content>
+	<content contentuid="h1ee601b5g78c8g45fcgac7dg04bde4a299ae" version="1">Actor</content>
+	<content contentuid="h93fb8ac8g364cg42c3g92a1g17aba37f09a4" version="1"></content>Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Deception, Persuasion, and Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. Additionally, you have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Deception and Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;</content>
+
+	<!-- Alert -->
+	<content contentuid="h54375676ga0c3g474agb1edgf89c18e25928" version="1">Alert</content>
+	<content contentuid="hd01e7811g5ab4g4c5bga46ag4706cd8354f5" version="1">You gain a bonus to Initiative equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
+	<content contentuid="h53b33107gaaddg40fdg80c6g171502b4ac28" version="1">Alert: Intelligence</content>
+	<content contentuid="hf8367656g7c7ag4318gb65cge5f616daede3" version="1">Alert: Wisdom</content>
+
+	<!-- Athlete -->
+	<content contentuid="h494538f1g6225g4bc2gb3eeg82c2c0d16851" version="1">Athlete: Strength</content>
+	<content contentuid="h5abb8c09gbb8ag443dg9484gcb6e3b5312ff" version="1">Athlete: Dexterity</content>
+
+	<!-- Charger -->
+	<content contentuid="h573ede35gca1dg4d4bg9fc2gbc341b559091" version="1">Charger</content>
+	<content contentuid="h9b0d6f7bgb818g4389g9fb7g3d57565ce464" version="1">Let your speed intensify your onslaught. You can &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Push"&gt;Shove&lt;/LSTag&gt; or gain a +[1] bonuns to an &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Attack&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="h4cef4197g03f8g4e60gb219g0548a6ad7c19" version="1">Charger: Improved Dash</content>
+	<content contentuid="h39922834g15f8g4244g8789g29eae8d240a1" version="1">When you &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;, your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is increased by [1].</content>
+	<content contentuid="h99762cbbged8bg4959gb7ceg45140cec56e8" version="1">Charger: Shove</content>
+	<content contentuid="h2fec9342g94fdg4185g8633gb2594c92e499" version="1">Charge forward and Shove the first enemy in your way. Your chances depend on your Athletics, and are higher if you're &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;hidden&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;invisible&lt;/LSTag&gt;.</content>
+	<content contentuid="ha490cd3ag3eb0g4c89gae12g33bd818cc608" version="1">The shove distance depends on your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; and the target's weight.</content>
+	<content contentuid="h9819b876g3b73g4d52g9e73gd0943d0058fd" version="1">Charger: Weapon Attack</content>
+	<content contentuid="hcf054604g933bg4a2ega6ccg69284d9c3647" version="1">Charge forward and slam your weapon into the first enemy in your way, you gain a +[1] bonus to this &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="h25c07651g93e3g4591g99a6g85f2e5d92b58" version="1">Charger: Strength</content>
+	<content contentuid="h35657f47gfeadg4246g9a46gf424df86e637" version="1">Charger: Dexterity</content>
+
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+
+</contentList>

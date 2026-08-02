@@ -1,0 +1,6 @@
+// Homebrewed a bit
+// DEX or CHA +1
+// When you take the Disengage action on your turn, Difficult Terrain doesn't cost you extra movement for the rest of your turn
+    // I think this will require SE to add a Boost to the disengage action since the dash action has Mobile Passive logic built in
+// When you hit with an attack roll, you can attempt to fluster the target. Must succeed on a WIS Save (8+Dex or Cha+Prof). On fail has DIS on saving throws
+// Once per short rest?

@@ -1,0 +1,6 @@
+// Homebrewed
+// INT WIS or CHA +1
+// You learn the Sacred Flame cantrip
+// Once per turn when you take damage from a spell or magical effect, you reduce the total damage taken by 1d4. Can't be used while Incapacitated
+// Advantage on damage die for Radiant spells
+// Radiant spells ignore Resistance

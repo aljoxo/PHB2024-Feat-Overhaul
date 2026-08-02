@@ -1,0 +1,4 @@
+// Homebrewed slightly
+// Any ASI +1
+// Advantage on necrotic damage die
+// Necrosis: When you deal necrotic damage you can apply the Poisoned condition until the start of your next turn

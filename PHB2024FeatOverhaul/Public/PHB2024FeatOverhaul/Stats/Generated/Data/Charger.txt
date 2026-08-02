@@ -1,0 +1,75 @@
+// STR or DEX +1
+// When you take the Dash Action, Add +3m
+    // This should be doable w/ SE to add an extra boost
+// Charger: Weapon Attack and Charger: Shove have Bonus Action cost removed
+// Damage bonus on Charger: Weapon Attack is changed to 1d8 bonus on Attack roll
+
+new entry "Charger"
+type "PassiveData"
+using "Charger"
+// Charger
+data "DisplayName" "h573ede35gca1dg4d4bg9fc2gbc341b559091;1"
+// Let your speed intensify your onslaught. You can <LSTag Type="Spell" Tooltip="Rush_Charger_Push">Shove</LSTag> or gain a +[1] bonuns to an <LSTag Type="Spell" Tooltip="Rush_Charger_Attack>Attack Roll</LSTag>.
+data "Description" "h9b0d6f7bgb818g4389g9fb7g3d57565ce464;1"
+data "DescriptionParams" "1d8"
+data "Icon" "Action_Charger_Attack"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "UnlockSpell(Rush_Charger_Attack);UnlockSpell(Rush_Charger_Push);IF(SpellId('Rush_Charger_Attack')):RollBonus(MeleeWeaponAttack,1d8)"
+
+new entry "APO_Charger_ImprovedDash"
+type "PassiveData"
+// Charger: Improved Dash
+data "DisplayName" "h4cef4197g03f8g4e60gb219g0548a6ad7c19;1"
+// When you <LSTag Type="Spell" Tooltip="Shout_Dash">Dash</LSTag>, your <LSTag Tooltip="MovementSpeed">movement speed</LSTag> is increased by [1].
+data "Description" "h39922834g15f8g4244g8789g29eae8d240a1;1"
+data "DescriptionParams" "Distance(3)"
+data "Icon" "PassiveFeature_Mobile_DashAcrossDifficultTerrain"
+data "Properties" "Highlighted"
+
+new entry "Rush_Charger_Attack"
+type "SpellData"
+data "SpellType" "Rush"
+using "Rush_Charger_Attack"
+data "Cooldown" "OncePerTurn"
+data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon+, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand)"
+// Charger: Weapon Attack
+data "DisplayName" "h9819b876g3b73g4d52g9e73gd0943d0058fd;1"
+// Charge forward and slam your weapon into the first enemy in your way, you gain a +[1] bonus to this <LSTag Tooltip="AttackRoll">Attack Roll</LSTag>.
+data "Description" "hcf054604g933bg4a2ega6ccg69284d9c3647;1"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)"
+data "UseCosts" "ActionPoint:1"
+
+new entry "Rush_Charger_Push"
+type "SpellData"
+data "SpellType" "Rush"
+using "Rush_Charger_Push"
+data "Cooldown" "OncePerTurn"
+// Charger: Shove
+data "DisplayName" "h99762cbbged8bg4959gb7ceg45140cec56e8;1"
+// Charge forward and Shove the first enemy in your way. Your chances depend on your Athletics, and are higher if you're <LSTag Type="Status" Tooltip="SNEAKING">hidden</LSTag> or <LSTag Type="Status" Tooltip="INVISIBLE">invisible</LSTag>.
+data "Description" "h2fec9342g94fdg4185g8633gb2594c92e499;1"
+data "ExtraDescription" "ha490cd3ag3eb0g4c89gae12g33bd818cc608;1"
+data "UseCosts" "BonusActionPoint:1"
+
+new entry "APO_Charger_Strength"
+type "PassiveData"
+// Charger: Strength
+data "DisplayName" "h25c07651g93e3g4591g99a6g85f2e5d92b58;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_Charger_Dexterity"
+type "PassiveData"
+// Charger: Dexterity
+data "DisplayName" "h35657f47gfeadg4246g9a46gf424df86e637;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"

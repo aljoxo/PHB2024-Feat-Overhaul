@@ -1,0 +1,16 @@
+// Slightly Homebrewed
+// CHA +1
+// Advantage on Deception & Performance
+// Expertise in Persuasion, Deception, & Performance
+
+new entry "Actor"
+type "PassiveData"
+using "Actor"
+// Actor
+data "DisplayName" "h2d8fab60gdbaeg45fegb7ebg0fc1b882dad5;1"
+// You have become a true thespian. Your <LSTag Tooltip="Charisma">Charisma</LSTag> increases by [1]. Your <LSTag Tooltip="ProficiencyBonus">Proficiency Bonus</LSTag> is doubled for Deception, Performance, and Persuasion <LSTag Tooltip="AbilityCheck">Checks</LSTag>. You have <LSTag Tooltip="Advantage">Advantage</LSTag> on Deception and Performance <LSTag Tooltip="AbilityCheck">Checks</LSTag>.
+data "Description" "hea43ba2fg6bf6g46bbgbb1eg7682322f8586;1"
+data "DescriptionParams" "1"
+data "Icon" "Action_Perform_Voice"
+data "Properties" "Highlighted"
+data "Boosts" "ProficiencyBonus(Skill,Deception);ExpertiseBonus(Deception);ProficiencyBonus(Skill,Performance);ExpertiseBonus(Performance);ProficiencyBonus(Skill,Persuasion);ExpertiseBonus(Persuasion);Advantage(Skill, Performance);Advantage(Skill, Deception);Ability(Charisma, 1)"

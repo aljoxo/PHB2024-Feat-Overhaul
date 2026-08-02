@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="Feats">
+        <node id="root">
+            <children>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Actor"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Actor"/>
+                    <attribute id="UUID" type="guid" value="cdcbc538-883b-401c-a8ed-1373fb6d1720"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

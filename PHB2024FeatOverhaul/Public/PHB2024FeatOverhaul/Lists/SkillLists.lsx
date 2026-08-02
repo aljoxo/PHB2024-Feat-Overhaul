@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="APO_AlertSkills"/>
+                    <attribute id="Skills" type="LSString" value="Insight, Investigation, Perception"/>
+                    <attribute id="UUID" type="guid" value="5a0a3a9d-dc92-4d38-8882-fcc41e0c43ce"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
