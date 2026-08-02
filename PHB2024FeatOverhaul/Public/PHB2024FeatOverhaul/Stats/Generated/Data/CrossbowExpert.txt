@@ -1,0 +1,53 @@
+// Homebrewed slightly
+// Gain proficiency with all crossbows
+// No disadvantage on melee ranged attack rolls with crossbows
+// DEX +1
+// Crossbows have a chance to apply Gaping Wounds (this is intended to be used with my Weapon Masteries mod which removes the default Weapon Actions) - Uses Vanilla's ManeuverSaveDC() (8+STR or DEX+ProficiencyBonus)
+
+new entry "CrossbowExpert_PointBlank"
+type "PassiveData"
+using "CrossbowExpert_PointBlank"
+// Crossbow Expert: Point-Blank
+data "DisplayName" "heeab5f82ge167g4718g97f9gf62b57fac83d;2"
+// When you make crossbow attacks within melee range, the <LSTag Tooltip="AttackRoll">Attack Rolls</LSTag> do not have <LSTag Tooltip="Disadvantage">Disadvantage</LSTag>.
+data "Description" "hef9f4812gf1bfg4028gb116g28744e6cbfad;4"
+data "DescriptionParams" "Distance(1.5)"
+data "Icon" "PassiveFeature_CrossbowExpert_PointBlank"
+data "Properties" "Highlighted"
+data "Boosts" "IgnorePointBlankDisadvantage(Loading)"
+
+new entry "CrossbowExpert_Wounding"
+type "PassiveData"
+using "CrossbowExpert_Wounding"
+// Crossbow Expert: Wounding 
+data "DisplayName" "hb6ddf7e2g6c86g4555gbb4egf9799880ba3a;3"
+// When you hit a creature with a crossbow, you possibly inflict <LSTag Type="Status" Tooltip="GAPING_WOUND">Gaping Wounds</LSTag>.
+data "Description" "h3994a119gbd84g4226g9f83g07e349c10b48;1"
+data "Icon" "PassiveFeature_CrossbowExpert_WoundingAim"
+data "Properties" "Highlighted"
+data "Boosts" ""
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and IsProficientWithAttackWeapon() and IsWeaponOfProficiencyGroup('HandCrossbows|LightCrossbows|HeavyCrossbows', GetAttackWeapon())"
+data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC())):ApplyStatus(GAPING_WOUND,100,2)"
+
+new entry "CrossbowExpert_Proficiency"
+type "PassiveData"
+// Crossbow Expert: Proficiency
+data "DisplayName" "hc5a296ccgad60g4b63gb6f9g009cc4a1b409;1"
+// You gain <LSTag Tooltip="Proficiency">Proficiency</LSTag> with all crossbows and your <LSTag Tooltip="Dexterity">Dexterity</LSTag> increased by [1].
+data "Description" "he65f6198g6303g4f7dga74fg8173d7efd586;1"
+data "DescriptionParams" "1"
+data "Icon" "PassiveFeature_CrossbowExpert_BonusShot"
+data "Properties" "Highlighted"
+data "Boosts" "Proficiency(HandCrossbows);Proficiency(LightCrossbows);Proficiency(HeavyCrossbows)"
+
+new entry "APO_CrossbowExpert_Dexterity"
+type "PassiveData"
+// Crossbow Expert: Dexterity
+data "DisplayName" "hf5d9b7cdg650dg4112g9a5cg64704eda347b;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"

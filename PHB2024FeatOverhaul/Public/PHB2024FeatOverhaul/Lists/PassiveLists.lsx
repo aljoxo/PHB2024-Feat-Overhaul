@@ -9,6 +9,31 @@
                     <attribute id="Passives" type="LSString" value="APO_Athlete_Strength,APO_Athlete_Dexterity" />
                     <attribute id="UUID" type="guid" value="995c871b-5755-4f1f-b741-107ef6a50931" />
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Alert ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_Alert_Intelligence,APO_Alert_Wisdom" />
+                    <attribute id="UUID" type="guid" value="c343e40d-feb2-4f5b-84e0-68f69add8941" />
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Charger ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_Charger_Strength,APO_Charger_Dexterity" />
+                    <attribute id="UUID" type="guid" value="17d5e5e5-3094-4f6f-815f-c0838122d4bf" />
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Dual Wielder ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_DualWielder_Strength,APO_DualWielder_Dexterity" />
+                    <attribute id="UUID" type="guid" value="c3829953-21dc-44e4-9bad-ea8e7e4b2306" />
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Dungeon Delver ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_DungeonDelver_Dexterity,APO_DungeonDelver_Wisdom" />
+                    <attribute id="UUID" type="guid" value="745d3882-c9ba-4d5c-b3c0-0b58cf6af9a4" />
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Elemental Adept ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_ElementalAdept_Intelligence,APO_ElementalAdept_Wisdom,APO_ElementalAdept_Charisma" />
+                    <attribute id="UUID" type="guid" value="bf150daa-5ebc-40f6-ad75-308d013c684e" />
+                </node>
             </children>
         </node>
     </region>

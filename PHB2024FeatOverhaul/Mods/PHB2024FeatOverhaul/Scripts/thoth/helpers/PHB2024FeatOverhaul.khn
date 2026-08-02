@@ -1,0 +1,41 @@
+function FeatRequirementTwoAbilitiesGreaterEqual(ability1, ability2, value)
+	local function GetAbilityScore(ability)
+		if ability == "Strength" then
+			return context.Source.Strength
+		elseif ability == "Dexterity" then
+			return context.Source.Dexterity
+		elseif ability == "Constitution" then
+			return context.Source.Constitution
+		elseif ability == "Intelligence" then
+			return context.Source.Intelligence
+		elseif ability == "Wisdom" then
+			return context.Source.Wisdom
+		elseif ability == "Charisma" then
+			return context.Source.Charisma
+		else
+			return nil
+		end
+	end
+
+	local score1 = GetAbilityScore(ability1)
+	local score2 = GetAbilityScore(ability2)
+
+	if score1 == nil or score2 == nil then
+		return ConditionResult(false)
+	end
+
+	return ConditionResult(score1 >= value or score2 >= value)
+end
+
+-- function was originally written by Cahoot in Feat Overhaul
+function APO_DDIsFlatValueInterruptInteresting(max, entity)
+    local entity = entity or context.Target
+    local max = max or 0
+    if context.InterruptedRoll.RollCritical ~= RollCritical.None then
+        return ConditionResult(false, {ConditionError("IsCriticalFailSuccess")})
+    end
+    
+    local rollSuccess = context.InterruptedRoll.Total >= context.InterruptedRoll.Difficulty
+    local result = rollSuccess and ((context.InterruptedRoll.Total - context.InterruptedRoll.Difficulty) < max)
+    return ConditionResult(result)
+end

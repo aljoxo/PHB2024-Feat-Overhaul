@@ -7,7 +7,63 @@
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="Actor"/>
                     <attribute id="PassivesAdded" type="LSString" value="Actor"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Charisma',13)" />
                     <attribute id="UUID" type="guid" value="cdcbc538-883b-401c-a8ed-1373fb6d1720"/>
+                </node>
+                <node id="Feat">
+	                <attribute id="Name" type="FixedString" value="Alert" />
+	                <attribute id="PassivesAdded" type="LSString" value="Alert" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(c343e40d-feb2-4f5b-84e0-68f69add8941,1);SelectSkills(5a0a3a9d-dc92-4d38-8882-fcc41e0c43ce,1,AlertObservant)" />
+                    <attribute id="UUID" type="guid" value="f57bd72c-be64-4855-9e3a-bb7d7665e656" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Athlete" />
+                	<attribute id="PassivesAdded" type="LSString" value="Athlete_StandUp" />
+                	<attribute id="Selectors" type="LSString" value="SelectPassives(995c871b-5755-4f1f-b741-107ef6a50931,1)" />
+                	<attribute id="UUID" type="guid" value="d674aa33-8633-4b67-8623-b6788f0d5fc4" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Charger" />
+                	<attribute id="PassivesAdded" type="LSString" value="Charger" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(17d5e5e5-3094-4f6f-815f-c0838122d4bf,1)" />
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementTwoAbilitiesGreaterEqual('Strength', 'Dexterity', 13)" />
+                	<attribute id="UUID" type="guid" value="eab25714-15d6-4e26-b809-3fad832d0484" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="CrossbowExpert" />
+                	<attribute id="PassivesAdded" type="LSString" value="CrossbowExpert_PointBlank;CrossbowExpert_Wounding;CrossbowExpert_Proficiency;APO_CrossbowExpert_Dexterity" />
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+                	<attribute id="UUID" type="guid" value="94a78b4c-a8f2-404f-8cdc-2d454c13cb97" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="DefensiveDuelist" />
+                	<attribute id="PassivesAdded" type="LSString" value="DefensiveDuelist" />
+                	<attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+                	<attribute id="UUID" type="guid" value="661eee63-ff91-4f29-9f21-3a974c9d6fe5" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="DualWielder" />
+                	<attribute id="PassivesAdded" type="LSString" value="DualWielder_PassiveBonuses" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(c3829953-21dc-44e4-9bad-ea8e7e4b2306,1)" />
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementTwoAbilitiesGreaterEqual('Strength', 'Dexterity', 13)" />
+                	<attribute id="UUID" type="guid" value="f692f7b5-ffd5-4942-91a1-a71ebb2f5e7c" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="DungeonDelver" />
+                	<attribute id="PassivesAdded" type="LSString" value="DungeonDelver_Perception;DungeonDelver_ResistTraps;DungeonDelver_Expertise" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(745d3882-c9ba-4d5c-b3c0-0b58cf6af9a4,1)" />
+                	<attribute id="UUID" type="guid" value="71b65667-0eac-4e62-b878-fa862e88ebbf" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Durable" />
+                	<attribute id="PassivesAdded" type="LSString" value="Durable" />
+                	<attribute id="UUID" type="guid" value="56c3c247-35cf-4ffd-86dd-7d249cc1808f" />
+                </node>
+                <node id="Feat">
+                	<attribute id="CanBeTakenMultipleTimes" type="bool" value="True" />
+                	<attribute id="Name" type="FixedString" value="ElementalAdept" />
+                	<attribute id="Selectors" type="LSString" value="SelectPassives(bf150daa-5ebc-40f6-ad75-308d013c684e,1);SelectPassives(f6b6e71f-79b1-4ba3-8fd8-ee38a44d3d39,1)" />
+                	<attribute id="UUID" type="guid" value="cec2d95b-451c-40f8-8e17-9e547d363e8e" />
                 </node>
             </children>
         </node>

@@ -4,12 +4,76 @@
     <region id="FeatDescriptions">
         <node id="root">
             <children>
+                <!-- Vanilla Feats -->
                 <node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="h93fb8ac8g364cg42c3g92a1g17aba37f09a4" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h1ee601b5g78c8g45fcgac7dg04bde4a299ae" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="Actor"/>
                     <attribute id="FeatId" type="guid" value="cdcbc538-883b-401c-a8ed-1373fb6d1720"/>
                     <attribute id="UUID" type="guid" value="18774e39-5d86-4e43-862a-aa4ff69ff24e"/>
+                </node>
+                <node id="FeatDescription">
+                	<attribute id="Description" type="TranslatedString" handle="h8814c316g08bcg4170ga6bbgd264942e56e5" version="1" />
+                	<attribute id="DisplayName" type="TranslatedString" handle="h6b87dd21g1073g4dfbg95feg00755b23a0fa" version="1" />
+                	<attribute id="ExactMatch" type="FixedString" value="Alert" />
+                	<attribute id="FeatId" type="guid" value="f57bd72c-be64-4855-9e3a-bb7d7665e656" />
+                	<attribute id="UUID" type="guid" value="bc5281f4-70f0-4b5e-851d-2755886f25db" />
+                </node>
+                <node id="FeatDescription">
+                	<attribute id="Description" type="TranslatedString" handle="h5b7b6ea7g8c1eg470agb582g92c6bd5e11d3" version="1" />
+                	<attribute id="DisplayName" type="TranslatedString" handle="hb633bafegfcbeg4996g91b2g7793222ab5f5" version="1" />
+                	<attribute id="ExactMatch" type="FixedString" value="Athlete" />
+                	<attribute id="FeatId" type="guid" value="d674aa33-8633-4b67-8623-b6788f0d5fc4" />
+                	<attribute id="UUID" type="guid" value="e5a796ab-3b90-4cd3-8b5a-c3aa5d993833" />
+                </node>
+                <node id="FeatDescription">
+                	<attribute id="Description" type="TranslatedString" handle="h7a880644gf57ag4ae7gb891g607612f50a0e" version="1" />
+                	<attribute id="DisplayName" type="TranslatedString" handle="h2c86de62g7d28g4c96gb8a2ga7da3e3b888d" version="1" />
+                	<attribute id="ExactMatch" type="FixedString" value="Charger" />
+                	<attribute id="FeatId" type="guid" value="eab25714-15d6-4e26-b809-3fad832d0484" />
+                	<attribute id="UUID" type="guid" value="cfe571e4-5d45-4715-82e6-d63dd4a8335b" />
+                </node>
+                <node id="FeatDescription">
+                	<attribute id="Description" type="TranslatedString" handle="h18d26a0eg1941g416dgaea4gace902bf6d3d" version="1" />
+                	<attribute id="DisplayName" type="TranslatedString" handle="hc45b2f06ge353g469egb2eag6ace821e4e2b" version="1" />
+                	<attribute id="ExactMatch" type="FixedString" value="CrossbowExpert" />
+                	<attribute id="FeatId" type="guid" value="94a78b4c-a8f2-404f-8cdc-2d454c13cb97" />
+                	<attribute id="UUID" type="guid" value="0715b482-2377-4288-a2b3-9c818a1836b3" />
+                </node>
+                <node id="FeatDescription">
+                	<attribute id="Description" type="TranslatedString" handle="h1ad58529g1d57g4442g9788g9ecea0268f60" version="1" />
+                	<attribute id="DisplayName" type="TranslatedString" handle="h49bfa37bg732bg4af0g9aadgb417bb90611a" version="1" />
+                	<attribute id="ExactMatch" type="FixedString" value="DefensiveDuelist" />
+                	<attribute id="FeatId" type="guid" value="661eee63-ff91-4f29-9f21-3a974c9d6fe5" />
+                	<attribute id="UUID" type="guid" value="413644a9-3cb5-4f76-980a-bf2397dcac3d" />
+                </node>
+                <node id="FeatDescription">
+                	<attribute id="Description" type="TranslatedString" handle="h9a80c6e7gf850g4d9eg9779g4f5b22e852f9" version="1" />
+                	<attribute id="DisplayName" type="TranslatedString" handle="h1d620270gba24g434egad17g5ee9b72a6e3e" version="1" />
+                	<attribute id="ExactMatch" type="FixedString" value="DualWielder" />
+                	<attribute id="FeatId" type="guid" value="f692f7b5-ffd5-4942-91a1-a71ebb2f5e7c" />
+                	<attribute id="UUID" type="guid" value="95777965-bb2b-4ad5-8cc8-3c0c407c4bc4" />
+                </node>
+                <node id="FeatDescription">
+                	<attribute id="Description" type="TranslatedString" handle="h955ed6e1gdd5cg4caaga1ebg8ee31c7908a7" version="1" />
+                	<attribute id="DisplayName" type="TranslatedString" handle="hf6500b5fg0483g494ega280gb9b24bb7f5a1" version="1" />
+                	<attribute id="ExactMatch" type="FixedString" value="DungeonDelver" />
+                	<attribute id="FeatId" type="guid" value="71b65667-0eac-4e62-b878-fa862e88ebbf" />
+                	<attribute id="UUID" type="guid" value="5438a1a6-83e6-44dd-813a-b87c0f8fba36" />
+                </node>
+                <node id="FeatDescription">
+                	<attribute id="Description" type="TranslatedString" handle="h6245645dg7a96g47c3g8037gc6a23a07412c" version="1" />
+                	<attribute id="DisplayName" type="TranslatedString" handle="h36814db6g371ag473fgad28gd8d837eb598d" version="1" />
+                	<attribute id="ExactMatch" type="FixedString" value="Durable" />
+                	<attribute id="FeatId" type="guid" value="56c3c247-35cf-4ffd-86dd-7d249cc1808f" />
+                	<attribute id="UUID" type="guid" value="43c5159d-1ba2-400b-8657-805aa84bec04" />
+                </node>
+                <node id="FeatDescription">
+                	<attribute id="Description" type="TranslatedString" handle="hb1278a08g4e61g4183ga413g2bba30309af5" version="1" />
+                	<attribute id="DisplayName" type="TranslatedString" handle="hf16fd335g8727g42abg807cg72e4ad0bbdb7" version="1" />
+                	<attribute id="ExactMatch" type="FixedString" value="ElementalAdept" />
+                	<attribute id="FeatId" type="guid" value="cec2d95b-451c-40f8-8e17-9e547d363e8e" />
+                	<attribute id="UUID" type="guid" value="3f4f93f3-4cd5-44e8-8011-ad8017aac378" />
                 </node>
             </children>
         </node>

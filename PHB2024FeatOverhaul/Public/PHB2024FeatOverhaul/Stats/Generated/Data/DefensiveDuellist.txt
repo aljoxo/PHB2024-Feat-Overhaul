@@ -1,0 +1,24 @@
+// Adding Dexterity Bonus
+// Forwarding Goon & Cahoot's Fixes to the interrupt
+
+new entry "DefensiveDuelist"
+type "PassiveData"
+using "DefensiveDuelist"
+// Defensive Duellist
+data "DisplayName" "h4ac5e779g24fbg4de3gbd04g81f25082caff;1"
+// Your Dexterity is increased by [2].<br><br>When attacked while wielding a <LSTag Tooltip="Finesse">Finesse Weapon</LSTag> you're <LSTag Tooltip="Proficiency">Proficient</LSTag> with, you can use a <LSTag Type="ActionResource" Tooltip="ReactionActionPoint">reaction</LSTag> to add your <LSTag Tooltip="ProficiencyBonus">Proficiency Bonus</LSTag> to your <LSTag Tooltip="ArmourClass">Armour Class</LSTag>, possibly causing the attack to miss. 
+data "Description" "h73d4efe8gab76g4dd0gb231g6a81b6d38ff9;2"
+data "DescriptionParams" "ProficiencyBonus;1"
+data "TooltipUseCosts" "ReactionActionPoint:1"
+data "Icon" "PassiveFeature_DefensiveDualist"
+data "PriorityOrder" "1"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_DefensiveDuelist);Ability(Dexterity,1)"
+
+new entry "Interrupt_DefensiveDuelist"
+type "InterruptData"
+using "Interrupt_DefensiveDuelist"
+data "Conditions" "(Player(context.Observer) or not HasStatus('SG_Invisible',context.Observer)) and IsAbleToReact(context.Observer) and HasInterruptedAttack() and Self(context.Target,context.Observer) and not AnyEntityIsItem() and IsMeleeAttack() and HasWeaponProperty(WeaponProperties.Finesse, GetActiveWeapon(context.Observer)) and IsProficientWith(context.Observer, GetActiveWeapon(context.Observer)) and APO_DDIsFlatValueInterruptInteresting(context.Observer.ProficiencyBonus, context.Source)"
+data "EnableCondition" "Goon_InterruptEnableConditions() and WieldingFinesseWeaponInSpecificHand(context.Source, false)"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved;OnEquip"
+data "InterruptFlags" "InterruptWhileInvisible"

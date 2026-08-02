@@ -1,0 +1,95 @@
+// Added ASI
+// INT WIS or CHA +1
+
+new entry "ElementalAdept_Acid"
+type "PassiveData"
+using "ElementalAdept_Acid"
+// Elemental Adept: Acid
+data "DisplayName" "h0292b491g1b8eg4cbega0c2gfe9edc42e2f1;2"
+// Spells you cast and attacks you make ignore <LSTag Tooltip="Resistant">Resistance</LSTag> to Acid damage. In addition, when you deal Acid damage with a spell, you cannot roll a [1]. 
+data "Description" "h12221a15ge3ffg49aega9b5g84c0bbfbf5a4;4"
+data "DescriptionParams" "1"
+data "Icon" "PassiveFeature_ElementalAdept_Acid"
+data "Properties" "Highlighted"
+data "Boosts" "IF(MainDamageTypeIs(DamageType.Acid)):MinimumRollResult(Damage,2);IgnoreResistance(Acid,Resistant)"
+
+new entry "ElementalAdept_Cold"
+type "PassiveData"
+using "ElementalAdept_Cold"
+// Elemental Adept: Cold
+data "DisplayName" "h20b488e1g81ceg4fd6g927ag1a625e0945b5;2"
+// Spells you cast and attacks you make ignore <LSTag Tooltip="Resistant">Resistance</LSTag> to Cold damage. In addition, when you deal Cold damage with a spell, you cannot roll a [1]. 
+data "Description" "hba896093ga12cg4148g8e89g49dead380f47;4"
+data "DescriptionParams" "1"
+data "Icon" "PassiveFeature_ElementalAdept_Cold"
+data "Properties" "Highlighted"
+data "Boosts" "IF(MainDamageTypeIs(DamageType.Cold)):MinimumRollResult(Damage,2);IgnoreResistance(Cold,Resistant)"
+
+new entry "ElementalAdept_Fire"
+type "PassiveData"
+using "ElementalAdept_Fire"
+// Elemental Adept: Fire
+data "DisplayName" "h89f07832g9299g4e2cgba03g83185f5a2cce;2"
+// Spells you cast and attacks you make ignore <LSTag Tooltip="Resistant">Resistance</LSTag> to Fire damage. In addition, when you deal Fire damage with a spell, you cannot roll a [1]. 
+data "Description" "ha9d09cfbgfa6bg4bc9gadd5g7414ff5a7f4e;4"
+data "DescriptionParams" "1"
+data "Icon" "PassiveFeature_ElementalAdept_Fire"
+data "Properties" "Highlighted"
+data "Boosts" "IF(MainDamageTypeIs(DamageType.Fire)):MinimumRollResult(Damage,2);IgnoreResistance(Fire,Resistant)"
+
+new entry "ElementalAdept_Lightning"
+type "PassiveData"
+using "ElementalAdept_Lightning"
+// Elemental Adept: Lightning
+data "DisplayName" "h5b0a47b7gc69cg40a1gb380gc9bce33447e4;2"
+// Spells you cast and attacks you make ignore <LSTag Tooltip="Resistant">Resistance</LSTag> to Lightning damage. In addition, when you deal Lightning damage with a spell, you cannot roll a [1]. 
+data "Description" "h4718e953g18a9g4a1bg92f7gf4e1ae024b45;4"
+data "DescriptionParams" "1"
+data "Icon" "PassiveFeature_ElementalAdept_Lightning"
+data "Properties" "Highlighted"
+data "Boosts" "IF(MainDamageTypeIs(DamageType.Lightning)):MinimumRollResult(Damage,2);IgnoreResistance(Lightning,Resistant)"
+
+new entry "ElementalAdept_Thunder"
+type "PassiveData"
+using "ElementalAdept_Thunder"
+// Elemental Adept: Thunder
+data "DisplayName" "hf422d54egcb40g446eg92b8ga8ad74f9dbb8;2"
+// Spells you cast and attacks you make ignore <LSTag Tooltip="Resistant">Resistance</LSTag> to Thunder damage. In addition, when you deal Thunder damage with a spell, you cannot roll a [1]. 
+data "Description" "hc81c47fbgf1b7g41b2g89f0g83dd9affffd8;4"
+data "DescriptionParams" "1"
+data "Icon" "PassiveFeature_ElementalAdept_Thunder"
+data "Properties" "Highlighted"
+data "Boosts" "IF(MainDamageTypeIs(DamageType.Thunder)):MinimumRollResult(Damage,2);IgnoreResistance(Thunder,Resistant)"
+
+new entry "APO_ElementalAdept_Intelligence"
+type "PassiveData"
+// Elemental Adept: Intelligence
+data "DisplayName" "h62018f9cgb428g410fga459g20ce80bf3082;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_ElementalAdept_Wisdom"
+type "PassiveData"
+// Elemental Adept: Wisdom
+data "DisplayName" "hb65556e5gbf0cg4dbeg8c90g00cc66310ad9;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "APO_ElementalAdept_Charisma"
+type "PassiveData"
+// Elemental Adept: Charisma
+data "DisplayName" "h02a3b4c3g0a41g4761gaef5ge854684d247a;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"

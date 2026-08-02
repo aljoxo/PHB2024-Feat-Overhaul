@@ -22,10 +22,14 @@
 	<content contentuid="hd01e7811g5ab4g4c5bga46ag4706cd8354f5" version="1">You gain a bonus to Initiative equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; and can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.</content>
 	<content contentuid="h53b33107gaaddg40fdg80c6g171502b4ac28" version="1">Alert: Intelligence</content>
 	<content contentuid="hf8367656g7c7ag4318gb65cge5f616daede3" version="1">Alert: Wisdom</content>
+	<content contentuid="h6b87dd21g1073g4dfbg95feg00755b23a0fa" version="1">Alert</content>
+	<content contentuid="h8814c316g08bcg4170ga6bbgd264942e56e5" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; or &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain a bonus to Initiative equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;, you gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Perception, and you can't be &lt;LSTag Type="Status" Tooltip="SURPRISED"&gt;Surprised&lt;/LSTag&gt;.Additionally, gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in Insight, Investigation, or Perception.</content>
 
 	<!-- Athlete -->
 	<content contentuid="h494538f1g6225g4bc2gb3eeg82c2c0d16851" version="1">Athlete: Strength</content>
 	<content contentuid="h5abb8c09gbb8ag443dg9484gcb6e3b5312ff" version="1">Athlete: Dexterity</content>
+	<content contentuid="hb633bafegfcbeg4996g91b2g7793222ab5f5" version="1">Athlete</content>
+	<content contentuid="h5b7b6ea7g8c1eg470agb582g92c6bd5e11d3" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When you are Prone, standing up uses significantly less movement. Your &lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;Jump&lt;/LSTag&gt; distance also increases by 50%.</content>
 
 	<!-- Charger -->
 	<content contentuid="h573ede35gca1dg4d4bg9fc2gbc341b559091" version="1">Charger</content>
@@ -39,7 +43,50 @@
 	<content contentuid="hcf054604g933bg4a2ega6ccg69284d9c3647" version="1">Charge forward and slam your weapon into the first enemy in your way, you gain a +[1] bonus to this &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="h25c07651g93e3g4591g99a6g85f2e5d92b58" version="1">Charger: Strength</content>
 	<content contentuid="h35657f47gfeadg4246g9a46gf424df86e637" version="1">Charger: Dexterity</content>
+	<content contentuid="h2c86de62g7d28g4c96gb8a2ga7da3e3b888d" version="1">Charger</content>
+	<content contentuid="h7a880644gf57ag4ae7gb891g607612f50a0e" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When you &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt; you gain additional &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. Additionally, you gain &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Attack"&gt;Charger: Weapon Attack&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Push"&gt;Charger: Shove&lt;/LSTag&gt;.</content>
 
+	<!-- Crossbow Expert -->
+	<content contentuid="hc5a296ccgad60g4b63gb6f9g009cc4a1b409" version="1">Crossbow Expert: Proficiency</content>
+	<content contentuid="he65f6198g6303g4f7dga74fg8173d7efd586" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with all crossbows and your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increased by [1]</content>
+	<content contentuid="hf5d9b7cdg650dg4112g9a5cg64704eda347b" version="1">Crossbow Expert: Dexterity</content>
+	<content contentuid="h3994a119gbd84g4226g9f83g07e349c10b48" version="1">When you hit a creature with a crossbow, you possibly inflict &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt;.</content>
+	<content contentuid="hc45b2f06ge353g469egb2eag6ace821e4e2b" version="1">Crossbow Expert</content>
+	<content contentuid="h18d26a0eg1941g416dgaea4gace902bf6d3d" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with all crossbows.&lt;br&gt;&lt;br&gt;When you make crossbow attacks within melee range, the &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; do not have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;When you hit a creature with a crossbow, you possibly inflict &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;Gaping Wounds&lt;/LSTag&gt;.</content>
+
+	<!-- Defensive Duelist -->
+	<content contentuid="h49bfa37bg732bg4af0g9aadgb417bb90611a" version="1">Defensive Duelist</content>
+	<content contentuid="h1ad58529g1d57g4442g9788g9ecea0268f60" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When attacked while wielding a &lt;LSTag Tooltip="Finesse"&gt;Finesse Weapon&lt;/LSTag&gt; you're &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with, you can use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to add your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt; to your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, possibly causing the attack to miss.</content>
+
+	<!-- Dual Wielder -->
+	<content contentuid="hc783f587gb05bg4a38g9e8cg5275a282499b" version="1">Dual Wielder: Strength</content>
+	<content contentuid="h6a8ebf84gcf8bg4a59g92d9gbb973274ce9f" version="1">Dual Wielder: Dexterity</content>
+	<content contentuid="h9a80c6e7gf850g4d9eg9779g4f5b22e852f9" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You can use Two-Weapon Fighting even if your weapons aren't &lt;LSTag Tooltip="Light"&gt;Light&lt;/LSTag&gt;. You cannot dual-wield &lt;LSTag Tooltip="TwoHanded"&gt;Two-Handed&lt;/LSTag&gt; weapons.</content>
+
+	<!-- Dungeon Delver -->
+	<content contentuid="h1caff3d8ga030g4df7gae7cgb0c6fdb38d6f" version="1">Dungeon Delver: Wisdom</content>
+	<content contentuid="hc3ec98bag8486g4e91gbd8dg6c2166708a05" version="1">Dungeon Delver: Dexterity</content>
+	<content contentuid="h0b370226gdd85g4923g86f8g1c2a65569337" version="1">Dungeon Delver: Expertise</content>
+	<content contentuid="hb62a61a0g61eeg4ddfga9eag4aec57550f1b" version="1">You have &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Sleight of Hand and Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hf6500b5fg0483g494ega280gb9b24bb7f5a1" version="1">Dungeon Delver</content>
+	<content contentuid="h955ed6e1gdd5cg4caaga1ebg8ee31c7908a7" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; or &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt; made to detect hidden objects and on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; made to avoid or resist traps.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to the damage dealt by traps.&lt;br&gt;&lt;br&gt;Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Sleight of Hand and Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+
+	<!-- Durable -->
+	<content contentuid="h34af963bgf631g42cfg977bg61b8166ba0a6" version="1">Durable</content>
+	<content contentuid="h966c69cagbee5g4a8cga45dgee0d023b94b4" version="1">Whenever you are healed, you restore the maximum number of possible &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;. You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Death &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; score is increased by 1.</content>
+	<content contentuid="h36814db6g371ag473fgad28gd8d837eb598d" version="1">Durable</content>
+	<content contentuid="h6245645dg7a96g47c3g8037gc6a23a07412c" version="1">Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You restore the maximum number of possible &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt; when healed. You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Death &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+	
+	<!-- Elemental Adept -->
+	<content contentuid="h62018f9cgb428g410fga459g20ce80bf3082" version="1">Elemental Adept: Intelligence</content>
+	<content contentuid="hb65556e5gbf0cg4dbeg8c90g00cc66310ad9" version="1">Elemental Adept: Wisdom</content>
+	<content contentuid="h02a3b4c3g0a41g4761gaef5ge854684d247a" version="1">Elemental Adept: Charisma</content>
+	<content contentuid="hf16fd335g8727g42abg807cg72e4ad0bbdb7" version="1">Elemental Adept</content>
+	<content contentuid="hb1278a08g4e61g4183ga413g2bba30309af5" version="1">>Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to a damage type of your choice. When you deal damage of that type, you cannot roll a 1.</content>
+	
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

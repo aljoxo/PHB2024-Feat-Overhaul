@@ -1,0 +1,36 @@
+// Homebrewed
+// DEX or WIS +1
+// Expertise in Sleight of Hand and Perception
+// This feat wasn't ported to 2024 so these changes should at least make it somewhat pickable
+
+new entry "DungeonDelver_Expertise"
+type "PassiveData"
+// Dungeon Delver: Expertise
+data "DisplayName" "h0b370226gdd85g4923g86f8g1c2a65569337;1"
+// You have <LSTag Tooltip="Expertise">Expertise</LSTag> in Sleight of Hand and Perception <LSTag Tooltip="AbilityCheck">Checks</LSTag>.
+data "Description" "hb62a61a0g61eeg4ddfga9eag4aec57550f1b;1"
+data "Icon" "PassiveFeature_DungeonDelver_Perception"
+data "Properties" "Highlighted"
+data "Boosts" "ProficiencyBonus(Skill,Perception);ExpertiseBonus(Perception);ProficiencyBonus(Skill,SleightOfHand);ExpertiseBonus(SleightOfHand)
+
+new entry "APO_DungeonDelver_Dexterity"
+type "PassiveData"
+// Dungeon Delver: Dexterity
+data "DisplayName" "hc3ec98bag8486g4e91gbd8dg6c2166708a05;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
+new entry "APO_DungeonDelver_Wisdom"
+type "PassiveData"
+// Dungeon Delver: Wisdom
+data "DisplayName" "h1caff3d8ga030g4df7gae7cgb0c6fdb38d6f;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"

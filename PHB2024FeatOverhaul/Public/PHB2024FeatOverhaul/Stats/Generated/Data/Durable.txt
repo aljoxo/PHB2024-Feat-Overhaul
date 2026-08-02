@@ -1,0 +1,15 @@
+// Homebrewed Speedy Recovery since BG3 does not have Hit Dice
+// CON +1
+// Advantage on Death Saving Throws
+// Incoming Healing is maximized (vanilla short rest full heal is still kept)
+
+new entry "Durable"
+type "PassiveData"
+using "Durable"
+// Durable
+data "DisplayName" "h34af963bgf631g42cfg977bg61b8166ba0a6;1"
+// Whenever you are healed, you restore the maximum number of possible <LSTag Tooltip="HitPoints">hit points</LSTag>. You have <LSTag Tooltip="Advantage">Advantage</LSTag> on Death <LSTag Tooltip="SavingThrow">Saving Throws</LSTag>. Your <LSTag Tooltip="Constitution">Constitution</LSTag> score is increased by 1.
+data "Description" "h966c69cagbee5g4a8cga45dgee0d023b94b4;1"
+data "Icon" "PassiveFeature_Durable"
+data "Properties" "Highlighted"
+data "Boosts" "Ability(Constitution,1);Advantage(DeathSavingThrow);MaximizeHealing(Incoming)"
