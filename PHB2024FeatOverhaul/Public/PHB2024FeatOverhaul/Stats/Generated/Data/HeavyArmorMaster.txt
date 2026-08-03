@@ -1,0 +1,37 @@
+// Updated ASI
+// Damage reduction is now Proficiency Bonus instead of 3 flat.
+
+new entry "HeavyArmorMaster"
+type "PassiveData"
+using "HeavyArmorMaster"
+// Heavy Armour Master
+data "DisplayName" "h3a9599eegc835g485egb629g31eeadfee623;1"
+// While wearing Heavy Armour, incoming Bludgeoning, Piercing, and Slashing damage is reduced by [1].
+data "Description" "hcedd470ag7000g47e9g9a55ge4fd7cf2ebab;1"
+data "DescriptionParams" "ProficiencyBonus"
+data "Icon" "PassiveFeature_HeavyArmorMaster"
+data "Properties" "Highlighted"
+data "Boosts" "IF(HasHeavyArmor()):DamageReduction(Slashing, Flat, LevelMapValue(APO_HeavyArmorMaster));IF(HasHeavyArmor()):DamageReduction(Bludgeoning, Flat, LevelMapValue(APO_HeavyArmorMaster));IF(HasHeavyArmor()):DamageReduction(Piercing, Flat, LevelMapValue(APO_HeavyArmorMaster))"
+
+
+new entry "APO_HeavyArmorMaster_Strength"
+type "PassiveData"
+// Heavy Armour Master: Strength
+data "DisplayName" "ha41cce0bg56dbg4e4bga34fga2a6fb76cdbe;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_HeavyArmorMaster_Constitution"
+type "PassiveData"
+// Heavy Armour Master: Constitution
+data "DisplayName" "hd3ee6a3cgfe59g4701g8a22g89a3c1a58ec7;1"
+// Your Constitution is increased by [1].
+data "Description" "ha7a96527gdfeeg4acdgb889g443fa20828e4;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Constitution, 1)"

@@ -78,6 +78,13 @@
                 	<attribute id="UUID" type="guid" value="7bc235ac-7eeb-49d3-8249-c3313d87af75" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="HeavyArmorMaster" />
+                	<attribute id="PassivesAdded" type="LSString" value="HeavyArmorMaster" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e86cb892-cda9-427b-94e5-0ba2bb3e246e,1)" />
+                	<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency('HeavyArmor')" />
+                	<attribute id="UUID" type="guid" value="0de08fff-ab18-442f-a0b1-f53e7be04c03" />
+                </node>
+                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="LightlyArmored" />
                 	<attribute id="PassivesAdded" type="LSString" value="LightlyArmored" />
                 	<attribute id="Selectors" type="LSString" value="SelectPassives(b26770b8-55d0-4e9d-a8d8-3dc927104c45,1)" />

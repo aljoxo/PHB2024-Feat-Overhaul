@@ -97,6 +97,12 @@
 	<content contentuid="h9a6a3bacg98acg42e6g8267ga28f84fc2819" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; increases by 1 and you gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Heavy Armour.</content>
 	<content contentuid="habbc1a01gcf38g46b3gb79bg97298361718d" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Heavy Armour and your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; increases by 1.</content>
 
+	<!-- Heavy Armor Master -->
+	<content contentuid="hcedd470ag7000g47e9g9a55ge4fd7cf2ebab" version="1">While wearing Heavy Armour, incoming Bludgeoning, Piercing, and Slashing damage is reduced by [1].</content>
+	<content contentuid="ha41cce0bg56dbg4e4bga34fga2a6fb76cdbe" version="1">Heavy Armour Master: Strength</content>
+	<content contentuid="hd3ee6a3cgfe59g4701g8a22g89a3c1a58ec7" version="1">Heavy Armour Master: Constitution</content>
+	<content contentuid="hce79172cga669g46f9gbb35g65efd8109273" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;While wearing Heavy Armor, incoming Bludgeoning, Piercing, and Slashing damage is reduced by an amount equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+
 	<!-- Lightly Armored -->
 	<content contentuid="h0394c36bg2c47g4796g8676g97e69e53590e" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1 and you gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour and shields.</content>
 	<content contentuid="h4120c18dg08cfg4b81gbf21g67465212bf8f" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour and shields.</content>
@@ -104,9 +110,10 @@
 	<content contentuid="h5e0062a9g05a1g4cf3gbe9dgb9721d28efa4" version="1">Lightly Armoured: Dexterity</content>
 	
 	<!-- Moderately Armored -->
-	<content contentuid="" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
-	<content contentuid="" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1 and you gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
-	
+	<content contentuid="h4fa75ab0gede8g4ef0g9b97g857aa6f23f9a" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
+	<content contentuid="h7499fe01g2511g4214g8b6dg856641b29f84" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1 and you gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
+	<content contentuid="h8cdb2475g9ca3g4652g8ab0g84d31d7d1179" version="1">Moderately Armoured: Strength</content>
+	<content contentuid="h41e35ebbg8277g47d5g9120g66bde3382969" version="1">Moderately Armoured: Dexterity</content>
 	
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

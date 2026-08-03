@@ -1,0 +1,3 @@
+// Any ASI Increase
+// Gain an amount of Luck Points equal to your Proficiency Bonus
+
