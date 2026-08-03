@@ -1,0 +1,34 @@
+// ASIs and removed shield proficiency
+
+new entry "ModeratelyArmored"
+type "PassiveData"
+using "ModeratelyArmored"
+// Moderately Armoured
+data "DisplayName" "hc7ec371fg6a1cg4468g920ag28f3059635f3;2"
+// You have <LSTag Tooltip="ArmourProficiency">Armour Proficiency</LSTag> with Medium Armour.
+data "Description" "h4fa75ab0gede8g4ef0g9b97g857aa6f23f9a;1"
+data "Icon" "PassiveFeature_ModeratelyArmored"
+data "Properties" "Highlighted"
+data "Boosts" "Proficiency(MediumArmor)"
+
+new entry "APO_ModeratelyArmored_Strength"
+type "PassiveData"
+// Moderately Armoured: Strength
+data "DisplayName" "h8cdb2475g9ca3g4652g8ab0g84d31d7d1179;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_ModeratelyArmored_Dexterity"
+type "PassiveData"
+// Moderately Armoured: Dexterity
+data "DisplayName" "h41e35ebbg8277g47d5g9120g66bde3382969;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"

@@ -34,6 +34,11 @@
                     <attribute id="Passives" type="LSString" value="APO_ElementalAdept_Intelligence,APO_ElementalAdept_Wisdom,APO_ElementalAdept_Charisma" />
                     <attribute id="UUID" type="guid" value="bf150daa-5ebc-40f6-ad75-308d013c684e" />
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Lightly Armored ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_LightlyArmored_Strength,APO_LightlyArmored_Dexterity" />
+                    <attribute id="UUID" type="guid" value="b26770b8-55d0-4e9d-a8d8-3dc927104c45" />
+                </node>
             </children>
         </node>
     </region>

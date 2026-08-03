@@ -1,0 +1,12 @@
+// Only changes from vanilla are tooltip
+
+new entry "HeavilyArmored"
+type "PassiveData"
+using "HeavilyArmored"
+// Heavily Armoured
+data "DisplayName" "h68b0e75cg762eg4aa7g8481gf7539227fa68;2"
+// You have <LSTag Tooltip="ArmourProficiency">Armour Proficiency</LSTag> with Heavy Armour and your <LSTag Tooltip="Strength">Strength</LSTag> increases by 1.
+data "Description" "habbc1a01gcf38g46b3gb79bg97298361718d;1"
+data "Icon" "PassiveFeature_HeavilyArmored"
+data "Properties" "Highlighted"
+data "Boosts" "Ability(Strength, 1);Proficiency(HeavyArmor)"

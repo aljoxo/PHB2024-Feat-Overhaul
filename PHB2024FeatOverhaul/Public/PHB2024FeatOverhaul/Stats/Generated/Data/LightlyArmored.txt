@@ -1,0 +1,33 @@
+// ASIs and added shield proficiency
+
+new entry "LightlyArmored"
+type "PassiveData"
+// Lightly Armoured
+data "DisplayName" "h866b6355g682cg4415g8048gd8097dde30a6;2"
+// You have <LSTag Tooltip="ArmourProficiency">Armour Proficiency</LSTag> with Light Armour and shields.
+data "Description" "h4120c18dg08cfg4b81gbf21g67465212bf8f;1"
+data "Icon" "PassiveFeature_LightlyArmored"
+data "Properties" "Highlighted"
+data "Boosts" "Proficiency(LightArmor);Proficiency(Shields)"
+
+new entry "APO_LightlyArmored_Strength"
+type "PassiveData"
+// Lightly Armoured: Strength
+data "DisplayName" "h1337a8b7ga391g41a4g92b9gb007258f9934;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_LightlyArmored_Dexterity"
+type "PassiveData"
+// Lightly Armoured: Dexterity
+data "DisplayName" "h5e0062a9g05a1g4cf3gbe9dgb9721d28efa4;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"

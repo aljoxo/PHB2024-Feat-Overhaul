@@ -71,6 +71,25 @@
                     <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Strength',13)" />
                 	<attribute id="UUID" type="guid" value="c09815f7-282b-4ccf-bd89-a51caa1b550f" />
                 </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="HeavilyArmored" />
+                	<attribute id="PassivesAdded" type="LSString" value="HeavilyArmored" />
+                	<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency('MediumArmor')" />
+                	<attribute id="UUID" type="guid" value="7bc235ac-7eeb-49d3-8249-c3313d87af75" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="LightlyArmored" />
+                	<attribute id="PassivesAdded" type="LSString" value="LightlyArmored" />
+                	<attribute id="Selectors" type="LSString" value="SelectPassives(b26770b8-55d0-4e9d-a8d8-3dc927104c45,1)" />
+                	<attribute id="UUID" type="guid" value="b441c722-e4d4-4702-861a-039bfd77c124" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="ModeratelyArmored" />
+                	<attribute id="PassivesAdded" type="LSString" value="ModeratelyArmored" />
+                	<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency('LightArmor')" />
+                	<attribute id="Selectors" type="LSString" value="SelectPassives(4598977b-4e02-4133-a5e9-7e7286007d98,1)" />
+                	<attribute id="UUID" type="guid" value="681d5307-f0ed-4c94-8cf0-db0c51116f56" />
+                </node>
             </children>
         </node>
     </region>
