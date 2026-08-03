@@ -1,30 +1,37 @@
 function FeatRequirementTwoAbilitiesGreaterEqual(ability1, ability2, value)
-	local function GetAbilityScore(ability)
-		if ability == "Strength" then
-			return context.Source.Strength
-		elseif ability == "Dexterity" then
-			return context.Source.Dexterity
-		elseif ability == "Constitution" then
-			return context.Source.Constitution
-		elseif ability == "Intelligence" then
-			return context.Source.Intelligence
-		elseif ability == "Wisdom" then
-			return context.Source.Wisdom
-		elseif ability == "Charisma" then
-			return context.Source.Charisma
-		else
-			return nil
-		end
-	end
-
-	local score1 = GetAbilityScore(ability1)
-	local score2 = GetAbilityScore(ability2)
-
-	if score1 == nil or score2 == nil then
+	if ability1 == "Strength" then
+		score1 = context.Source.Strength
+	elseif ability1 == "Dexterity" then
+		score1 = context.Source.Dexterity
+	elseif ability1 == "Constitution" then
+		score1 = context.Source.Constitution
+	elseif ability1 == "Intelligence" then
+		score1 = context.Source.Intelligence
+	elseif ability1 == "Wisdom" then
+		score1 = context.Source.Wisdom
+	elseif ability1 == "Charisma" then
+		score1 = context.Source.Charisma
+	else
 		return ConditionResult(false)
 	end
 
-	return ConditionResult(score1 >= value or score2 >= value)
+	if ability2 == "Strength" then
+		score2 = context.Source.Strength
+	elseif ability2 == "Dexterity" then
+		score2 = context.Source.Dexterity
+	elseif ability2 == "Constitution" then
+		score2 = context.Source.Constitution
+	elseif ability2 == "Intelligence" then
+		score2 = context.Source.Intelligence
+	elseif ability2 == "Wisdom" then
+		score2 = context.Source.Wisdom
+	elseif ability2 == "Charisma" then
+		score2 = context.Source.Charisma
+	else
+		return ConditionResult(false)
+	end
+
+	return ConditionResult(ability1 >= value or ability2 >= value)
 end
 
 -- function was originally written by Cahoot in Feat Overhaul

@@ -13,7 +13,7 @@
                 <node id="Feat">
 	                <attribute id="Name" type="FixedString" value="Alert" />
 	                <attribute id="PassivesAdded" type="LSString" value="Alert" />
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(c343e40d-feb2-4f5b-84e0-68f69add8941,1);SelectSkills(5a0a3a9d-dc92-4d38-8882-fcc41e0c43ce,1,AlertObservant)" />
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(5a0a3a9d-dc92-4d38-8882-fcc41e0c43ce,1,AlertObservant);SelectPassives(c343e40d-feb2-4f5b-84e0-68f69add8941,1)" />
                     <attribute id="UUID" type="guid" value="f57bd72c-be64-4855-9e3a-bb7d7665e656" />
                 </node>
                 <node id="Feat">
@@ -26,7 +26,7 @@
                 	<attribute id="Name" type="FixedString" value="Charger" />
                 	<attribute id="PassivesAdded" type="LSString" value="Charger" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(17d5e5e5-3094-4f6f-815f-c0838122d4bf,1)" />
-                    <attribute id="Requirements" type="LSString" value="FeatRequirementTwoAbilitiesGreaterEqual('Strength', 'Dexterity', 13)" />
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementTwoAbilitiesGreaterEqual('Strength','Dexterity',13)" />
                 	<attribute id="UUID" type="guid" value="eab25714-15d6-4e26-b809-3fad832d0484" />
                 </node>
                 <node id="Feat">
@@ -45,7 +45,7 @@
                 	<attribute id="Name" type="FixedString" value="DualWielder" />
                 	<attribute id="PassivesAdded" type="LSString" value="DualWielder_PassiveBonuses" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(c3829953-21dc-44e4-9bad-ea8e7e4b2306,1)" />
-                    <attribute id="Requirements" type="LSString" value="FeatRequirementTwoAbilitiesGreaterEqual('Strength', 'Dexterity', 13)" />
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementTwoAbilitiesGreaterEqual('Strength','Dexterity',13)" />
                 	<attribute id="UUID" type="guid" value="f692f7b5-ffd5-4942-91a1-a71ebb2f5e7c" />
                 </node>
                 <node id="Feat">
