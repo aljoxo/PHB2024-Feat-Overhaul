@@ -1,0 +1,50 @@
+// STR +1
+// Bonus Attack triggers off critical hit or when you reduce a target to 0 hit points
+// Bonus damage is +Proficiency Bonus 
+// Removed attack penalty
+// recommend Heavy Weapons RAW so this feat works fully RAW
+// Updated name on the Bonus Attack to match the trait name in PHB
+
+new entry "GreatWeaponMaster_BonusAttack"
+type "PassiveData"
+using "GreatWeaponMaster_BonusAttack"
+// Great Weapon Master: Hew
+data "DisplayName" "h00c8787bg52fcg49d6g9125g77fc49220f28;1"
+
+new entry "Target_GreatWeaponMaster_BonusAttack"
+type "SpellData"
+using "Target_GreatWeaponMaster_BonusAttack"
+data "SpellType" "Target"
+// Great Weapon Master: Hew
+data "DisplayName" "h93fceb53g09ceg4db1gbcceg38b158a893f0;1"
+
+new entry "GREAT_WEAPON_MASTER_BONUS_ATTACK"
+type "StatusData"
+using "GREAT_WEAPON_MASTER_BONUS_ATTACK"
+data "StatusType" "BOOST"
+// Great Weapon Master: Hew
+data "DisplayName" "h9cf5ad9fge9ddg432bg9aecg1c7d47c66038;1"
+
+new entry "GreatWeaponMaster_BonusDamage"
+type "PassiveData"
+using "GreatWeaponMaster_BonusDamage"
+// Great Weapon Master: Weapon Mastery
+data "DisplayName" "he5605876gb767g477ag9fc7g07b05a61c569;1"
+// When attacking with a melee weapon you are <LSTag Tooltip="Proficiency">Proficient</LSTag> with and are wielding in both hands, you can cause the weapon to deal an additional [1].
+data "Description" "hdb23fb50gcd55g4063ga559g9a9cac06a9f7;1"
+data "DescriptionParams" "DealDamage(LevelMapValue(APO_GWM_Damage),MainMeleeWeaponDamageType)"
+data "Icon" "PassiveFeature_GreatWeaponMaster_BonusDamage"
+data "PriorityOrder" "1"
+data "Properties" "Highlighted"
+data "Boosts" "IF(GreatWeaponMaster(context.Source)):CharacterWeaponDamage(LevelMapValue(APO_GWM_Damage))"
+
+new entry "APO_GreatWeaponMaster_Strength"
+type "PassiveData"
+// Great Weapon Master: Strength
+data "DisplayName" "h207f5296g0e7fg49f1g8a2fgdd007831828d;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"

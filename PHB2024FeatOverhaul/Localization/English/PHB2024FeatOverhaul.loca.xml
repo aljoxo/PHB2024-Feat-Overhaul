@@ -84,6 +84,17 @@
 	<content contentuid="hf16fd335g8727g42abg807cg72e4ad0bbdb7" version="1">Elemental Adept</content>
 	<content contentuid="hb1278a08g4e61g4183ga413g2bba30309af5" version="1">>Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to a damage type of your choice. When you deal damage of that type, you cannot roll a 1.</content>
 	
+	<!-- Great Weapon Master -->
+	<content contentuid="h00c8787bg52fcg49d6g9125g77fc49220f28" version="1">Great Weapon Master: Hew</content>
+	<content contentuid="h93fceb53g09ceg4db1gbcceg38b158a893f0" version="1">Great Weapon Master: Hew</content>
+	<content contentuid="h9cf5ad9fge9ddg432bg9aecg1c7d47c66038" version="1">Great Weapon Master: Hew</content>
+	<content contentuid="he5605876gb767g477ag9fc7g07b05a61c569" version="1">Great Weapon Master: Weapon Mastery</content>
+	<content contentuid="hdb23fb50gcd55g4063ga559g9a9cac06a9f7" version="1">When attacking with a melee weapon you are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with and are wielding in both hands, you can cause the weapon to deal an additional [1].</content>
+	<content contentuid="h207f5296g0e7fg49f1g8a2fgdd007831828d" version="1">Great Weapon Master: Strength</content>
+	<content contentuid="hf44da833g6e8ag4c83g9331g42d47fc728e0" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; or kill a target with a &lt;LSTag Tooltip="MeleeWeaponAttack"&gt;melee weapon attack&lt;/LSTag&gt;, you can make another melee weapon attack as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; that turn.&lt;br&gt;&lt;br&gt;Attacks with melee weapons you are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with, and are wielding in both hands, you deal additional damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

@@ -65,6 +65,12 @@
                 	<attribute id="Selectors" type="LSString" value="SelectPassives(bf150daa-5ebc-40f6-ad75-308d013c684e,1);SelectPassives(f6b6e71f-79b1-4ba3-8fd8-ee38a44d3d39,1)" />
                 	<attribute id="UUID" type="guid" value="cec2d95b-451c-40f8-8e17-9e547d363e8e" />
                 </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="GreatWeaponMaster" />
+                	<attribute id="PassivesAdded" type="LSString" value="GreatWeaponMaster_BonusAttack;GreatWeaponMaster_BonusDamage;APO_GreatWeaponMaster_Strength" />
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Strength',13)" />
+                	<attribute id="UUID" type="guid" value="c09815f7-282b-4ccf-bd89-a51caa1b550f" />
+                </node>
             </children>
         </node>
     </region>
