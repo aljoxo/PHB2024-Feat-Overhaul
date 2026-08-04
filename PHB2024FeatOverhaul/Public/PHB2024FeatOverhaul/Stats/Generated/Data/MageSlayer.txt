@@ -1,0 +1,3 @@
+// STR or DEX +1
+// Mage Slayer: Break Concentration -> renamed Concentration Breaker
+// Mage Slayer: Guarded Mind -> Once per short rest, can choose to suceed a failed INT, WIS, or CHA Saving Throw

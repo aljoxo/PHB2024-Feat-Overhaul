@@ -128,6 +128,16 @@
 	<content contentuid="h64033a4fg911cg4e04g9392g2666f439d03f" version="1">Lucky: Charisma</content>
 	<content contentuid="hd31873eag3683g4d35g9da6g3bfa8f4a4634" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;You gain 3&lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;, which you can use to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, or to make an enemy reroll their Attack Rolls.</content>
 
+	<!-- Mage Slayer -->
+	<content contentuid="h4b83c733gb49bg4ad0g8badg5301e99c0b52" version="1">Guarded Mind Charge</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+
 	<!-- Moderately Armored -->
 	<content contentuid="h4fa75ab0gede8g4ef0g9b97g857aa6f23f9a" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
 	<content contentuid="h7499fe01g2511g4214g8b6dg856641b29f84" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1 and you gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
