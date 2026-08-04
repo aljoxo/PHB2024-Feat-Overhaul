@@ -1,3 +1,95 @@
 // Any ASI Increase
 // Gain an amount of Luck Points equal to your Proficiency Bonus
 
+// new entry "Lucky"
+// type "PassiveData"
+// // Lucky
+// data "DisplayName" "ha5802839g355ag4509g91a0g9f3a2be20c7f;3"
+// // You can use a <LSTag Type="ActionResource" Tooltip="LuckPoint">Luck Point</LSTag> to gain <LSTag Tooltip="Advantage">Advantage</LSTag> on your next <LSTag Tooltip="AbilityCheck">Ability Check</LSTag>.
+// data "Description" "h426ba056g4512g4e0cgbb3ag176679520d2c;2"
+// data "TooltipUseCosts" "LuckPoint:1"
+// data "Icon" "PassiveFeature_Lucky_RollAdditionalDie"
+// data "EnabledConditions" "HasActionResource('LuckPoint', 1, 0, false, false, context.Source)"
+// data "EnabledContext" "OnAbilityCheck;OnInterruptUsed;OnShortRest;OnLongRest"
+// data "Properties" "IsToggled;ToggledDefaultAddToHotbar"
+// data "Boosts" "Advantage(AllAbilities)"
+// data "StatsFunctorContext" "OnAbilityCheck"
+// data "StatsFunctors" "UseActionResource(SELF,LuckPoint,1,0)"
+// data "ToggleOffContext" "OnAbilityCheck"
+
+new entry "Lucky_Unlock"
+type "PassiveData"
+using "Lucky_Unlock"
+// Lucky
+data "DisplayName" "he172aaaegc3fcg490dg9562g7d6c5752750c;2"
+// You can use a <LSTag Type="ActionResource" Tooltip="LuckPoint">Luck Point</LSTag> to gain <LSTag Tooltip="Advantage">Advantage</LSTag> on your next <LSTag Tooltip="AttackRoll">Attack Roll</LSTag> or <LSTag Tooltip="SavingThrow">Saving Throw</LSTag>, or to make an enemy reroll their Attack Roll.
+data "Description" "hfb1d8bb3g3909g4184ga5edgfff0b160079c;3"
+data "Icon" "PassiveFeature_Lucky_ReplaceAttackersDie"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_Lucky_RollAdditionalDie);UnlockInterrupt(Interrupt_Lucky_ReplaceAttackersDie);ActionResource(LuckPoint,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(LuckPoint,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(LuckPoint,1,0);IF(CharacterLevelGreaterThan(12)):ActionResource(LuckPoint,1,0);IF(CharacterLevelGreaterThan(16)):ActionResource(LuckPoint,1,0)"
+
+new entry APO_Lucky_Strength
+type "PassiveData"
+// Lucky: Strength
+data "DisplayName" "he54d95d9g9209g4fc6g9dcdgb6b2eff4ad81;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry APO_Lucky_Dexterity
+type "PassiveData"
+// Lucky: Dexterity
+data "DisplayName" "he54d95d9g9209g4fc6g9dcdgb6b2eff4ad81;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
+new entry APO_Lucky_Constitution
+type "PassiveData"
+// Lucky: Constitution
+data "DisplayName" "h8a051f89g1987g4d97g8fddg37a4bfde5dfa;1"
+// Your Constitution is increased by [1].
+data "Description" "ha7a96527gdfeeg4acdgb889g443fa20828e4;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Constitution, 1)"
+
+new entry "APO_Lucky_Intelligence"
+type "PassiveData"
+// Lucky: Intelligence
+data "DisplayName" "h9c73888bgaadeg4b4bg92a3gcec66adb50cb;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_Lucky_Wisdom"
+type "PassiveData"
+// Lucky: Wisdom
+data "DisplayName" "h6800ad1bgb4afg42c7ga002g93d9b8464fe6;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "APO_Lucky_Charisma"
+type "PassiveData"
+// Lucky: Charisma
+data "DisplayName" "h64033a4fg911cg4e04g9392g2666f439d03f;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"

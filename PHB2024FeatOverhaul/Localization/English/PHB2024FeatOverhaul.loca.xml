@@ -118,7 +118,16 @@
 	<content contentuid="h4120c18dg08cfg4b81gbf21g67465212bf8f" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Light Armour and shields.</content>
 	<content contentuid="h1337a8b7ga391g41a4g92b9gb007258f9934" version="1">Lightly Armoured: Strength</content>
 	<content contentuid="h5e0062a9g05a1g4cf3gbe9dgb9721d28efa4" version="1">Lightly Armoured: Dexterity</content>
-	
+
+	<!-- Lucky -->
+	<content contentuid="he54d95d9g9209g4fc6g9dcdgb6b2eff4ad81" version="1">Lucky: Strength</content>
+	<content contentuid="he54d95d9g9209g4fc6g9dcdgb6b2eff4ad81" version="1">Lucky: Dexterity</content>
+	<content contentuid="h8a051f89g1987g4d97g8fddg37a4bfde5dfa" version="1">Lucky: Constitution</content>
+	<content contentuid="h9c73888bgaadeg4b4bg92a3gcec66adb50cb" version="1">Lucky: Intelligence</content>
+	<content contentuid="h6800ad1bgb4afg42c7ga002g93d9b8464fe6" version="1">Lucky: Wisdom</content>
+	<content contentuid="h64033a4fg911cg4e04g9392g2666f439d03f" version="1">Lucky: Charisma</content>
+	<content contentuid="hd31873eag3683g4d35g9da6g3bfa8f4a4634" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;You gain 3&lt;LSTag Type="ActionResource" Tooltip="LuckPoint"&gt;Luck Points&lt;/LSTag&gt; equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;, which you can use to gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;, &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt;, or &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, or to make an enemy reroll their Attack Rolls.</content>
+
 	<!-- Moderately Armored -->
 	<content contentuid="h4fa75ab0gede8g4ef0g9b97g857aa6f23f9a" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
 	<content contentuid="h7499fe01g2511g4214g8b6dg856641b29f84" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1 and you gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>

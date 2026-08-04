@@ -91,6 +91,11 @@
                 	<attribute id="UUID" type="guid" value="b441c722-e4d4-4702-861a-039bfd77c124" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Lucky" />
+                	<attribute id="PassivesAdded" type="LSString" value="Lucky;Lucky_Unlock" />
+                	<attribute id="UUID" type="guid" value="d84c7f36-8c5b-4b17-b95a-e1da725f9004" />
+                </node>
+                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="ModeratelyArmored" />
                 	<attribute id="PassivesAdded" type="LSString" value="ModeratelyArmored" />
                 	<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency('LightArmor')" />
