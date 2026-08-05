@@ -1,3 +1,83 @@
 // STR or DEX +1
 // Mage Slayer: Break Concentration -> renamed Concentration Breaker
 // Mage Slayer: Guarded Mind -> Once per short rest, can choose to suceed a failed INT, WIS, or CHA Saving Throw
+
+// Removed from feat
+// new entry "MageSlayer_Advantage"
+// type "PassiveData"
+// // Mage Slayer: Advantage
+// data "DisplayName" "hf745d443ga478g498bgb62dg386c11cad7bf;2"
+// // You have <LSTag Tooltip="Advantage">Advantage</LSTag> on <LSTag Tooltip="SavingThrow">Saving Throws</LSTag> against spells cast by creatures within [1] of you. 
+// data "Description" "h9e0f8184ge5d7g4ef0gb8b4g20d65fc33cc4;2"
+// data "DescriptionParams" "Distance(1.5)"
+// data "Icon" "PassiveFeature_MageSlayer_Advantage"
+
+// Removed from feat
+// new entry "MageSlayer_AttackCaster"
+// type "PassiveData"
+// // Mage Slayer: Attack a Caster
+// data "DisplayName" "hee1578a3gaf21g4a23gb665gc908bab4df8b;2"
+// // You can use a <LSTag Type="ActionResource" Tooltip="ReactionActionPoint">reaction</LSTag> to make an attack against an enemy after it casts a spell within [1] of you.
+// data "Description" "h92b20293gcad2g4a65g9485gf37dc8d74850;2"
+// data "DescriptionParams" "Distance(1.5)"
+// data "Icon" "PassiveFeature_MageSlayer_AttackACaster"
+
+new entry "MageSlayer_BreakConcentration"
+type "PassiveData"
+using "MageSlayer_BreakConcentration"
+// Mage Slayer: Concentration Breaker
+data "DisplayName" "he87ad602g089ag4846g8707g5043031e0861;1"
+// Creatures taking a <LSTag Tooltip="SavingThrow">Saving Throw</LSTag> to maintain their <LSTag Tooltip="Concentration">Concentration</LSTag> after you hit them do so with <LSTag Tooltip="Disadvantage">Disadvantage</LSTag>.
+data "Description" "h04821a3fgf86eg4508g927cgbc4b98077078;2"
+data "Icon" "PassiveFeature_MageSlayer_BreakConcentration"
+data "Properties" "Highlighted"
+
+new entry "APO_MageSlayer_GuardedMind"
+type "PassiveData"
+// Mage Slayer: Guarded Mind
+data "DisplayName" "h42438968gf71bg434dg9fb6gbef46467797f;1"
+// If you fail an Intelligence, Wisdom, or Charisma <LSTag Tooltip="SavingThrow">Saving Throw</LSTag>, you can cause yourself to succeed instead.
+data "Description" "h8660c42dg237eg4cddg8013gca3c6c3b6f20;1"
+data "Icon" "PassiveFeature_MageSlayer_Advantage"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_APO_MageSlayer_GuardedMind)" 
+
+new entry "Interrupt_APO_MageSlayer_GuardedMind"
+type "InterruptData"
+// Guarded Mind
+data "DisplayName" "h1bfc2902gf1d2g4297g924fg5814b9c24a56;1"
+// Choose to succeed on a failed Intelligence, Wisdom, or Charisma <LSTag Tooltip="SavingThrow">Saving Throw</LSTag>.
+data "Description" "hf0b740ebg2bdfg4f1dg97a4ge22dbdad4e16;1"
+data "Icon" "PassiveFeature_MageSlayer_Advantage"
+data "InterruptContext" "OnPostRoll"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Goon_InterruptConditions() and not Self(context.Source,context.Observer) and Self(context.Target,context.Observer) and HasInterruptedSavingThrow() and (HasSavingThrowWithAbility(Ability.Charisma) or HasSavingThrowWithAbility(Ability.Wisdom) or HasSavingThrowWithAbility(Ability.Intelligence)) and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(20)"
+data "Properties" "AdjustRoll(99)"
+data "Cost" "APO_GuardedMind_Charge:1"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "Goon_InterruptEnableConditions()"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "APO_MageSlayer_Strength"
+type "PassiveData"
+// Mage Slayer: Strength
+data "DisplayName" "hfbb146ecg40d1g4905gb165g2f4757f595e8;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_MageSlayer_Dexterity"
+type "PassiveData"
+// Mage Slayer: Dexterity
+data "DisplayName" "h4a40ae5eg91d6g49c4ga626gbdc380875451;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"

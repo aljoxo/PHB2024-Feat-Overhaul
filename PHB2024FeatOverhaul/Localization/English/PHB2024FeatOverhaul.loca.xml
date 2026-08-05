@@ -130,13 +130,14 @@
 
 	<!-- Mage Slayer -->
 	<content contentuid="h4b83c733gb49bg4ad0g8badg5301e99c0b52" version="1">Guarded Mind Charge</content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
+	<content contentuid="he87ad602g089ag4846g8707g5043031e0861" version="1">Mage Slayer: Concentration Breaker</content>
+	<content contentuid="h42438968gf71bg434dg9fb6gbef46467797f" version="1">Mage Slayer: Guarded Mind</content>
+	<content contentuid="h8660c42dg237eg4cddg8013gca3c6c3b6f20" version="1">If you fail an Intelligence, Wisdom, or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can cause yourself to succeed instead.</content>
+	<content contentuid="hfbb146ecg40d1g4905gb165g2f4757f595e8" version="1">Mage Slayer: Strength</content>
+	<content contentuid="h4a40ae5eg91d6g49c4ga626gbdc380875451" version="1">Mage Slayer: Dexterity</content>
+	<content contentuid="h1bfc2902gf1d2g4297g924fg5814b9c24a56" version="1">Guarded Mind</content>
+	<content contentuid="hf0b740ebg2bdfg4f1dg97a4ge22dbdad4e16" version="1">Choose to suceed on a failed Intelligence, Wisdom, or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+	<content contentuid="" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;Enemies you hit have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;, if you fail an Intelligence, Wisdom, or Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can cause yourself to succeed instead.</content>
 
 	<!-- Moderately Armored -->
 	<content contentuid="h4fa75ab0gede8g4ef0g9b97g857aa6f23f9a" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>

@@ -92,7 +92,14 @@
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="Lucky" />
                 	<attribute id="PassivesAdded" type="LSString" value="Lucky;Lucky_Unlock" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(ff66127c-4379-466b-83f3-d6ebf4bdd076,1)" />
                 	<attribute id="UUID" type="guid" value="d84c7f36-8c5b-4b17-b95a-e1da725f9004" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="MageSlayer" />
+                	<attribute id="PassivesAdded" type="LSString" value="MageSlayer_BreakConcentration;APO_MageSlayer_GuardedMind" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(191f60cc-9e16-45ca-b6ba-e19b5eaf6683,1)" />
+                	<attribute id="UUID" type="guid" value="a533fde7-ee0a-46ce-92e2-9763201a54d2" />
                 </node>
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="ModeratelyArmored" />

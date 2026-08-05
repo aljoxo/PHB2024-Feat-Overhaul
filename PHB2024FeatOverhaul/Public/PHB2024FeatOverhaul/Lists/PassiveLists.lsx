@@ -50,6 +50,11 @@
                     <attribute id="UUID" type="guid" value="ff66127c-4379-466b-83f3-d6ebf4bdd076" />
                 </node>
                 <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Mage Slayer ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_MageSlayer_Strength,APO_MageSlayer_Dexterity" />
+                    <attribute id="UUID" type="guid" value="191f60cc-9e16-45ca-b6ba-e19b5eaf6683" />
+                </node>
+                <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Moderately Armored ASI Passives" />
                     <attribute id="Passives" type="LSString" value="APO_ModeratelyArmored_Strength,APO_ModeratelyArmored_Dexterity" />
                     <attribute id="UUID" type="guid" value="4598977b-4e02-4133-a5e9-7e7286007d98" />
