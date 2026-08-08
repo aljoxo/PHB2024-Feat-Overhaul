@@ -59,6 +59,11 @@
                     <attribute id="Passives" type="LSString" value="APO_ModeratelyArmored_Strength,APO_ModeratelyArmored_Dexterity" />
                     <attribute id="UUID" type="guid" value="4598977b-4e02-4133-a5e9-7e7286007d98" />
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="War Caster ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_WarCaster_Intelligence,APO_WarCaster_Wisdom,APO_WarCaster_Charisma" />
+                    <attribute id="UUID" type="guid" value="bd72dd71-975f-4d43-91b6-4ee68f42af6a" />
+                </node>
             </children>
         </node>
     </region>

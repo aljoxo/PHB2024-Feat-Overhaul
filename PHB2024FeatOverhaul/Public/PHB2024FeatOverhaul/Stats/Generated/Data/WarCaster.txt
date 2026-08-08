@@ -1,0 +1,48 @@
+// basically making no changes to this feat since you should use wesslen's mod
+
+// bug fix to make WarCaster properly display in character sheet
+new entry "WarCaster_OpportunitySpell"
+type "PassiveData"
+using "WarCaster_OpportunitySpell"
+data "Properties" "Highlighted"
+
+// adjusted the interrupt conditions to use goon's library tech
+new entry "Interrupt_WarCaster"
+type "InterruptData"
+using "Interrupt_WarCaster"
+data "Conditions" "Goon_AttackOfOpportunityConditions() and not Self(context.Observer, context.Target) and Self(context.Observer, context.Source) and not HasSpellCastBlocked(context.Observer)"
+data "EnableCondition" "((not HasStatus('SG_Polymorph') or Goon_IsUnrestrictedPolymorphStatus())) and (not HasStatus('SG_Blinded') or Goon_CanIgnoreBlindness())"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "APO_WarCaster_Intelligence"
+type "PassiveData"
+// War Caster: Intelligence
+data "DisplayName" "hda4511e5g00aeg4c39g89bbgda442904d811;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_WarCaster_Wisdom"
+type "PassiveData"
+// War Caster: Wisdom
+data "DisplayName" "h3536b810g8ef4g4b70g8179g4444dc44a526;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "APO_WarCaster_Charisma"
+type "PassiveData"
+// War Caster: Charisma
+data "DisplayName" "h952c8b37gff52g42b1gbbdfg6ec122766efe;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"

@@ -108,6 +108,12 @@
                 	<attribute id="Selectors" type="LSString" value="SelectPassives(4598977b-4e02-4133-a5e9-7e7286007d98,1)" />
                 	<attribute id="UUID" type="guid" value="681d5307-f0ed-4c94-8cf0-db0c51116f56" />
                 </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="WarCaster" />
+                	<attribute id="PassivesAdded" type="LSString" value="WarCaster_Bonuses;WarCaster_OpportunitySpell" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(bd72dd71-975f-4d43-91b6-4ee68f42af6a,1)" />
+                	<attribute id="UUID" type="guid" value="ed4e367d-d136-4285-abac-077147e84cf2" />
+                </node>
             </children>
         </node>
     </region>
