@@ -4,3 +4,12 @@
 // Long Range replaced with Low Ground
 // Bypass Cover replaced with Hamstring, 
 
+new entry "Sharpshooter_Bonuses"
+type "PassiveData"
+// Sharpshooter: Low Ground
+data "DisplayName" "h9cd48bd6gaaddg480eg9e6cgc3a331a5bbbe;2"
+// Your <LSTag Tooltip="RangedWeaponAttack">ranged weapon attacks</LSTag> do not receive penalties from <LSTag Tooltip="HighGroundRules">High Ground Rules</LSTag>.
+data "Description" "hd23ddae5gc8f4g4f67g9eccg3dd49b017602;4"
+data "Icon" "PassiveFeature_Sharpshooter_Bonuses"
+data "Properties" "Highlighted"
+data "Boosts" "IgnoreLowGroundPenalty(RangedWeaponAttack);IgnoreLowGroundPenalty(RangedOffHandWeaponAttack);IgnorePointBlankDisadvantage(Ammunition)"

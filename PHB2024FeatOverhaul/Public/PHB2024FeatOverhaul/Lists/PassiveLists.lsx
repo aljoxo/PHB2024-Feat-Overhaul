@@ -87,7 +87,7 @@
                 <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Sentinel ASI Passives" />
                     <attribute id="Passives" type="LSString" value="APO_Sentinel_Strength,APO_Sentinel_Dexterity" />
-                    <attribute id="UUID" type="guid" value="ba77717f-c818-4594-8d38-0deb5b8bb501" />
+                    <attribute id="UUID" type="guid" value="6bc38c58-0bdb-45d4-b214-45507b0ef37f" />
                 </node>
                 <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="War Caster ASI Passives" />
