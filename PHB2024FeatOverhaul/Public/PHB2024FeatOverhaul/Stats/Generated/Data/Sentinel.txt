@@ -30,7 +30,7 @@ data "Conditions" "Goon_BasicHarmfulInterruptConditions() and not Self(context.T
 // data "Cost" "ReactionActionPoint:1"
 // data "InterruptDefaultValue" "Ask;Enabled"
 // data "EnableCondition" "not HasAnyStatus({'SG_Polymorph','SG_Blinded'},{},{'WILDSHAPE_MYRMIDON_AIR_PLAYER','WILDSHAPE_MYRMIDON_AIR_PLAYER_12','WILDSHAPE_MYRMIDON_FIRE_PLAYER','WILDSHAPE_MYRMIDON_FIRE_PLAYER_12','WILDSHAPE_MYRMIDON_WATER_PLAYER','WILDSHAPE_MYRMIDON_WATER_PLAYER_12',}) or Tagged('MINDFLAYER') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'});"
-data "EnableCondition" "((not HasStatus('SG_Polymorph') or Goon_IsUnrestrictedPolymorphStatus())) and (not HasStatus('SG_Blinded') or Goon_CanIgnoreBlindness())"
+data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions()"
 // data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 data "InterruptFlags" "InterruptWhileInvisible"
 
