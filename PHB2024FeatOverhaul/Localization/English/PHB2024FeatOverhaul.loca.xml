@@ -277,6 +277,15 @@
 	<content contentuid="h69946ccag262cg46fcg8fdag9096a9718a93" version="1">Tavern Brawler: Constitution</content>
 	<content contentuid="h693ba6b9g05abg4ac8ga679gfd84e8504bd1" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;When making unarmed melee attacks, you roll your damage dice twice and use the highest result. Additionally, add your Strength &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage of unarmed attacks.</content>
 	
+	<!-- Tough -->
+	<content contentuid="h4239197dgec89g4515g8014g4e9c297958ac" version="1">Your hit point maximum increases by 2 for every level you have gained. Additionally, all incoming damage is reduced by [2] and your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by [3].</content>
+	<content contentuid="h098b1425g7494g46ecg842cg643a13a34697" version="1">Tough</content>
+	<content contentuid="h39af5052g1456g4009ga5d9ge3c19075c01e" version="1">your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by 1 and your hit point maximum increases by 2 for every level you have gained. Additionally, all incoming damage is reduced by 1.</content>
+	<content contentuid="hf4d5eaa3g9779g4b93ga71cgc4aae76a03e7" version="1">Tough</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+
 	<!-- War Caster -->
 	<content contentuid="h42b42d15g1315g4199g9977ge59677fba327" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on a spell.&lt;br&gt;&lt;br&gt;You can also use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_ShockingGrasp"&gt;Shocking Grasp&lt;/LSTag&gt; at a target moving out of melee range.</content>
 	<content contentuid="hda4511e5g00aeg4c39g89bbgda442904d811" version="1">War Caster: Intelligence</content>

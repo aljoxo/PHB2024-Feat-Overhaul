@@ -1,0 +1,15 @@
+// Homebrewed slightly
+// +1 CON
+// +2 Hit Points per level
+// Decreases all damage taken by 1
+
+new entry "Tough"
+type "PassiveData"
+// Tough
+data "DisplayName" "h098b1425g7494g46ecg842cg643a13a34697;1"
+// Your hit point maximum increases by 2 for every level you have gained. Additionally, all incoming damage is reduced by [2] and your <LSTag Tooltip="Constitution">Constitution</LSTag> increases by [3].
+data "Description" "h4239197dgec89g4515g8014g4e9c297958ac;1"
+data "DescriptionParams" "Level*2;1;1"
+data "Icon" "PassiveFeature_Tough"
+data "Properties" "Highlighted"
+data "Boosts" "IncreaseMaxHP(Level*2);Ability(Constitution,1);DamageReduction(All, Flat, 1)"
