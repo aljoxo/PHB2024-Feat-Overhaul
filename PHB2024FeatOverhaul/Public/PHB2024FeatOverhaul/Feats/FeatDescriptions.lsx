@@ -188,6 +188,13 @@
                     <attribute id="UUID" type="guid" value="9f9e19ea-117e-4717-acd8-9370e9956d07"/>
                 </node>
 				<node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hb7bc2d0fgc80ag4efdg9338gef0991d1c2a9" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf07dd167g58e0g413agab7fg5848566c2842" version="1" />
+                    <attribute id="ExactMatch" type="FixedString" value="Resilient" />
+                    <attribute id="FeatId" type="guid" value="b13c4744-1d45-42da-b92c-e09f598ab1c3" />
+                    <attribute id="UUID" type="guid" value="b9cec7fd-1aba-4c65-9303-cc3cc4ff81f7" />
+                </node>
+				<node id="FeatDescription">
 					<attribute id="Description" type="TranslatedString" handle="h93a5e38fg1549g460ag8accg69242d30066f" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="heac419c8g98e3g4760gbb66g490370c0397b" version="1" />
 					<attribute id="ExactMatch" type="FixedString" value="Mobile" />
