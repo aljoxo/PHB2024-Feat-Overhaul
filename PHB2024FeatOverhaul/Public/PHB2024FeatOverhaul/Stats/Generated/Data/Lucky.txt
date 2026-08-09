@@ -28,7 +28,7 @@ data "Icon" "PassiveFeature_Lucky_ReplaceAttackersDie"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockInterrupt(Interrupt_Lucky_RollAdditionalDie);UnlockInterrupt(Interrupt_Lucky_ReplaceAttackersDie);ActionResource(LuckPoint,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(LuckPoint,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(LuckPoint,1,0);IF(CharacterLevelGreaterThan(12)):ActionResource(LuckPoint,1,0);IF(CharacterLevelGreaterThan(16)):ActionResource(LuckPoint,1,0)"
 
-new entry APO_Lucky_Strength
+new entry "APO_Lucky_Strength"
 type "PassiveData"
 // Lucky: Strength
 data "DisplayName" "he54d95d9g9209g4fc6g9dcdgb6b2eff4ad81;1"
@@ -39,7 +39,7 @@ data "Icon" "GenericIcon_Intent_Buff"
 data "Properties" "IsHidden"
 data "Boosts" "Ability(Strength, 1)"
 
-new entry APO_Lucky_Dexterity
+new entry "APO_Lucky_Dexterity"
 type "PassiveData"
 // Lucky: Dexterity
 data "DisplayName" "ha6f278c5ge5deg48fbg9820g651335a7a054;1"
@@ -50,7 +50,7 @@ data "Icon" "GenericIcon_Intent_Buff"
 data "Properties" "IsHidden"
 data "Boosts" "Ability(Dexterity, 1)"
 
-new entry APO_Lucky_Constitution
+new entry "APO_Lucky_Constitution"
 type "PassiveData"
 // Lucky: Constitution
 data "DisplayName" "h8a051f89g1987g4d97g8fddg37a4bfde5dfa;1"

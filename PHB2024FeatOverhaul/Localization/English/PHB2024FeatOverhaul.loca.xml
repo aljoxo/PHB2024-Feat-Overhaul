@@ -290,11 +290,24 @@
 	<content contentuid="h952c8b37gff52g42b1gbbdfg6ec122766efe" version="1">War Caster: Charisma</content>
 	
 	<!-- Weapon Master-->
+
+	<!-- Putrefy -->
+	<content contentuid="h64a17119g48afg4d96g8137ged0e04326936" version="1">Putrefy: Strength</content>
+	<content contentuid="h4120ae55g26e9g4920gbf98g9d50bff83c9e" version="1">Putrefy: Dexterity</content>
+	<content contentuid="h0d9bc099g9f4cg4b43gab4eg658f147dd5b3" version="1">Putrefy: Constitution</content>
+	<content contentuid="h599856d1gde1cg4262gb170gb57bb6c3cef3" version="1">Putrefy: Intelligence</content>
+	<content contentuid="h628352b9g8c27g496dgb7f6gf88121cf1218" version="1">Putrefy: Wisdom</content>
+	<content contentuid="h7eefb233g7e91g4454g8d47gbe74dea25f07" version="1">Putrefy: Charisma</content>
+	<content contentuid="h82726b60g05e3g4209gbbacg0cacbe2769ea" version="1">Putrefy</content>
+	<content contentuid="hd25a3601g329eg4cebg9a72gba6408efb356" version="1">When dealing Necrotic damage, you roll your damage dice twice and use the highest result.</content>
+	<content contentuid="h8579983dgaa3eg4810g812dg234fdd0ff7dd" version="1">When you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.</content>
+	<content contentuid="h66fb38dagb67bg48ffgbef0g18597c603d77" version="1">Putrefy: Necrosis</content>
+	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 
-	<content contentuid="" version="1"></content>
+	
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

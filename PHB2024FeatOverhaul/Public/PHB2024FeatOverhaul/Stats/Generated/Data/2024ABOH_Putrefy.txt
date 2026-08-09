@@ -2,3 +2,98 @@
 // Any ASI +1
 // Advantage on necrotic damage die
 // Necrosis: When you deal necrotic damage you can apply the Poisoned condition until the start of your next turn
+
+new entry "APO_Putrefy"
+type "PassiveData"
+// Putrefy
+data "DisplayName" "h82726b60g05e3g4209gbbacg0cacbe2769ea;1"
+// When dealing Necrotic damage, you roll your damage dice twice and use the highest result.
+data "Description" "hd25a3601g329eg4cebg9a72gba6408efb356;1"
+data "Icon" ""
+data "Properties" "Highlighted"
+data "Boosts" "IF(HasDamageDoneForType(DamageType.Necrotic)):Reroll(Damage,20,false)"
+
+new entry "APO_Putrefy_Necrosis"
+type "PassiveData"
+// Putrefy: Necrosis
+data "DisplayName" "h66fb38dagb67bg48ffgbef0g18597c603d77;1"
+// When you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.
+data "Description" "h8579983dgaa3eg4810g812dg234fdd0ff7dd;1"
+data "Icon" ""
+data "Properties" "Highlighted;OncePerTurn"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsDamageTypeNecrotic()"
+data "StatsFunctors" "ApplyStatus(APO_PUTREFY,100,1)"
+
+new entry "APO_PUTREFY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "POISONED"
+data "TickType" "StartTurn"
+data "StatusPropertyFlags" "InitiateCombat;TickingWithSource"
+
+new entry "APO_Putrefy_Strength"
+type "PassiveData"
+// Putrefy: Strength
+data "DisplayName" "h64a17119g48afg4d96g8137ged0e04326936;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_Putrefy_Dexterity"
+type "PassiveData"
+// Putrefy: Dexterity
+data "DisplayName" "h4120ae55g26e9g4920gbf98g9d50bff83c9e;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
+new entry "APO_Putrefy_Constitution"
+type "PassiveData"
+// Putrefy: Constitution
+data "DisplayName" "h0d9bc099g9f4cg4b43gab4eg658f147dd5b3;1"
+// Your Constitution is increased by [1].
+data "Description" "ha7a96527gdfeeg4acdgb889g443fa20828e4;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Constitution, 1)"
+
+new entry "APO_Putrefy_Intelligence"
+type "PassiveData"
+// Putrefy: Intelligence
+data "DisplayName" "h599856d1gde1cg4262gb170gb57bb6c3cef3;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_Putrefy_Wisdom"
+type "PassiveData"
+// Putrefy: Wisdom
+data "DisplayName" "h628352b9g8c27g496dgb7f6gf88121cf1218;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "APO_Putrefy_Charisma"
+type "PassiveData"
+// Putrefy: Charisma
+data "DisplayName" "h7eefb233g7e91g4454g8d47gbe74dea25f07;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"

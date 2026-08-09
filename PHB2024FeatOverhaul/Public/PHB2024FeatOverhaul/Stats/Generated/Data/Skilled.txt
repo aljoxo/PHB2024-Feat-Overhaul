@@ -3,7 +3,7 @@
 // Gain proficiency in one skill of your choice
 // Gain expertise in one skill of your choice
 
-new entry APO_Skilled_Strength
+new entry "APO_Skilled_Strength"
 type "PassiveData"
 // Skill Expert: Strength
 data "DisplayName" "h80f1f179g68c2g4cd4g92ffgafc93207d28f;1"
@@ -14,7 +14,7 @@ data "Icon" "GenericIcon_Intent_Buff"
 data "Properties" "IsHidden"
 data "Boosts" "Ability(Strength, 1)"
 
-new entry APO_Skilled_Dexterity
+new entry "APO_Skilled_Dexterity"
 type "PassiveData"
 // Skill Expert: Dexterity
 data "DisplayName" "h5af75adagfd1fg428dga8cagfd6347bbbb86;1"
@@ -25,7 +25,7 @@ data "Icon" "GenericIcon_Intent_Buff"
 data "Properties" "IsHidden"
 data "Boosts" "Ability(Dexterity, 1)"
 
-new entry APO_Skilled_Constitution
+new entry "APO_Skilled_Constitution"
 type "PassiveData"
 // Skill Expert: Constitution
 data "DisplayName" "h881f11e7g1b7ag4e7eg9d39g29a7871333ee;1"

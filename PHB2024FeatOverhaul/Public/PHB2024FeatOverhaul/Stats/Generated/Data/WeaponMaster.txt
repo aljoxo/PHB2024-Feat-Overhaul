@@ -1,0 +1,1 @@
+// choosing to not edit this feat since the proper 2024 implementation is in phb2024 weapon masteries mod
