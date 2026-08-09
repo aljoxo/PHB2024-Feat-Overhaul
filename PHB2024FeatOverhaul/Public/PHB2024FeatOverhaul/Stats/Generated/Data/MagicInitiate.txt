@@ -1,0 +1,51 @@
+// Pick 2 cantrips and a 1st level spell
+// Gain an ASI based on the class you chose
+
+new entry "MagicInitiate_Bard"
+type "PassiveData"
+data "DisplayName" "h83d96511g7711g4b94ga854g14de2aa1baa4;1"
+data "Description" "h4ba97f89g237dg4e8cgba04g02ba50507014;2"
+data "Icon" "PassiveFeature_MagicInitiateBard"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(SpellSlot,1,1);Ability(Charisma,1)"
+
+// Also fixed bug with Cleric version giving the effects of the Medium Armour Master passive
+new entry "MagicInitiate_Cleric"
+type "PassiveData"
+data "DisplayName" "h8fd88856g50c5g40b6g9b3fg66fed311e105;1"
+data "Description" "h5f7a684cgb1a9g48b4g9883ga1d22989fb43;1"
+data "Icon" "PassiveFeature_MagicInitiateCleric"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(SpellSlot,1,1);Ability(Wisdom,1)"
+
+new entry "MagicInitiate_Druid"
+type "PassiveData"
+data "DisplayName" "h4b67a8fdgb693g4946ga34ag3b772a56cbd4;1"
+data "Description" "h8960dae3g5b72g4f84gb914g512e978273c5;1"
+data "Icon" "PassiveFeature_MagicInitiateDruid"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(SpellSlot,1,1);Ability(Wisdom,1)"
+
+new entry "MagicInitiate_Sorcerer"
+type "PassiveData"
+data "DisplayName" "h6c0d47b1gd993g45bdg9281g1b94c58fd615;1"
+data "Description" "hb199b82dg4761g42bfga08cg0d0caae975d4;1"
+data "Icon" "PassiveFeature_MagicInitiateSorcerer"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(SpellSlot,1,1);Ability(Charisma,1)"
+
+new entry "MagicInitiate_Warlock"
+type "PassiveData"
+data "DisplayName" "h387a8795gb132g4e03gaef1ge547afd6516a;1"
+data "Description" "h270d7315g1c85g4e2cg854egbd7741fb352c;1"
+data "Icon" "PassiveFeature_MagicInitiateWarlock"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(SpellSlot,1,1);ActionResourceOverride(Interrupt_HellishRebukeWarlockMI_Charge,1,0);Ability(Charisma,1)"
+
+new entry "MagicInitiate_Wizard"
+type "PassiveData"
+data "DisplayName" "h53f1d520g50c3g4d70gae25g9349047d9b98;1"
+data "Description" "h6caa2cfdge4e3g4ef8gb855g46f3b6310617;1"
+data "Icon" "PassiveFeature_MagicInitiateWizard"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(SpellSlot,1,1);Ability(Intelligence,1)"
