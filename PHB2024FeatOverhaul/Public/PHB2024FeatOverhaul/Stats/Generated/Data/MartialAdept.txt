@@ -1,0 +1,35 @@
+// made this into Martial Weapon Training Feat from 2024
+// +1 STR or DEX
+// Martial Weapons Training
+
+new entry "APO_MartialWeaponTraining"
+type "PassiveData"
+// Martial Weapon Training
+data "DisplayName" "h4a678452g78efg4d00g8248g5b8e4bca2a26;1"
+// You have <LSTag Tooltip="WeaponProficiency">Proficiency</LSTag> with Martial Weapons.
+data "Description" "h06769791gbf38g4013g8ba5g6ee810a15dcc;1"
+data "Icon" "PassiveFeature_MartialAdept"
+data "Properties" "Highlighted"
+data "Boosts" "Proficiency(MartialWeapons)"
+
+new entry "APO_MartialAdept_Strength"
+type "PassiveData"
+// Martial Weapon Training: Strength
+data "DisplayName" "h4e212e6bgcf29g43caga51cg62c58175cda8;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_MartialAdept_Dexterity"
+type "PassiveData"
+// Martial Weapon Training: Dexterity
+data "DisplayName" "hf4414c36gdeafg45e5gbef8g09ef12972d25;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"

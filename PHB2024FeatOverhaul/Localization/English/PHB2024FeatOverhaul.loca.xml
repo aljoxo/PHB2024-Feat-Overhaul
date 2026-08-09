@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
 
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-
 	<!-- ASI Descriptions -->
 	<content contentuid="h1e78895fg3a0dg45caga7d9gdb94d56ee0da" version="1">Your Strength is increased by [1].</content>
 	<content contentuid="h60cae1c4g80b5g4b9eg9ceeg254006fff361" version="1">Your Dexterity is increased by [1].</content>
@@ -165,6 +156,14 @@
 	<content contentuid="h53f1d520g50c3g4d70gae25g9349047d9b98" version="1">Magic Initiate: Wizard</content>
 	<content contentuid="h6caa2cfdge4e3g4ef8gb855g46f3b6310617" version="1">You have learned 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the wizard spell list, and gained a Level 1 &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;. Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; score is increased by 1.</content>
 
+	<!-- Martial Adept / Martial Weapon Training -->
+	<content contentuid="hf1b5e046g396fg4d9dgaa20gcb172866b0f8" version="1">Martial Weapon Training</content>
+	<content contentuid="h5d1f4173g48d3g4d0fg9c74g1bfb302c1db8" version="1">>Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1 and you gain &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficiency&lt;/LSTag&gt; with Martial Weapons.</content>
+	<content contentuid="h4e212e6bgcf29g43caga51cg62c58175cda8" version="1">Martial Weapon Training: Strength</content>
+	<content contentuid="hf4414c36gdeafg45e5gbef8g09ef12972d25" version="1">Martial Weapon Training: Dexterity</content>
+	<content contentuid="h4a678452g78efg4d00g8248g5b8e4bca2a26" version="1">Martial Weapon Training</content>
+	<content contentuid="h06769791gbf38g4013g8ba5g6ee810a15dcc" version="1">You have &lt;LSTag Tooltip="WeaponProficiency"&gt;Proficiency&lt;/LSTag&gt; with Martial Weapons.</content>
+
 	<!-- Moderately Armored -->
 	<content contentuid="h4fa75ab0gede8g4ef0g9b97g857aa6f23f9a" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
 	<content contentuid="h7499fe01g2511g4214g8b6dg856641b29f84" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1 and you gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
@@ -177,4 +176,13 @@
 	<content contentuid="h3536b810g8ef4g4b70g8179g4444dc44a526" version="1">War Caster: Wisdom</content>
 	<content contentuid="h952c8b37gff52g42b1gbbdfg6ec122766efe" version="1">War Caster: Charisma</content>
 	
+
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
 </contentList>

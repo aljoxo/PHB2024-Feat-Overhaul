@@ -160,6 +160,13 @@
                     <attribute id="UUID" type="guid" value="5670e7db-cbe0-4135-8802-5f33f304346d"/>
                 </node>
 				<node id="FeatDescription">
+					<attribute id="Description" type="TranslatedString" handle="h5d1f4173g48d3g4d0fg9c74g1bfb302c1db8" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf1b5e046g396fg4d9dgaa20gcb172866b0f8" version="1" />
+					<attribute id="ExactMatch" type="FixedString" value="MartialAdept" />
+					<attribute id="FeatId" type="guid" value="455fc2d5-1c77-40e7-a010-0b51044ae74b" />
+					<attribute id="UUID" type="guid" value="282f1e7e-33a5-400a-adf4-dff59dc2629c" />
+				</node>
+				<node id="FeatDescription">
 					<attribute id="Description" type="TranslatedString" handle="h7499fe01g2511g4214g8b6dg856641b29f84" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h59206840g58f3g4a32g80afg737175740ee5" version="1" />
 					<attribute id="ExactMatch" type="FixedString" value="ModeratelyArmored" />

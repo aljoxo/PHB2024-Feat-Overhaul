@@ -138,6 +138,12 @@
                     <attribute id="UUID" type="guid" value="26c6990b-d9f0-41a2-8108-209789fafc18"/>
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="MartialAdept" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_MartialWeaponTraining" />
+                	<attribute id="Selectors" type="LSString" value="SelectPassives(bc29d42c-312c-4e35-9c8c-835b51c67849,1)" />
+                	<attribute id="UUID" type="guid" value="455fc2d5-1c77-40e7-a010-0b51044ae74b" />
+                </node>
+                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="ModeratelyArmored" />
                 	<attribute id="PassivesAdded" type="LSString" value="ModeratelyArmored" />
                 	<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency('LightArmor')" />
