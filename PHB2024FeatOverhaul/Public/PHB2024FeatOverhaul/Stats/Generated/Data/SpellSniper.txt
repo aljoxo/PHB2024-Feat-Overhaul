@@ -1,0 +1,39 @@
+// +1 INT, WIS, or CHA
+// Casting in melee
+// Replaced increased range w/ no low ground penalty
+// bypass cover replaced with learn a cantrip
+// ig IgnorePointBlankDisadvantage() doesn't work with spells since the argument is a WeaponFlag
+// maybe IF(HasStatus('FLANKED') and AttackType.RangedSpellAttack):Advantage(AttackRoll) ???
+
+new entry "APO_SpellSniper_Intelligence"
+type "PassiveData"
+// Spell Sniper: Intelligence
+data "DisplayName" "ha3e7b1aeg35afg4c4agb9eeg7923c752004d;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_SpellSniper_Wisdom"
+type "PassiveData"
+// Spell Sniper: Wisdom
+data "DisplayName" "hcbef1e4fg86bag4026g8bcag1046a3176f05;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "APO_SpellSniper_Charisma"
+type "PassiveData"
+// Spell Sniper: Charisma
+data "DisplayName" "h1d6748c8g5084g4c6cgb965g9afb55ddef73;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"

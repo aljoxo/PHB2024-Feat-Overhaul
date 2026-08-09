@@ -95,6 +95,16 @@
                     <attribute id="UUID" type="guid" value="ffe2ec24-bceb-4775-9fd3-403be1d0c9f3" />
                 </node>
                 <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Spell Sniper ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_SpellSniper_Intelligence,APO_SpellSniper_Wisdom,APO_SpellSniper_Charisma" />
+                    <attribute id="UUID" type="guid" value="788751e3-23a9-480b-8123-6f650aefc6cf" />
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Tavern Brawler ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_TavernBrawler_Strength,APO_TavernBrawler_Constitution" />
+                    <attribute id="UUID" type="guid" value="15cf83cd-2517-474a-94c8-cd074643bd86" />
+                </node>
+                <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="War Caster ASI Passives" />
                     <attribute id="Passives" type="LSString" value="APO_WarCaster_Intelligence,APO_WarCaster_Wisdom,APO_WarCaster_Charisma" />
                     <attribute id="UUID" type="guid" value="e854378a-6d47-4e31-aba9-b189ae35c8fd" />

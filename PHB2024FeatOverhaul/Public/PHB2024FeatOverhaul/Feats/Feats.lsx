@@ -215,6 +215,18 @@
                 	<attribute id="UUID" type="guid" value="0a3b07bf-a806-4c77-9c8f-6e7c0965f9dd" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="SpellSniper" />
+                	<attribute id="PassivesAdded" type="LSString" value="SpellSniper_Critical" />
+                	<attribute id="Selectors" type="LSString" value="SelectSpells(64784e08-e31e-4850-a743-ecfb3fd434d7,1,0,,,,AlwaysPrepared);SelectPassives(788751e3-23a9-480b-8123-6f650aefc6cf,1)" />
+                	<attribute id="UUID" type="guid" value="c02f22c9-9a06-4001-b917-4d5cf09be399" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="TavernBrawler" />
+                	<attribute id="PassivesAdded" type="LSString" value="TavernBrawler" />
+                	<attribute id="Selectors" type="LSString" value="SelectPassives(15cf83cd-2517-474a-94c8-cd074643bd86,1)" />
+                	<attribute id="UUID" type="guid" value="be0889d2-f9aa-472d-b942-592bff0f1ef3" />
+                </node>
+                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="WarCaster" />
                 	<attribute id="PassivesAdded" type="LSString" value="WarCaster_Bonuses;WarCaster_OpportunitySpell" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(e854378a-6d47-4e31-aba9-b189ae35c8fd,1)" />

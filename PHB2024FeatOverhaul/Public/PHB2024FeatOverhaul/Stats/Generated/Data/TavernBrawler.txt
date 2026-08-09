@@ -1,0 +1,39 @@
+// Homebrewed slightly
+// +1 STR or CON
+// Enhanced Unarmed Strike, add STR mod to unarmed attacks
+// Unarmed damage rerolls (savage attacker for unarmed attacks)
+// maybe Ill implement Push component of the feat later, im feeling really lazy rn
+
+
+new entry "TavernBrawler"
+type "PassiveData"
+// "Tavern Brawler"
+data "DisplayName" "hecbcebd0g33a8g4c85gb7fbge0167d465c92;1"
+// "When making unarmed melee attacks, you roll your damage dice twice and use the highest result. Additionally, add your Strength <LSTag Tooltip="AbilityModifier">Modifier</LSTag> to the damage of unarmed attacks."
+data "Description" "h7200f510gbff6g4d32g92bbge80cc1cbcad2;1"
+data "Icon" "PassiveFeature_TavernBrawler"
+data "Properties" "Highlighted"
+// Added Slayer form to the list of polymorphs that can benefit from tavern brawler cause why not
+data "Boosts" "IF(IsMeleeUnarmedAttack()):Reroll(Damage,20,false);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(StrengthModifier);IF(IsRangedUnarmedAttack()):DamageBonus(StrengthModifier);IF((IsUnarmedAttack() and HasStatus('SG_Polymorph_BeastShape',context.Source) or HasStatus('SLAYER_PLAYER',context.Source) or HasStatus('SLAYER_PLAYER_10',context.Source)) and not (Tagged('MYRMIDON_AIR',context.Source) or Tagged('MYRMIDON_FIRE',context.Source) or Tagged('MYRMIDON_WATER',context.Source))):DamageBonus(StrengthModifier);"
+
+new entry "APO_TavernBrawler_Strength"
+type "PassiveData"
+// Tavern Brawler: Strength
+data "DisplayName" "hd148ccf9gd802g44c6gad1cg051e45c6f2d5;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_TavernBrawler_Constitution"
+type "PassiveData"
+// Tavern Brawler: Constitution
+data "DisplayName" "h69946ccag262cg46fcg8fdag9096a9718a93;1"
+// Your Constitution is increased by [1].
+data "Description" "ha7a96527gdfeeg4acdgb889g443fa20828e4;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Constitution, 1)"

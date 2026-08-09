@@ -260,6 +260,23 @@
 	<content contentuid="h6f27d9a4gafa1g4e83g8812g6a5d0783e245" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in 1 &lt;LSTag Tooltip="Skill"&gt;Skill&lt;/LSTag&gt; of your choice and &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; with one skill you are proficient in.</content>
 	<content contentuid="h2944ce15g4599g428cgb001g4fb8fbf4859a" version="1">Skill Expert</content>
 
+	<!-- Spell Sniper -->
+	<content contentuid="ha3e7b1aeg35afg4c4agb9eeg7923c752004d" version="1">Spell Sniper: Intelligence</content>
+	<content contentuid="hcbef1e4fg86bag4026g8bcag1046a3176f05" version="1">Spell Sniper: Wisdom</content>
+	<content contentuid="h1d6748c8g5084g4c6cgb965g9afb55ddef73" version="1">Spell Sniper: Charisma</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+
+	<!-- Tavern Brawler -->
+	<content contentuid="hecbcebd0g33a8g4c85gb7fbge0167d465c92" version="1">Tavern Brawler</content>
+	<content contentuid="h7200f510gbff6g4d32g92bbge80cc1cbcad2" version="1">When making unarmed melee attacks, you roll your damage dice twice and use the highest result. Additionally, add your Strength &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage of unarmed attacks.</content>
+	<content contentuid="hd148ccf9gd802g44c6gad1cg051e45c6f2d5" version="1">Tavern Brawler: Strength</content>
+	<content contentuid="h69946ccag262cg46fcg8fdag9096a9718a93" version="1">Tavern Brawler: Constitution</content>
+	<content contentuid="h693ba6b9g05abg4ac8ga679gfd84e8504bd1" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;When making unarmed melee attacks, you roll your damage dice twice and use the highest result. Additionally, add your Strength &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; to the damage of unarmed attacks.</content>
+	
 	<!-- War Caster -->
 	<content contentuid="h42b42d15g1315g4199g9977ge59677fba327" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on a spell.&lt;br&gt;&lt;br&gt;You can also use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_ShockingGrasp"&gt;Shocking Grasp&lt;/LSTag&gt; at a target moving out of melee range.</content>
 	<content contentuid="hda4511e5g00aeg4c39g89bbgda442904d811" version="1">War Caster: Intelligence</content>
