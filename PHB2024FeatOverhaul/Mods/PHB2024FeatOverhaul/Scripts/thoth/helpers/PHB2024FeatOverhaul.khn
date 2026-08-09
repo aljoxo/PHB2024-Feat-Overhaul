@@ -29,3 +29,13 @@ function APO_RitualCasterCheck()
 	| SpellId('Target_UnseenServant') | IsSpellChildOrVariantFromContext('Target_UnseenServant') 
 	| SpellId('Shout_WaterWalk') | IsSpellChildOrVariantFromContext('Shout_WaterWalk')
 end
+
+function APO_Sharpshooter(entity)
+    local entity = entity or context.Source
+    local weapon = context.AttackWeapon
+
+    local isTwoHanded = HasWeaponProperty(WeaponProperties.Twohanded, weapon)
+    local isRanged = HasWeaponProperty(WeaponProperties.Ammunition, weapon)
+
+    return IsProficientWith(entity, weapon) & (isTwoHanded & isRanged)
+end

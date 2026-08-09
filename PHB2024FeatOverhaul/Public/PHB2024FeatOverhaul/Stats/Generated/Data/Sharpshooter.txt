@@ -2,14 +2,40 @@
 // +1 DEX
 // No dis on melee ranged attacks with bows
 // Long Range replaced with Low Ground
-// Bypass Cover replaced with Hamstring, 
+// Bypass Cover replaced All In (Ranged weapons wielded with two hands deal additional damage equal to your prof bonus)
+// decent compromise for ranged weapons not being included in GWM 
 
 new entry "Sharpshooter_Bonuses"
 type "PassiveData"
-// Sharpshooter: Low Ground
-data "DisplayName" "h9cd48bd6gaaddg480eg9e6cgc3a331a5bbbe;2"
-// Your <LSTag Tooltip="RangedWeaponAttack">ranged weapon attacks</LSTag> do not receive penalties from <LSTag Tooltip="HighGroundRules">High Ground Rules</LSTag>.
-data "Description" "hd23ddae5gc8f4g4f67g9eccg3dd49b017602;4"
+using "Sharpshooter_Bonuses"
+// Sharpshooter
+data "DisplayName" "hbc92899eg5a59g4611ga62dgf662f8bcfc90;1"
+// Your <LSTag Tooltip="Dexterity">Dexterity</LSTag> increases by 1. Your <LSTag Tooltip="RangedWeaponAttack">ranged weapon attacks</LSTag> do not receive penalties from <LSTag Tooltip="HighGroundRules">High Ground Rules</LSTag>. Additionally, Being in melee range doesn't impose <LSTag Tooltip="Disadvantage">Disadvantage</LSTag> on your <LSTag Tooltip="AttackRoll">Attack Rolls</LSTag> with Ranged weapons.
+data "Description" "h1b62314dg9228g4fddga67egc9eeb6b46e80;1"
 data "Icon" "PassiveFeature_Sharpshooter_Bonuses"
 data "Properties" "Highlighted"
 data "Boosts" "IgnoreLowGroundPenalty(RangedWeaponAttack);IgnoreLowGroundPenalty(RangedOffHandWeaponAttack);IgnorePointBlankDisadvantage(Ammunition)"
+
+new entry "Sharpshooter_AllIn"
+type "PassiveData"
+using "Sharpshooter_AllIn"
+// Sharpshooter: All In
+data "DisplayName" "h2ed97e4fga2a5g4cc9ga79bg460f9da9c39c;3"
+// When attacking with a Ranged weapon you are <LSTag Tooltip="Proficiency">Proficient</LSTag> with and are wielding in both hands, you can cause the weapon to deal an additional [1].
+data "Description" "he298208fg4e1dg49bcgb06egef56027dc131;1"
+data "DescriptionParams" "DealDamage(LevelMapValue(APO_GWM_Damage),MainRangedWeaponDamageType)"
+data "Icon" "PassiveFeature_Sharpshooter_AllIn"
+data "PriorityOrder" "1"
+data "Properties" "Highlighted"
+data "Boosts" "IF(APO_Sharpshooter(context.Source)):CharacterWeaponDamage(LevelMapValue(APO_GWM_Damage))"
+
+new entry "APO_Sharpshooter_Dexterity"
+type "PassiveData"
+// Sharpshooter: Dexterity
+data "DisplayName" "heaaaf86cge02dg4db0g8a92g76cef2c311b8;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"

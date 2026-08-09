@@ -192,7 +192,7 @@
                 </node>
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="Sharpshooter" />
-                	<attribute id="PassivesAdded" type="LSString" value="Sharpshooter_AllIn;Sharpshooter_Bonuses" />
+                	<attribute id="PassivesAdded" type="LSString" value="Sharpshooter_AllIn;Sharpshooter_Bonuses;APO_Sharpshooter_Dexterity" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
                 	<attribute id="UUID" type="guid" value="010f717e-c6e2-45cf-bbf9-298a72db4cad" />
                 </node>
