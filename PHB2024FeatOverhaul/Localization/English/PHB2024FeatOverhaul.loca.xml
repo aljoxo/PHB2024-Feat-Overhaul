@@ -280,11 +280,8 @@
 	<!-- Tough -->
 	<content contentuid="h4239197dgec89g4515g8014g4e9c297958ac" version="1">Your hit point maximum increases by 2 for every level you have gained. Additionally, all incoming damage is reduced by [2] and your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by [3].</content>
 	<content contentuid="h098b1425g7494g46ecg842cg643a13a34697" version="1">Tough</content>
-	<content contentuid="h39af5052g1456g4009ga5d9ge3c19075c01e" version="1">your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by 1 and your hit point maximum increases by 2 for every level you have gained. Additionally, all incoming damage is reduced by 1.</content>
+	<content contentuid="h39af5052g1456g4009ga5d9ge3c19075c01e" version="1">Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; increases by 1 and your hit point maximum increases by 2 for every level you have gained. Additionally, all incoming damage is reduced by 1.</content>
 	<content contentuid="hf4d5eaa3g9779g4b93ga71cgc4aae76a03e7" version="1">Tough</content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
 
 	<!-- War Caster -->
 	<content contentuid="h42b42d15g1315g4199g9977ge59677fba327" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on a spell.&lt;br&gt;&lt;br&gt;You can also use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_ShockingGrasp"&gt;Shocking Grasp&lt;/LSTag&gt; at a target moving out of melee range.</content>
@@ -292,6 +289,10 @@
 	<content contentuid="h3536b810g8ef4g4b70g8179g4444dc44a526" version="1">War Caster: Wisdom</content>
 	<content contentuid="h952c8b37gff52g42b1gbbdfg6ec122766efe" version="1">War Caster: Charisma</content>
 	
+	<!-- Weapon Master-->
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
 
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
