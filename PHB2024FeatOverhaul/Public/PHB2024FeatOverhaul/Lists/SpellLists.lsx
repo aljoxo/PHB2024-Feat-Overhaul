@@ -18,7 +18,7 @@
         </node>
         <node id="SpellList">
           <attribute id="Name" type="FixedString" value="Fey Touched: Divination/Enchantment Level 1 Spells" />
-          <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Target_Command_Container;Target_CompelledDuel;Shout_DetectEvilAndGood;Target_DissonantWhispers;Target_Heroism;Target_Hex;Target_HuntersMark;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter" />
+          <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_Bane;Target_BeastBond;Target_Bless;Target_CharmPerson;Target_Command_Container;Target_CompelledDuel;Shout_DetectEvilAndGood;Shout_DetectMagic;Target_DissonantWhispers;Target_Heroism;Target_Hex;Target_HuntersMark;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter" />
           <attribute id="UUID" type="guid" value="a752bc58-78a8-4328-a593-4dd7ea093d5a" />
         </node>
         <!-- Ritual Caster Spell List -->
@@ -35,7 +35,7 @@
         </node>
         <node id="SpellList">
           <attribute id="Name" type="FixedString" value="Shadow Touched: Illusion/Necromancy Level 1 Spells" />
-          <attribute id="Spells" type="LSString" value="Zone_ColorSpray;Shout_DisguiseSelf;Shout_FalseLife;Target_InflictWounds;Projectile_RayOfSickness" />
+          <attribute id="Spells" type="LSString" value="Target_CauseFear;Zone_ColorSpray;Shout_DisguiseSelf;Shout_FalseLife;Target_InflictWounds;Projectile_RayOfSickness" />
           <attribute id="UUID" type="guid" value="8559b2a7-2e2f-4832-a113-b21d3f49aa34" />
         </node>
       </children>

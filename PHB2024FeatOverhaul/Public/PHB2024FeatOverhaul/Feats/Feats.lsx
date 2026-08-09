@@ -13,7 +13,7 @@
                 <node id="Feat">
 	                <attribute id="Name" type="FixedString" value="Alert" />
 	                <attribute id="PassivesAdded" type="LSString" value="Alert" />
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(5a0a3a9d-dc92-4d38-8882-fcc41e0c43ce,1,AlertObservant);SelectPassives(c343e40d-feb2-4f5b-84e0-68f69add8941,1)" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(c343e40d-feb2-4f5b-84e0-68f69add8941,1);SelectSkills(5a0a3a9d-dc92-4d38-8882-fcc41e0c43ce,1,AlertObservant)" />
                     <attribute id="UUID" type="guid" value="f57bd72c-be64-4855-9e3a-bb7d7665e656" />
                 </node>
                 <node id="Feat">
