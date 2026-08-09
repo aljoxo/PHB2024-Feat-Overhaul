@@ -12,7 +12,7 @@ data "Description" "h84ff6c6bgeb96g4563ga96bgeda96e670f9e;1"
 data "Icon" "PassiveFeature_SavageAttacker"
 data "Properties" "Highlighted"
 // Does this even work lmao?
-data "Boosts" "IF(AttackingWithMeleeWeapon(context.Source)):Reroll(Damage, 20, false);IF(AttackingWithRangedWeapon(context.Source)):Reroll(Damage, 20, false)"
+data "Boosts" "IF(AttackingWithMeleeWeapon(context.Source)):Reroll(Damage, 20, false);IF(IsRangedWeaponAttack()):Reroll(Damage,20,false);IF(IsRangedOffHandWeaponAttack()):Reroll(Damage,20,false)"
 
 new entry "APO_SavageAttacker_Strength"
 type "PassiveData"
