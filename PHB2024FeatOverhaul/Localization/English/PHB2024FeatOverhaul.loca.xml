@@ -302,10 +302,10 @@
 	<content contentuid="hd25a3601g329eg4cebg9a72gba6408efb356" version="1">When dealing Necrotic damage, you roll your damage dice twice and use the highest result.</content>
 	<content contentuid="h8579983dgaa3eg4810g812dg234fdd0ff7dd" version="1">When you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.</content>
 	<content contentuid="h66fb38dagb67bg48ffgbef0g18597c603d77" version="1">Putrefy: Necrosis</content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
+	<content contentuid="h33aaa5f7gbe2bg4285g9b15g79ae9d07d611" version="1">Putrefy</content>
+	<content contentuid="h99969785g2b58g4555g8d98g5bcb20dc2b10" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;When dealing Necrotic damage, you roll your damage dice twice and use the highest result. Additionally, when you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.</content>
+	
+	
 
 	
 	<content contentuid="" version="1"></content>

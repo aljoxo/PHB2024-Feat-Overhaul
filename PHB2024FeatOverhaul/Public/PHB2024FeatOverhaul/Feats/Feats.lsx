@@ -166,6 +166,12 @@
                     <attribute id="UUID" type="guid" value="fdf0be80-cc1e-4501-bd2e-7a1ea737362c" />
                 </node>
                 <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Putrefy" />
+                    <attribute id="PassivesAdded" type="LSString" value="APO_Putrefy;APO_Putrefy_Necrosis" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(6aad47fc-48f0-48bc-8746-8a920d71041d,1)" />
+                    <attribute id="UUID" type="guid" value="800f1a1c-3b58-412a-a394-d02513683c2b" />
+                </node>
+                <node id="Feat">
                     <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
                     <attribute id="Name" type="FixedString" value="Resilient" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(d4b799b4-30e2-412b-b2c9-abb144df8e7d,1)" />

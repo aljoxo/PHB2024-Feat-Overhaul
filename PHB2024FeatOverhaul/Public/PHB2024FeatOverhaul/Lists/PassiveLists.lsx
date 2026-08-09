@@ -109,6 +109,11 @@
                     <attribute id="Passives" type="LSString" value="APO_WarCaster_Intelligence,APO_WarCaster_Wisdom,APO_WarCaster_Charisma" />
                     <attribute id="UUID" type="guid" value="e854378a-6d47-4e31-aba9-b189ae35c8fd" />
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Putrefy ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_Putrefy_Strength,APO_Putrefy_Dexterity,APO_Putrefy_Constitution,APO_Putrefy_Intelligence,APO_Putrefy_Wisdom,APO_Putrefy_Charisma" />
+                    <attribute id="UUID" type="guid" value="6aad47fc-48f0-48bc-8746-8a920d71041d" />
+                </node>
             </children>
         </node>
     </region>
