@@ -186,6 +186,19 @@
 	<content contentuid="h8cdb2475g9ca3g4652g8ab0g84d31d7d1179" version="1">Moderately Armoured: Strength</content>
 	<content contentuid="h41e35ebbg8277g47d5g9120g66bde3382969" version="1">Moderately Armoured: Dexterity</content>
 
+	<!-- Polearm Master -->
+	<content contentuid="h3282e0c5gb4abg4326g95f0g62260654016d" version="1">Polearm Master: Reactive Strike</content>
+	<content contentuid="h37a9b742gd6ffg4921gbd7fg699db8c354d0" version="1">Make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; whenever a creature enters your reach.</content>
+	<content contentuid="h00aa495ag4b41g42d1gb625g471b9be919d2" version="1">Prerequisite: Must be wielding a glaive, halberd, quarterstaff, or spear.</content>
+	<content contentuid="ha3187b56g7e5ag45cbg9c72ge840c29d447f" version="1">Polearm Master: Pole Strike</content>
+	<content contentuid="h09452ebdgc8c8g45cfgbf99gbe0ebbee9ef8" version="1">When attacking with a glaive, halberd, pike, quarterstaff, or spear you can use a bonus action to attack with the butt of your weapon and deal [1].</content>
+	<content contentuid="h1048ee57g3e3dg468ega875g194564d64be4" version="1">Pole Strike</content>
+	<content contentuid="h4ffb4902g09f2g4871gaee0g070a040c364a" version="1">Sweep your polearm around, whacking a foe with the weapon's heavy haft.</content>
+	<content contentuid="hc8e07d5ega0aag4ccfg987fgc026b41802c3" version="1">Polearm Master: Strength</content>
+	<content contentuid="hf5b28f08g9782g4fccg88f8g20f598b0ec26" version="1">Polearm Master: Dexterity</content>
+	<content contentuid="h950b2c64gcd1ag4a5dgb942g6121ea69b3fd" version="1">Polearm Master</content>
+	<content contentuid="h83643487g554ag4bfcg941fg689c054dda60" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When attacking with a glaive, halberd, pike, quarterstaff, or spear, you can use a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; to attack with the butt of your weapon.&lt;br&gt;&lt;br&gt;You can also make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; when a target comes within range.</content>
+
 	<!-- War Caster -->
 	<content contentuid="h42b42d15g1315g4199g9977ge59677fba327" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on a spell.&lt;br&gt;&lt;br&gt;You can also use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_ShockingGrasp"&gt;Shocking Grasp&lt;/LSTag&gt; at a target moving out of melee range.</content>
 	<content contentuid="hda4511e5g00aeg4c39g89bbgda442904d811" version="1">War Caster: Intelligence</content>

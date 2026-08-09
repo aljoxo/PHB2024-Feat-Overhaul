@@ -70,6 +70,11 @@
                     <attribute id="UUID" type="guid" value="4598977b-4e02-4133-a5e9-7e7286007d98" />
                 </node>
                 <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Polearm Master ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_PolearmMaster_Strength,APO_PolearmMaster_Dexterity" />
+                    <attribute id="UUID" type="guid" value="a755232b-d0aa-4679-a51f-2c2fd9bc1347" />
+                </node>
+                <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="War Caster ASI Passives" />
                     <attribute id="Passives" type="LSString" value="APO_WarCaster_Intelligence,APO_WarCaster_Wisdom,APO_WarCaster_Charisma" />
                     <attribute id="UUID" type="guid" value="e854378a-6d47-4e31-aba9-b189ae35c8fd" />

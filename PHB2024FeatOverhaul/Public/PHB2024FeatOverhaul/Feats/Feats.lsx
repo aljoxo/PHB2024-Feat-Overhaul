@@ -158,6 +158,14 @@
                 	<attribute id="UUID" type="guid" value="681d5307-f0ed-4c94-8cf0-db0c51116f56" />
                 </node>
                 <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="PolearmMaster" />
+                    <attribute id="PassivesAdded" type="LSString" value="PolearmMaster_AttackOfOpportunity;PolearmMaster_BonusAttack" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(a755232b-d0aa-4679-a51f-2c2fd9bc1347,1)" />
+                    <!-- Maybe debatable, difficult to determine what the correct move here is since I can not check for STR or DEX -->
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Strength',13)" />
+                    <attribute id="UUID" type="guid" value="fdf0be80-cc1e-4501-bd2e-7a1ea737362c" />
+                </node>
+                <node id="Feat">
                     <!-- Speedy -->
                 	<attribute id="Name" type="FixedString" value="Mobile" />
                 	<attribute id="PassivesAdded" type="LSString" value="Mobile_PassiveBonuses;Mobile_CounterAttackOfOpportunity;Mobile_DashAcrossDifficultTerrain" />
