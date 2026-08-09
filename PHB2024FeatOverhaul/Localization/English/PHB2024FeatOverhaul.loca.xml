@@ -220,6 +220,13 @@
 	<content contentuid="h084cff10g3b8dg4ac8gab9eg8f6327a8e415" version="1">Savage Attacker: Strength</content>
 	<content contentuid="hc333663fg0b99g4db1g9660g61d248aab1eb" version="1">Savage Attacker: Dexterity</content>
 
+	<!-- Sentinel -->
+	<content contentuid="hc6f345b0g9a58g4987gbc4dga8e0fcc46cfb" version="1">Sentinel: Guardian</content>
+	<content contentuid="h87ecf624g9cdeg430eg8fe8g0f9ff1f5b508" version="1">When a creature within range takes the &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt; action, you may make an opportunity attack against them.</content>
+	<content contentuid="h74703875g7ea5g4a42ga01fg8070fc940201" version="1">Sentinel: Strength</content>
+	<content contentuid="h25c2bbe8g48bfg4419g83c7ga13af6668f96" version="1">Sentinel: Dexterity</content>
+	<content contentuid="h2d3989f7g9f20g4042g9388g51ca9bd37d85" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When an enemy within melee range takes the &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengage&lt;/LSTag&gt; action or attacks an ally, you can use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to make a weapon attack against that enemy. Target ally must not have the Sentinel Feat.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt;, and when you hit a creature with an Opportunity Attack, it can no longer move for the rest of its turn.</content>
+	
 	<!-- War Caster -->
 	<content contentuid="h42b42d15g1315g4199g9977ge59677fba327" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on a spell.&lt;br&gt;&lt;br&gt;You can also use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_ShockingGrasp"&gt;Shocking Grasp&lt;/LSTag&gt; at a target moving out of melee range.</content>
 	<content contentuid="hda4511e5g00aeg4c39g89bbgda442904d811" version="1">War Caster: Intelligence</content>

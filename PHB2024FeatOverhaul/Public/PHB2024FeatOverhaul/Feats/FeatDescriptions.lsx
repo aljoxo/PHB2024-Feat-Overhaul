@@ -209,6 +209,13 @@
 					<attribute id="UUID" type="guid" value="5551971b-22e1-4107-afe0-28d568fb3446" />
 				</node>
 				<node id="FeatDescription">
+					<attribute id="Description" type="TranslatedString" handle="h2d3989f7g9f20g4042g9388g51ca9bd37d85" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h29babc87g541ag403bgba9dg41739c982db9" version="2" />
+					<attribute id="ExactMatch" type="FixedString" value="Sentinel" />
+					<attribute id="FeatId" type="guid" value="816b1554-9384-49e9-aaa0-05dd622e60f7" />
+					<attribute id="UUID" type="guid" value="5a63d60f-5dea-423f-8acf-14b76da93a50" />
+				</node>
+				<node id="FeatDescription">
 					<attribute id="Description" type="TranslatedString" handle="h93a5e38fg1549g460ag8accg69242d30066f" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="heac419c8g98e3g4760gbb66g490370c0397b" version="1" />
 					<attribute id="ExactMatch" type="FixedString" value="Mobile" />

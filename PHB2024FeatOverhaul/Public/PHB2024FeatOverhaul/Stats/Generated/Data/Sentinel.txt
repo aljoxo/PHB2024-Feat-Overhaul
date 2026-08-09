@@ -1,0 +1,81 @@
+// +1 STR or DEX
+// Guardian: When a creature w/in 5 feet takes the Disengage action or hits a target other than you, make an op atk
+// Halt: When you hit with an op atk, the creature's speed becomes 0 for the rest of the current turn
+
+new entry "Sentinel_Attack"
+type "PassiveData"
+using "Sentinel_Attack"
+// Sentinel: Guardian
+data "DisplayName" "hc6f345b0g9a58g4987gbc4dga8e0fcc46cfb;1"
+// // When an enemy within melee range attacks an ally, you can use a reaction to make a weapon attack against that enemy.
+// data "Description" "h09141465g4771g4c38g8e53g1fbc3b0153e1;4"
+// data "Icon" "PassiveFeature_Sentinel_Attack"
+// data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_Sentinel);UnlockInterrupt(Interrupt_Sentinel_Disengage)"
+
+new entry "Interrupt_Sentinel"
+type "InterruptData"
+using "Interrupt_Sentinel"
+// // Sentinel
+// data "DisplayName" "h81cd2db2gb571g4397g806dg178adf362411;1"
+// // When an ally is attacked by a nearby creature, you may strike the attacker.
+// data "Description" "hcecec268gab67g410cg88d4g7d2241a98bb2;1"
+// data "Icon" "PassiveFeature_Sentinel_Attack"
+// data "InterruptContext" "OnCastHit"
+// data "InterruptContextScope" "Nearby"
+// data "Container" "YesNoDecision"
+// data "Conditions" "not Self(context.Target,context.Observer) and not Self(context.Source,context.Observer) and Ally(context.Target, context.Observer) and Enemy(context.Source, context.Observer) and not HasPassive('Sentinel_Attack',context.Target) and IsAbleToReact(context.Observer) and IsMeleeAttack() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Source) and not AnyEntityIsItem() and HasLastAttackTriggered()"
+data "Conditions" "Goon_BasicHarmfulInterruptConditions() and not Self(context.Target,context.Observer) and not Self(context.Source,context.Observer) and Ally(context.Target, context.Observer) and Enemy(context.Source, context.Observer) and not HasPassive('Sentinel_Attack',context.Target) and IsAbleToReact(context.Observer) and IsMeleeAttack() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Source) and not AnyEntityIsItem() and HasLastAttackTriggered()"
+// data "Properties" "UseAttack(OBSERVER_SOURCE)"
+// data "Cost" "ReactionActionPoint:1"
+// data "InterruptDefaultValue" "Ask;Enabled"
+// data "EnableCondition" "not HasAnyStatus({'SG_Polymorph','SG_Blinded'},{},{'WILDSHAPE_MYRMIDON_AIR_PLAYER','WILDSHAPE_MYRMIDON_AIR_PLAYER_12','WILDSHAPE_MYRMIDON_FIRE_PLAYER','WILDSHAPE_MYRMIDON_FIRE_PLAYER_12','WILDSHAPE_MYRMIDON_WATER_PLAYER','WILDSHAPE_MYRMIDON_WATER_PLAYER_12',}) or Tagged('MINDFLAYER') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'});"
+data "EnableCondition" "((not HasStatus('SG_Polymorph') or Goon_IsUnrestrictedPolymorphStatus())) and (not HasStatus('SG_Blinded') or Goon_CanIgnoreBlindness())"
+// data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "Interrupt_Sentinel_Disengage"
+type "InterruptData"
+using "Interrupt_Sentinel"
+// When a creature within range takes the <LSTag Type="Spell" Tooltip="Shout_Disengage">Disengage</LSTag> action, you may make an opportunity attack against them.
+data "Description" "h87ecf624g9cdeg430eg8fe8g0f9ff1f5b508;1"
+data "Conditions" "Goon_BasicHarmfulInterruptConditions() and not Self(context.Source, context.Observer) and Enemy(context.Source, context.Observer) and SpellId('Shout_Disengage') and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Source) and not AnyEntityIsItem()"
+
+// new entry "Sentinel_ZeroSpeed"
+// type "PassiveData"
+// // Sentinel: Snare
+// data "DisplayName" "h5d1804e6g83a8g4cefga5b0g89437047cae3;4"
+// // When you hit a creature with an <LSTag Tooltip="OpportunityAttack">Opportunity Attack</LSTag>, it can no longer move for the rest of its turn.
+// data "Description" "h78aadfb6g3438g4bdcg948fg08900665571d;5"
+// data "Icon" "PassiveFeature_Sentinel_ZeroSpeed"
+// data "Properties" "Highlighted"
+
+// new entry "Target_Sentinel_AttackOfOpportunity"
+// type "SpellData"
+// data "SpellType" "Target"
+// using "Target_MainHandAttack"
+// data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);ApplyStatus(SENTINEL,100,1)"
+// data "Icon" "PassiveFeature_Sentinel_Attack"
+// data "TooltipStatusApply" "ApplyStatus(SENTINEL,100,1)"
+
+new entry "APO_Sentinel_Strength"
+type "PassiveData"
+// Sentinel: Strength
+data "DisplayName" "h74703875g7ea5g4a42ga01fg8070fc940201;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_Sentinel_Dexterity"
+type "PassiveData"
+// Sentinel: Dexterity
+data "DisplayName" "h25c2bbe8g48bfg4419g83c7ga13af6668f96;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"

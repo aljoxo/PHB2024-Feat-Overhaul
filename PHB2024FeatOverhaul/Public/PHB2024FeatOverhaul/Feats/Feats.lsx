@@ -185,6 +185,12 @@
                 	<attribute id="UUID" type="guid" value="e061a323-3430-4cff-88d3-5eae7a1779a4" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Sentinel" />
+                	<attribute id="PassivesAdded" type="LSString" value="Sentinel_Attack;Sentinel_ZeroSpeed;Sentinel_OpportunityAdvantage" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(,1)" />
+                	<attribute id="UUID" type="guid" value="816b1554-9384-49e9-aaa0-05dd622e60f7" />
+                </node>
+                <node id="Feat">
                     <!-- Speedy -->
                 	<attribute id="Name" type="FixedString" value="Mobile" />
                 	<attribute id="PassivesAdded" type="LSString" value="Mobile_PassiveBonuses;Mobile_CounterAttackOfOpportunity;Mobile_DashAcrossDifficultTerrain" />
