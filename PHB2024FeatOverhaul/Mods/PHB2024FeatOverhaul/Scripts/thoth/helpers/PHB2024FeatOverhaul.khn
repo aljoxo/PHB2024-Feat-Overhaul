@@ -10,3 +10,22 @@ function APO_DDIsFlatValueInterruptInteresting(max, entity)
     local result = rollSuccess and ((context.InterruptedRoll.Total - context.InterruptedRoll.Difficulty) < max)
     return ConditionResult(result)
 end
+
+-- another function stolen from cahoot :)
+function APO_RitualCasterCheck()
+    return 
+	SpellId('Target_AntHaul') | IsSpellChildOrVariantFromContext('Target_AntHaul') 
+	| SpellId('Target_Ceremony') | IsSpellChildOrVariantFromContext('Target_Ceremony') | SpellId('Target_Ceremony_BlessWater') | IsSpellChildOrVariantFromContext('Target_Ceremony_BlessWater') | SpellId('Target_Ceremony_ComingOfAge') | IsSpellChildOrVariantFromContext('Target_Ceremony_ComingOfAge') | SpellId('Target_Ceremony_Dedication') | IsSpellChildOrVariantFromContext('Target_Ceremony_Dedication') 
+	| SpellId('Shout_CommuneWithNature') | IsSpellChildOrVariantFromContext('Shout_CommuneWithNature') 
+	| SpellId('Shout_DetectMagic') | IsSpellChildOrVariantFromContext('Shout_DetectMagic') 
+	| SpellId('Shout_DetectThoughts') | IsSpellChildOrVariantFromContext('Shout_DetectThoughts') 
+	| SpellId('Shout_DisguiseSelf') | IsSpellChildOrVariantFromContext('Shout_DisguiseSelf') | SpellId('Shout_DisguiseSelf_Dragonborn_Female') | SpellId('Shout_DisguiseSelf_Dragonborn_Male') | SpellId('Shout_DisguiseSelf_HalfOrc_Female') | SpellId('Shout_DisguiseSelf_HalfOrc_Male') | SpellId('Shout_DisguiseSelf_Drow_Female') | SpellId('Shout_DisguiseSelf_Drow_Male') | SpellId('Shout_DisguiseSelf_Dwarf_Female') | SpellId('Shout_DisguiseSelf_Dwarf_Male') | SpellId('Shout_DisguiseSelf_Elf_Female') | SpellId('Shout_DisguiseSelf_Elf_Male') | SpellId('Shout_DisguiseSelf_Githyanki_Female') | SpellId('Shout_DisguiseSelf_Githyanki_Male') | SpellId('Shout_DisguiseSelf_Gnome_Female') | SpellId('Shout_DisguiseSelf_Gnome_Male') | SpellId('Shout_DisguiseSelf_HalfElf_Female') | SpellId('Shout_DisguiseSelf_HalfElf_Male') | SpellId('Shout_DisguiseSelf_Halfling_Female') | SpellId('Shout_DisguiseSelf_Halfling_Male') | SpellId('Shout_DisguiseSelf_Human_Female') | SpellId('Shout_DisguiseSelf_Human_Male') | SpellId('Shout_DisguiseSelf_Tiefling_Female') | SpellId('Shout_DisguiseSelf_Tiefling_Male') 
+	| SpellId('Target_Jump') | IsSpellChildOrVariantFromContext('Target_Jump') 
+	| SpellId('Shout_FeatherFall') | IsSpellChildOrVariantFromContext('Shout_FeatherFall') 
+	| SpellId('Target_FindFamiliar') | IsSpellChildOrVariantFromContext('Target_FindFamiliar') | SpellId('Target_FindFamiliar_Rat') | SpellId('Target_FindFamiliar_Spider') | SpellId('Target_FindFamiliar_Cat') | SpellId('Target_FindFamiliar_Crab') | SpellId('Target_FindFamiliar_Frog') | SpellId('Target_FindFamiliar_Raven') | SpellId('Target_FindFamiliar_Dog') 
+	| SpellId('Target_Longstrider') | IsSpellChildOrVariantFromContext('Target_Longstrider') 
+	| SpellId('Shout_SpeakWithAnimals') | IsSpellChildOrVariantFromContext('Shout_SpeakWithAnimals') 
+	| SpellId('Target_SpeakWithDead') | IsSpellChildOrVariantFromContext('Target_SpeakWithDead') 
+	| SpellId('Target_UnseenServant') | IsSpellChildOrVariantFromContext('Target_UnseenServant') 
+	| SpellId('Shout_WaterWalk') | IsSpellChildOrVariantFromContext('Shout_WaterWalk')
+end

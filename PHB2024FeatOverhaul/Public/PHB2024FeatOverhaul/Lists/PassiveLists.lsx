@@ -75,6 +75,11 @@
                     <attribute id="UUID" type="guid" value="a755232b-d0aa-4679-a51f-2c2fd9bc1347" />
                 </node>
                 <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Ritual Caster ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_RitualCaster_Intelligence,APO_RitualCaster_Wisdom,APO_RitualCaster_Charisma" />
+                    <attribute id="UUID" type="guid" value="b0e58d42-004f-4acc-92c8-1b5eb234800b" />
+                </node>
+                <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="War Caster ASI Passives" />
                     <attribute id="Passives" type="LSString" value="APO_WarCaster_Intelligence,APO_WarCaster_Wisdom,APO_WarCaster_Charisma" />
                     <attribute id="UUID" type="guid" value="e854378a-6d47-4e31-aba9-b189ae35c8fd" />

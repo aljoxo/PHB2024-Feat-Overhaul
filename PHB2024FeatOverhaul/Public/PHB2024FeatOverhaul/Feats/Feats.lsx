@@ -172,6 +172,13 @@
                     <attribute id="UUID" type="guid" value="b13c4744-1d45-42da-b92c-e09f598ab1c3" />
                 </node>
                 <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="RitualCaster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="APO_RitualCaster_QuickRitual"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(e3348409-85de-4ed0-91a3-ba417bf1426e,6,0,,,,AlwaysPrepared);SelectPassives(b0e58d42-004f-4acc-92c8-1b5eb234800b,1)"/>
+                    <attribute id="UUID" type="guid" value="f3370916-6b35-4c5b-af36-19ca888cb43e"/>
+                </node>
+                <node id="Feat">
                     <!-- Speedy -->
                 	<attribute id="Name" type="FixedString" value="Mobile" />
                 	<attribute id="PassivesAdded" type="LSString" value="Mobile_PassiveBonuses;Mobile_CounterAttackOfOpportunity;Mobile_DashAcrossDifficultTerrain" />

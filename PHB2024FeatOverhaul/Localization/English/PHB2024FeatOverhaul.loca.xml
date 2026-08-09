@@ -203,6 +203,17 @@
 	<content contentuid="hf07dd167g58e0g413agab7fg5848566c2842" version="1">Resilient</content>
 	<content contentuid="hb7bc2d0fgc80ag4efdg9338gef0991d1c2a9" version="1">You increase an &lt;LSTag Tooltip="Abilities"&gt;Ability&lt;/LSTag&gt; by 1 and gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in that Ability's &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
 
+	<!-- Ritual Caster -->
+	<content contentuid="h7d8b7821gab1cg4f53g8a0eg763d43241315" version="1">Ritual Caster: Quick Ritual</content>
+	<content contentuid="h09313bc4g5b80g4c59gad63g1270087d981c" version="1">You can cast a &lt;LSTag Tooltip="RitualSpell"&gt;ritual spell&lt;/LSTag&gt; in combat without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+	<content contentuid="h8f9f19a8gac5dg43f9gb09bg8ebed7be668b" version="1">Ritual Caster: Quick Ritual</content>
+	<content contentuid="h9d995d04ge84fg45feg8db4gd0b227b56681" version="1">Entity's next &lt;LSTag Tooltip="RitualSpell"&gt;ritual spells&lt;/LSTag&gt; will be cast without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+	<content contentuid="hdc0685c1g6b75g4ba6g998ag52e16585a7c8" version="1">Ritual Caster: Intelligence</content>
+	<content contentuid="h8d3a785dg6752g4ed1gb1d0gc3086d8d958a" version="1">Ritual Caster: Wisdom</content>
+	<content contentuid="hf5e78890gf738g4b67gbaf5g5e32ddee9fad" version="1">Ritual Caster: Charisma</content>
+	<content contentuid="" version="1">Ritual Caster</content>
+	<content contentuid="" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn 6 &lt;LSTag Tooltip="RitualSpell"&gt;ritual spells&lt;/LSTag&gt; of your choice.&lt;br&gt;&lt;br&gt;Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, you can cast a ritual spell in combat without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
+
 	<!-- War Caster -->
 	<content contentuid="h42b42d15g1315g4199g9977ge59677fba327" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on a spell.&lt;br&gt;&lt;br&gt;You can also use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_ShockingGrasp"&gt;Shocking Grasp&lt;/LSTag&gt; at a target moving out of melee range.</content>
 	<content contentuid="hda4511e5g00aeg4c39g89bbgda442904d811" version="1">War Caster: Intelligence</content>

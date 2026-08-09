@@ -1,0 +1,80 @@
+// +1 INT, WIS, CHA
+// Ritual Spells: Choose 6 Ritual Spells
+// Quick Ritual: once per long rest, you can cast ritual spells in combat for free (idk this is close enough of an adaptation) (toggle like freecast in vanilla)
+
+new entry "APO_RitualCaster_QuickRitual"
+type "PassiveData"
+// Ritual Caster: Quick Ritual
+data "DisplayName" "h7d8b7821gab1cg4f53g8a0eg763d43241315;1"
+// You can cast a &lt;LSTag Tooltip="RitualSpell"&gt;ritual spell&lt;/LSTag&gt; in combat without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.
+data "Description" "h09313bc4g5b80g4c59gad63g1270087d981c;1"
+data "Icon" "PassiveFeature_RitualCaster_FreeSpells"
+data "Properties" "Highlighted;ToggledDefaultAddToHotbar;IsToggled"
+data "EnabledConditions" "Combat() and not HasStatus('APO_RITUALCASTER_FREECAST_USED')"
+data "EnabledContext" "OnCastResolved;OnStatusApplied;OnStatusRemoved"
+data "Conditions" "APO_RitualCasterCheck()"
+data "StatsFunctors" ""
+data "StatsFunctorContext" ""
+data "ToggleOnFunctors" "ApplyStatus(APO_RITUALCASTER_FREECAST,100,-1);ApplyStatus(APO_RITUALCASTER_FREECAST_TRACKER,100,-1)"
+data "ToggleOffFunctors" "RemoveStatus(APO_RITUALCASTER_FREECAST);RemoveStatus(APO_RITUALCASTER_FREECAST_TRACKER)"
+data "ToggleOffContext" "OnCastResolved"
+
+// Statuses for the free in-combat Ritual spell cast
+new entry "APO_RITUALCASTER_FREECAST"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h8f9f19a8gac5dg43f9gb09bg8ebed7be668b;1"
+data "Description" "h9d995d04ge84fg45feg8db4gd0b227b56681;1"
+data "Icon" "PassiveFeature_RitualCaster_FreeSpells"
+data "StackId" "APO_RITUALCASTER_FREECAST"
+data "Boosts" "UnlockSpellVariant(APO_RitualCasterCheck(),ModifyIconGlow(),ModifyUseCosts(Replace,SpellSlot,0,-1,SpellSlot),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup))"
+data "StatusPropertyFlags" "DisableCombatlog"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "APO_RITUALCASTER_FREECAST_TRACKER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "APO_RITUALCASTER_FREECAST_TRACKER"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;IgnoreResting"
+data "RemoveEvents" "OnSpellCast"
+data "RemoveConditions" "HasStatus('APO_RITUALCASTER_FREECAST',context.Source)"
+data "OnRemoveFunctors" "IF(HasStatus('APO_RITUALCASTER_FREECAST',context.Source)):ApplyStatus(APO_RITUALCASTER_FREECAST_USED,100,-1)"
+
+new entry "APO_RITUALCASTER_FREECAST_USED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "APO_RITUALCASTER_FREECAST_USED"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;ApplyToDead;RemoveOnLongRest"
+
+new entry "APO_RitualCaster_Intelligence"
+type "PassiveData"
+// Ritual Caster: Intelligence
+data "DisplayName" "hdc0685c1g6b75g4ba6g998ag52e16585a7c8;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_RitualCaster_Wisdom"
+type "PassiveData"
+// Ritual Caster: Wisdom
+data "DisplayName" "h8d3a785dg6752g4ed1gb1d0gc3086d8d958a;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "APO_RitualCaster_Charisma"
+type "PassiveData"
+// Ritual Caster: Charisma
+data "DisplayName" "hf5e78890gf738g4b67gbaf5g5e32ddee9fad;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"

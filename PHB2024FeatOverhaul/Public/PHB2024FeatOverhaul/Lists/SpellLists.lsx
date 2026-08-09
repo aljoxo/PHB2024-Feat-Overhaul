@@ -15,6 +15,12 @@
           <attribute id="Spells" type="LSString" value="Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Target_Command_Container;Target_CompelledDuel;Shout_DetectEvilAndGood;Target_DissonantWhispers;Target_Heroism;Target_Hex;Target_HuntersMark;Target_Sleep;Shout_SpeakWithAnimals;Target_HideousLaughter" />
           <attribute id="UUID" type="guid" value="a752bc58-78a8-4328-a593-4dd7ea093d5a" />
         </node>
+        <!-- Ritual Caster Spell List -->
+        <node id="SpellList">
+            <attribute id="Name" type="FixedString" value="Ritual Caster Ritual Spells" />
+            <attribute id="Spells" type="LSString" value="Target_AntHaul;Target_Ceremony_Ritual;Shout_CommuneWithNature;Shout_DetectMagic;Shout_DetectThoughts;Shout_DisguiseSelf;Shout_FeatherFall;Target_FindFamiliar;Target_Jump;Target_Longstrider;Shout_SpeakWithAnimals;Target_SpeakWithDead;Target_UnseenServant_Ritual;Shout_WaterWalk" />
+            <attribute id="UUID" type="guid" value="e3348409-85de-4ed0-91a3-ba417bf1426e" />
+        </node>
         <!-- Shadow Touched -->
         <node id="SpellList">
           <attribute id="Name" type="FixedString" value="Shadow Touched: Invisibility" />
