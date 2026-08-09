@@ -257,7 +257,7 @@
 	<content contentuid="hc8404096g33aag4de9ga756g1b28364d355b" version="1">Skill Expert: Intelligence</content>
 	<content contentuid="h9efd11bfgf117g439eg9c2ag8089bc6808d6" version="1">Skill Expert: Wisdom</content>
 	<content contentuid="hff9edf03gb021g4d83gb7bdgb22212034d65" version="1">Skill Expert: Charisma</content>
-	<content contentuid="h6f27d9a4gafa1g4e83g8812g6a5d0783e245" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in 1 &lt;LSTag Tooltip="Skill"&gt;Skill&lt;/LSTag&gt; of your choice and &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; with one skill you are proficient in.</content>
+	<content contentuid="h6f27d9a4gafa1g4e83g8812g6a5d0783e245" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in 3 &lt;LSTag Tooltip="Skill"&gt;Skill&lt;/LSTag&gt; of your choice.</content>
 	<content contentuid="h2944ce15g4599g428cgb001g4fb8fbf4859a" version="1">Skill Expert</content>
 
 	<!-- Spell Sniper -->
