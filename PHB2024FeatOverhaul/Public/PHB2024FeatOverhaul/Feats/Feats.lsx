@@ -144,6 +144,13 @@
                 	<attribute id="UUID" type="guid" value="455fc2d5-1c77-40e7-a010-0b51044ae74b" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="MediumArmorMaster" />
+                	<attribute id="PassivesAdded" type="LSString" value="MediumArmorMaster" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(fe82ac0d-ad1e-4292-bf25-08cc1d15481f,1)" />
+                	<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency('MediumArmor')" />
+                	<attribute id="UUID" type="guid" value="17ac3605-9a8a-41f3-9504-ffc17fffa03e" />
+                </node>
+                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="ModeratelyArmored" />
                 	<attribute id="PassivesAdded" type="LSString" value="ModeratelyArmored" />
                 	<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency('LightArmor')" />

@@ -60,6 +60,11 @@
                     <attribute id="UUID" type="guid" value="bc29d42c-312c-4e35-9c8c-835b51c67849" />
                 </node>
                 <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Medium Armor Master ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_MediumArmorMaster_Strength,APO_MediumArmorMaster_Dexterity" />
+                    <attribute id="UUID" type="guid" value="fe82ac0d-ad1e-4292-bf25-08cc1d15481f" />
+                </node>
+                <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="Moderately Armored ASI Passives" />
                     <attribute id="Passives" type="LSString" value="APO_ModeratelyArmored_Strength,APO_ModeratelyArmored_Dexterity" />
                     <attribute id="UUID" type="guid" value="4598977b-4e02-4133-a5e9-7e7286007d98" />
