@@ -187,8 +187,14 @@
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="Sentinel" />
                 	<attribute id="PassivesAdded" type="LSString" value="Sentinel_Attack;Sentinel_ZeroSpeed;Sentinel_OpportunityAdvantage" />
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(,1)" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(6bc38c58-0bdb-45d4-b214-45507b0ef37f,1)" />
                 	<attribute id="UUID" type="guid" value="816b1554-9384-49e9-aaa0-05dd622e60f7" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Sharpshooter" />
+                	<attribute id="PassivesAdded" type="LSString" value="Sharpshooter_AllIn;Sharpshooter_Bonuses" />
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
+                	<attribute id="UUID" type="guid" value="010f717e-c6e2-45cf-bbf9-298a72db4cad" />
                 </node>
                 <node id="Feat">
                     <!-- Speedy -->

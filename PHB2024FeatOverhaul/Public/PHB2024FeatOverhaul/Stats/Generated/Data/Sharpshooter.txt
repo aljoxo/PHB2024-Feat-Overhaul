@@ -1,0 +1,6 @@
+// 13 DEX
+// +1 DEX
+// No dis on melee ranged attacks with bows
+// Long Range replaced with Low Ground
+// Bypass Cover replaced with Hamstring, 
+
