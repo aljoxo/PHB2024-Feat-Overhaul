@@ -4,6 +4,12 @@
   <region id="SpellLists">
     <node id="root">
       <children>
+        <!-- Cold Caster -->
+        <node id="SpellList">
+          <attribute id="Name" type="FixedString" value="Cold Caster: Ray of Frost" />
+          <attribute id="Spells" type="LSString" value="Projectile_RayOfFrost" />
+          <attribute id="UUID" type="guid" value="dc691b54-9988-4775-9596-4dfc67b8d8be" />
+        </node>
         <!-- Fey Touched -->
         <node id="SpellList">
           <attribute id="Name" type="FixedString" value="Fey Touched: Misty Step" />

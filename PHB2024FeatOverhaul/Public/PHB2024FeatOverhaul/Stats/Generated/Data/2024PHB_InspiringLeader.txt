@@ -1,0 +1,26 @@
+// Req 13 CHA
+// +1 CHA
+// 1/SR, grant Temp HP equal to Character Level + CHA Mod
+// This feat exists unfinished in the vanilla game, so this is just implementing it
+
+new entry "InspiringLeader"
+type "PassiveData"
+data "DisplayName" "hbfc2e31bg1812g40c5gb7adg9e385639db27;1"
+data "Description" "ha7fcba2cgc837g4724g8a35g3da8a4056905;1"
+data "DescriptionParams" "GainTemporaryHitPoints(max(1,Cause.Level)+(Cause.CharismaModifier))"
+data "Icon" "Action_InspiringLeader"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_InspiringLeader);Ability(Charisma,1)"
+
+new entry "Shout_InspiringLeader"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_InspiringLeader"
+data "SpellProperties" "ApplyStatus(INSPIRING_LEADER,100,-1);ApplyStatus(INSPIRING_LEADER_INSPIRED,100,-1)"
+
+new entry "INSPIRING_LEADER"
+type "StatusData"
+data "StatusType" "BOOST"
+using "INSPIRING_LEADER"
+data "Description" "h96859839g43d1g4bb5g9b13gf12700bd9ce0;1"
+data "Boosts" "TemporaryHP(Cause.Level+Cause.CharismaModifier)"

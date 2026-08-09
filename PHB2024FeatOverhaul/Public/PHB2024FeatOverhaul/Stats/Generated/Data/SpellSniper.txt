@@ -4,6 +4,9 @@
 // bypass cover replaced with learn a cantrip
 // ig IgnorePointBlankDisadvantage() doesn't work with spells since the argument is a WeaponFlag
 // maybe IF(HasStatus('FLANKED') and AttackType.RangedSpellAttack):Advantage(AttackRoll) ???
+// or maybe IF(Goon_DistanceCheck(1.5) and AttackType.RangedSpellAttack):Advantage(AttackRoll)
+
+// TO DO: Make the feat
 
 new entry "APO_SpellSniper_Intelligence"
 type "PassiveData"

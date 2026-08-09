@@ -305,9 +305,57 @@
 	<content contentuid="h33aaa5f7gbe2bg4285g9b15g79ae9d07d611" version="1">Putrefy</content>
 	<content contentuid="h99969785g2b58g4555g8d98g5bcb20dc2b10" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;When dealing Necrotic damage, you roll your damage dice twice and use the highest result. Additionally, when you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.</content>
 	
-	
+	<!-- Cold Caster -->
+	<content contentuid="ha2af5949gedf0g48a4gafc3g5f08c68229bc" version="1">Frostbite</content>
+	<content contentuid="h1bd09711g5a70g4366g8bc6gb68389279c61" version="1">This entity's next &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; is reduced by [1].</content>
+	<content contentuid="hf9ae0f45g5dc7g42a1g9dc2ge141b4967343" version="1">Cold Caster: Intelligence</content>
+	<content contentuid="h472f21adg6e62g4648gbeefg45958ad6e058" version="1">Cold Caster: Wisdom</content>
+	<content contentuid="h2e5abfc0gd190g4009g86abgc8a3f073e969" version="1">Cold Caster: Charisma</content>
+	<content contentuid="hde6f2d55g538dg4229ga08bg8ac0fcbec5b1" version="1">Cold Caster</content>
+	<content contentuid="hcdff72fbgb3c5g43e3gafdfgcaf67769db29" version="1">You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt; cantrip. When dealing Cold damage, you roll your damage dice twice and use the highest result.</content>
+	<content contentuid="h7fdb4e93g8ecbg41cegac12gda793daf6d5d" version="1">Cold Caster: Frostbite</content>
+	<content contentuid="hf8c24c88g88fdg4c4fgb4acg3bafe10bb281" version="1">When you deal Cold damage, you can afflict the target with &lt;LSTag Type="Status" Tooltip="APO_FROSTBITE"&gt;Frostbite&lt;/LSTag&gt; the target until the end of your next turn.</content>
+	<content contentuid="h144f26abg9c66g4ee3g8e39gd534915f0dfb" version="1">Cold Caster</content>
+	<content contentuid="hdd15741eg8e6fg4b10gbcb8gba54d21e9c5e" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt; cantrip and when dealing Cold damage, you roll your damage dice twice and use the highest result.&lt;br&gt;&lt;br&gt;When you deal Cold damage, you can afflict the target with &lt;LSTag Type="Status" Tooltip="APO_FROSTBITE"&gt;Frostbite&lt;/LSTag&gt; the target until the end of your next turn.</content>
+	<content contentuid="" version="1"></content>
 
+	<!-- Inspiring Leader -->
+	<content contentuid="h96859839g43d1g4bb5g9b13gf12700bd9ce0" version="1">Affected entity has been fortified by courageous words, granting it &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;. Can't gain temporary hit points this way again until it has finished a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="hdb30fd98g56ffg4158g9020g81049aea8351" version="1">Inspiring Leader</content>
+	<content contentuid="h3d60a7c1g0c4ag4a57gbc0eg4293dac12607" version="1">Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;Inspire your companions, shoring up their resolve to fight. Grant a number of nearby allies &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your level plus Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;.</content>
+	<content contentuid="hbfc2e31bg1812g40c5gb7adg9e385639db27" version="1">Inspiring Leader</content>
+	<content contentuid="ha7fcba2cgc837g4724g8a35g3da8a4056905" version="1">Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;Inspire your companions, shoring up their resolve to fight. Grant a number of nearby allies [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 	
+	<!-- Fey Touched -->
+	<content contentuid="hdf466716g29b0g46e8gb2b5gd340ee4c67e5" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt; and choose a level 1 Divination or Enchantment spell.&lt;br&gt;&lt;br&gt;Both &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt; and the selected spell can be cast without consuming a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h2fce2ffbga335g4e6bg8e2fg5fca1fc1d4ac" version="1">Fey Touched</content>
+	<content contentuid="h2607b691g4ae1g4830g90c7gc314adc3e7f6" version="1">You increased your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by 1, learned &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt;, and learned a level 1 Divination or Enchantment spell.</content>
+	<content contentuid="hf2a6b90eg8bafg4611g81degd16f3fddc9ec" version="1">Fey Touched</content>
+	<content contentuid="hf1dac87dgd75ag4546g8dd4gf6670f298858" version="1">Fey Touched: Intelligence</content>
+	<content contentuid="h4a4db3e2g4573g4e7bgb19dg2e3cfd64e970" version="1">Fey Touched: Wisdom</content>
+	<content contentuid="h209169deg2da3g4326g8dd9g4a0be748e4b8" version="1">Fey Touched: Charisma</content>
+	
+	<!-- Shadow Touched -->
+	<content contentuid="hd2cf797fg160dg44a4g8683g845abf33f36b" version="1">Shadow Touched</content>
+	<content contentuid="h289e0a93gae98g4769g8e23g6fa02800858e" version="1">You increased your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by 1, learned &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt;, and learned a level 1 Illusion or Necromancy spell.</content>
+	<content contentuid="h9f683735g0c91g4380g913fg97c6baf5c636" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt; and choose a level 1 Illusion or Necromancy spell.&lt;br&gt;&lt;br&gt;Both &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt; and the selected spell can be cast without consuming a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
+	<content contentuid="h05412485g7f1ag4ecfgbea8g9181a4ed707c" version="1">Shadow Touched</content>
+	<content contentuid="h93b2b81ag8f66g4b0fgb4b1g1edc8f6708de" version="1">Shadow Touched: Intelligence</content>
+	<content contentuid="h981b5740gc092g439fg88fag1fbee6637119" version="1">Shadow Touched: Wisdom</content>
+	<content contentuid="h4ec2f95dg7eeag40c6g8c33gef88a0e542b2" version="1">Shadow Touched: Charisma</content>
+
+	<!-- Telekinetic -->
+	<content contentuid="h462c9b68gc499g48b3gaa1dg9151995f6179" version="1">Telekinetic: Shove</content>
+	<content contentuid="hb5cc59abg9a24g4579gba26gac0fcad35706" version="1">Try to telekinetically push a target away.</content>
+	<content contentuid="h2749c7ccgf25fg4bd2g9f08g696ac863ed7e" version="1">Telekinetic: Mage Hand</content>
+	<content contentuid="h8f006851g557dg4989ga742g9eb58271839b" version="1">Telekinetic</content>
+	<content contentuid="h5d0f0fe0gd5c3g405fg869fg00e176efcff3" version="1">You increased your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by 1, learned &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Telekinetic: Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.</content>
+	<content contentuid="h3dbb272cg789eg45feg8e12gffb87aacd04c" version="1">Telekinetic</content>
+	<content contentuid="h5b90c1f5g5db2g4a53g9088g8c778fb4bd7b" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Telekinetic: Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.</content>
+	<content contentuid="h7af59495g6937g4bdag83fbgec4509fb5155" version="1">Telekinetic: Intelligence</content>
+	<content contentuid="h54115a81g0d6fg4434gbfa7ge54c0bf75593" version="1">Telekinetic: Wisdom</content>
+	<content contentuid="h1f6e6d7eg0d0fg422cga0c2g6875a89799cc" version="1">Telekinetic: Charisma</content>
+
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

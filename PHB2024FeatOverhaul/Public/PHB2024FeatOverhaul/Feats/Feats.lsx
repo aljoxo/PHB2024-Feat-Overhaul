@@ -29,6 +29,12 @@
                 	<attribute id="UUID" type="guid" value="eab25714-15d6-4e26-b809-3fad832d0484" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="ColdCaster" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_ColdCaster;APO_ColdCaster_Frostbite" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(b27c9c49-d8ee-4f34-9627-79915e5bde39,1)" />
+                	<attribute id="UUID" type="guid" value="e07e460f-46b9-4e7d-afdb-b23059bcde2f" />
+                </node>
+                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="CrossbowExpert" />
                 	<attribute id="PassivesAdded" type="LSString" value="CrossbowExpert_PointBlank;CrossbowExpert_Wounding;CrossbowExpert_Proficiency;APO_CrossbowExpert_Dexterity" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
@@ -65,6 +71,12 @@
                 	<attribute id="UUID" type="guid" value="cec2d95b-451c-40f8-8e17-9e547d363e8e" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="FeyTouched" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_FeyTouched" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(49c14119-c608-494b-8dc3-a8adb4490e21,1);SelectSpells(a752bc58-78a8-4328-a593-4dd7ea093d5a,1,0,FeyTouchedSpell,,None,AlwaysPrepared,UntilShortRest)" />
+                	<attribute id="UUID" type="guid" value="4015f267-3cfb-4b1c-8b91-de38beb4d778" />
+                </node>
+                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="GreatWeaponMaster" />
                 	<attribute id="PassivesAdded" type="LSString" value="GreatWeaponMaster_BonusAttack;GreatWeaponMaster_BonusDamage;APO_GreatWeaponMaster_Strength" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Strength',13)" />
@@ -82,6 +94,12 @@
                     <attribute id="Selectors" type="LSString" value="SelectPassives(e86cb892-cda9-427b-94e5-0ba2bb3e246e,1)" />
                 	<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency('HeavyArmor')" />
                 	<attribute id="UUID" type="guid" value="0de08fff-ab18-442f-a0b1-f53e7be04c03" />
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="InspiringLeader"/>
+                    <attribute id="PassivesAdded" type="LSString" value="InspiringLeader"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Charisma',13)"/>
+                    <attribute id="UUID" type="guid" value="1571bd8f-3969-44cd-ad28-da0001ac43af"/>
                 </node>
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="LightlyArmored" />
@@ -197,6 +215,12 @@
                 	<attribute id="UUID" type="guid" value="816b1554-9384-49e9-aaa0-05dd622e60f7" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="ShadowTouched" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_ShadowTouched" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(dfab08bf-d8de-4c8a-a9f5-da16a1d0d267,1);SelectSpells(8559b2a7-2e2f-4832-a113-b21d3f49aa34,1,0,ShadowTouchedSpell,,None,AlwaysPrepared,UntilShortRest)" />
+                	<attribute id="UUID" type="guid" value="c14dd9ad-1b95-43b6-9727-3da34745283c" />
+                </node>
+                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="Sharpshooter" />
                 	<attribute id="PassivesAdded" type="LSString" value="Sharpshooter_AllIn;Sharpshooter_Bonuses;APO_Sharpshooter_Dexterity" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Dexterity',13)" />
@@ -231,6 +255,12 @@
                 	<attribute id="PassivesAdded" type="LSString" value="TavernBrawler" />
                 	<attribute id="Selectors" type="LSString" value="SelectPassives(15cf83cd-2517-474a-94c8-cd074643bd86,1)" />
                 	<attribute id="UUID" type="guid" value="be0889d2-f9aa-472d-b942-592bff0f1ef3" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Telekinetic" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_Telekinetic" />
+                	<attribute id="Selectors" type="LSString" value="SelectPassives(daae79d8-8fdc-4441-9130-10cd70df59ed,1)" />
+                	<attribute id="UUID" type="guid" value="b64676bc-c83b-4813-9f83-662f1575cdea" />
                 </node>
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="Tough" />

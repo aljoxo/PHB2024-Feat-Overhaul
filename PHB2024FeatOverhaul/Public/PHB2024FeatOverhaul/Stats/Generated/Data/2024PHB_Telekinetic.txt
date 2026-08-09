@@ -1,0 +1,83 @@
+// +1 INT, WIS, or CHA
+// Learn Mage Hand, can cast w/o Verbal or Somatic
+// As a Bonus action you can shove a creature (SourceSpellDC())
+// TO DO: Custom Icons
+
+new entry "APO_Telekinetic"
+type "PassiveData"
+// Telekinetic
+data "DisplayName" "h8f006851g557dg4989ga742g9eb58271839b;1"
+// You increased your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by 1, learned &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Telekinetic: Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.
+data "Description" "h5d0f0fe0gd5c3g405fg869fg00e176efcff3;1"
+data "Icon" "PassiveFeature_DarkDevotion"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_APO_MageHand_Telekinetic);UnlockSpell(Target_APO_Telekinetic_Shove)"
+
+new entry "Target_APO_MageHand_Telekinetic"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_MageHand"
+data "Cooldown" "OncePerTurnNoRealtime"
+// Telekinetic: Mage Hand
+data "DisplayName" "h2749c7ccgf25fg4bd2g9f08g696ac863ed7e;1"
+data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems"
+
+new entry "Target_APO_Telekinetic_Shove"
+type "SpellData"
+data "SpellType" "Target"
+data "Cooldown" "OncePerTurnNoRealtime"
+data "SpellRoll" "Item() or Dead() or SpellAutoResolveOnAlly(Ability.Strength,SourceSpellDC(),true)"
+data "SpellSuccess" "IF(not Ally()):Force(1.5),OriginToTarget,Aggressive);IF(Ally()):Force(1.5),OriginToTarget,Friendly)"
+data "TargetRadius" "18"
+data "TargetConditions" "Character() and not Self() and not Dead() and not Grounded()"
+data "Icon" "TadpoleSuperPower_PsionicPull"
+// Telekinetic: Shove
+data "DisplayName" "h462c9b68gc499g48b3gaa1dg9151995f6179;1"
+// Try to telekinetically push a target away.
+data "Description" "hb5cc59abg9a24g4579gba26gac0fcad35706;1
+data "TooltipAttackSave" "Strength"
+data "CastSound" "Spell_Cast_Tadpole_PsionicPull_L1to3"
+data "TargetSound" "Spell_Impact_Tadpole_PsionicPull_L1to3"
+data "CastTextEvent" "Cast"
+data "CycleConditions" "Enemy() and not Dead()"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;5e7e63e1-0e69-46e7-ade7-fe3dadcc9184,,;e9ad50df-e7f1-43a0-b782-4c08f92b0f5a,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "VerbalIntent" "Utility"
+data "PrepareEffect" "282bad87-4462-4c2e-a264-84ee0e725065"
+data "CastEffect" "456933cc-f8c3-42d9-ae4c-622d83391cc6"
+data "TargetEffect" "aafee3d2-0f5b-42b7-a91c-1397fb58dd25"
+data "BeamEffect" "7c5bb7d7-2549-4232-bc03-c97f57ff18a1"
+data "SpellFlags" "HasSomaticComponent;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;AddFallDamageOnLand"
+
+new entry "APO_Telekinetic_Intelligence"
+type "PassiveData"
+// Telekinetic: Intelligence
+data "DisplayName" "h7af59495g6937g4bdag83fbgec4509fb5155;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_Telekinetic_Wisdom"
+type "PassiveData"
+// Telekinetic: Wisdom
+data "DisplayName" "h54115a81g0d6fg4434gbfa7ge54c0bf75593;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "APO_Telekinetic_Charisma"
+type "PassiveData"
+// Telekinetic: Charisma
+data "DisplayName" "h1f6e6d7eg0d0fg422cga0c2g6875a89799cc;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"

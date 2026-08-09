@@ -4,14 +4,37 @@
 // Advantage on damage die for cold spells
 // Once per turn when you hit a creature with an attack roll and deal Cold damage, you apply Frostbite
 // Frostbite: creature subtracts 1d4 from the next saving throw it makes before the end of your next turn
+// TO DO: Custom Icon
+
+new entry "APO_ColdCaster"
+type "PassiveData"
+// Cold Caster
+data "DisplayName" "hde6f2d55g538dg4229ga08bg8ac0fcbec5b1;1"
+// You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt; cantrip. When dealing Cold damage, you roll your damage dice twice and use the highest result.
+data "Description" "hcdff72fbgb3c5g43e3gafdfgcaf67769db29;1"
+data "Icon" "PassiveFeature_ElementalAdept_Cold"
+data "Properties" "Highlighted"
+data "Boosts" "IF(HasDamageDoneForType(DamageType.Cold)):Reroll(Damage,20,false);UnlockSpell(Projectile_RayOfFrost)"
+
+new entry "APO_ColdCaster_Frostbite"
+type "PassiveData"
+// Cold Caster: Frostbite
+data "DisplayName" "h7fdb4e93g8ecbg41cegac12gda793daf6d5d;1"
+// When you deal Cold damage, you can afflict the target with &lt;LSTag Type="Status" Tooltip="APO_FROSTBITE"&gt;Frostbite&lt;/LSTag&gt; the target until the end of your next turn.
+data "Description" "hf8c24c88g88fdg4c4fgb4acg3bafe10bb281;1"
+data "Icon" "PassiveFeature_ElementalAdept_Cold"
+data "Properties" "Highlighted;OncePerTurn"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsDamageTypeCold()"
+data "StatsFunctors" "ApplyStatus(APO_FROSTBITE,100,1)"
 
 new entry "APO_FROSTBITE"
 type "StatusData"
 data "StatusType" "BOOST"
 // Frostbite
-data "DisplayName" ";1"
+data "DisplayName" "ha2af5949gedf0g48a4gafc3g5f08c68229bc;1"
 // This entity's next <LSTag Tooltip="SavingThrow">Saving Throw</LSTag> is reduced by [1].
-data "Description" ";1"
+data "Description" "h1bd09711g5a70g4366g8bc6gb68389279c61;1"
 data "DescriptionParams" "1d4"
 data "Icon" "statIcons_Mag_Increased_Damage_Cold"
 data "StackId" "APO_FROSTBITE"
@@ -21,3 +44,36 @@ data "StatusPropertyFlags" "TickingWithSource"
 data "RemoveConditions" "IsSavingThrow()"
 data "RemoveEvents" "OnAttacked"
 data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "APO_ColdCaster_Intelligence"
+type "PassiveData"
+// Cold Caster: Intelligence
+data "DisplayName" "hf9ae0f45g5dc7g42a1g9dc2ge141b4967343;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_ColdCaster_Wisdom"
+type "PassiveData"
+// Cold Caster: Wisdom
+data "DisplayName" "h472f21adg6e62g4648gbeefg45958ad6e058;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "APO_ColdCaster_Charisma"
+type "PassiveData"
+// Cold Caster: Charisma
+data "DisplayName" "h2e5abfc0gd190g4009g86abgc8a3f073e969;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"

@@ -1,0 +1,3 @@
+// STR or DEX +1
+// Savage Attacker with Piercing damage
+// When you score a critical hit that deals piercing damage, roll one additional damage die

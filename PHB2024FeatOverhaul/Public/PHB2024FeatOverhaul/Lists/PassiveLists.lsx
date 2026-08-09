@@ -114,6 +114,26 @@
                     <attribute id="Passives" type="LSString" value="APO_Putrefy_Strength,APO_Putrefy_Dexterity,APO_Putrefy_Constitution,APO_Putrefy_Intelligence,APO_Putrefy_Wisdom,APO_Putrefy_Charisma" />
                     <attribute id="UUID" type="guid" value="6aad47fc-48f0-48bc-8746-8a920d71041d" />
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Cold Caster ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_ColdCaster_Intelligence,APO_ColdCaster_Wisdom,APO_ColdCaster_Charisma" />
+                    <attribute id="UUID" type="guid" value="b27c9c49-d8ee-4f34-9627-79915e5bde39" />
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fey Touched ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_FeyTouched_Intelligence,APO_FeyTouched_Wisdom,APO_FeyTouched_Charisma" />
+                    <attribute id="UUID" type="guid" value="49c14119-c608-494b-8dc3-a8adb4490e21" />
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Shadow Touched ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_ShadowTouched_Intelligence,APO_ShadowTouched_Wisdom,APO_ShadowTouched_Charisma" />
+                    <attribute id="UUID" type="guid" value="dfab08bf-d8de-4c8a-a9f5-da16a1d0d267" />
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Telekinetic ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_Telekinetic_Intelligence,APO_Telekinetic_Wisdom,APO_Telekinetic_Charisma" />
+                    <attribute id="UUID" type="guid" value="daae79d8-8fdc-4441-9130-10cd70df59ed" />
+                </node>
             </children>
         </node>
     </region>

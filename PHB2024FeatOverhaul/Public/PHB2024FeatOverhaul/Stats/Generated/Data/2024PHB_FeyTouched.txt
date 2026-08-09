@@ -1,0 +1,47 @@
+// +1 INT,WIS,orCHA
+// Learn Misty Step
+// Choose 1 spell from Divination or Enchantment
+// TO DO: Custom Icon
+
+new entry "APO_FeyTouched"
+type "PassiveData"
+// Fey Touched
+data "DisplayName" "hf2a6b90eg8bafg4611g81degd16f3fddc9ec;1"
+// You increased your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by 1, learned &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt;, and learned a level 1 Divination or Enchantment spell.
+data "Description" "h2607b691g4ae1g4830g90c7gc314adc3e7f6;1"
+data "Icon" "Action_FeyPresence"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Target_MistyStep,Singular,,UntilShortRest)"
+
+new entry "APO_FeyTouched_Intelligence"
+type "PassiveData"
+// Fey Touched: Intelligence
+data "DisplayName" "hf1dac87dgd75ag4546g8dd4gf6670f298858;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_FeyTouched_Wisdom"
+type "PassiveData"
+// Fey Touched: Wisdom
+data "DisplayName" "h4a4db3e2g4573g4e7bgb19dg2e3cfd64e970;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "APO_FeyTouched_Charisma"
+type "PassiveData"
+// Fey Touched: Charisma
+data "DisplayName" "h209169deg2da3g4326g8dd9g4a0be748e4b8;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
