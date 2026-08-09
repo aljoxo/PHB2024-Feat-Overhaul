@@ -112,7 +112,7 @@
 
 	<!-- Lucky -->
 	<content contentuid="he54d95d9g9209g4fc6g9dcdgb6b2eff4ad81" version="1">Lucky: Strength</content>
-	<content contentuid="he54d95d9g9209g4fc6g9dcdgb6b2eff4ad81" version="1">Lucky: Dexterity</content>
+	<content contentuid="ha6f278c5ge5deg48fbg9820g651335a7a054" version="1">Lucky: Dexterity</content>
 	<content contentuid="h8a051f89g1987g4d97g8fddg37a4bfde5dfa" version="1">Lucky: Constitution</content>
 	<content contentuid="h9c73888bgaadeg4b4bg92a3gcec66adb50cb" version="1">Lucky: Intelligence</content>
 	<content contentuid="h6800ad1bgb4afg42c7ga002g93d9b8464fe6" version="1">Lucky: Wisdom</content>
@@ -249,6 +249,16 @@
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
+
+	<!-- Skilled -->
+	<content contentuid="h80f1f179g68c2g4cd4g92ffgafc93207d28f" version="1">Skill Expert: Strength</content>
+	<content contentuid="h5af75adagfd1fg428dga8cagfd6347bbbb86" version="1">Skill Expert: Dexterity</content>
+	<content contentuid="h881f11e7g1b7ag4e7eg9d39g29a7871333ee" version="1">Skill Expert: Constitution</content>
+	<content contentuid="hc8404096g33aag4de9ga756g1b28364d355b" version="1">Skill Expert: Intelligence</content>
+	<content contentuid="h9efd11bfgf117g439eg9c2ag8089bc6808d6" version="1">Skill Expert: Wisdom</content>
+	<content contentuid="hff9edf03gb021g4d83gb7bdgb22212034d65" version="1">Skill Expert: Charisma</content>
+	<content contentuid="h6f27d9a4gafa1g4e83g8812g6a5d0783e245" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in 1 &lt;LSTag Tooltip="Skill"&gt;Skill&lt;/LSTag&gt; of your choice and &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; with one skill you are proficient in.</content>
+	<content contentuid="h2944ce15g4599g428cgb001g4fb8fbf4859a" version="1">Skill Expert</content>
 
 	<!-- War Caster -->
 	<content contentuid="h42b42d15g1315g4199g9977ge59677fba327" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; to maintain &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on a spell.&lt;br&gt;&lt;br&gt;You can also use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to cast &lt;LSTag Type="Spell" Tooltip="Target_ShockingGrasp"&gt;Shocking Grasp&lt;/LSTag&gt; at a target moving out of melee range.</content>

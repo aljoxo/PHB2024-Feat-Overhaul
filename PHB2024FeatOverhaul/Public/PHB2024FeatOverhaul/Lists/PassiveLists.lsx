@@ -90,6 +90,11 @@
                     <attribute id="UUID" type="guid" value="6bc38c58-0bdb-45d4-b214-45507b0ef37f" />
                 </node>
                 <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Skilled ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_Skilled_Strength,APO_Skilled_Dexterity,APO_Skilled_Constitution,APO_Skilled_Intelligence,APO_Skilled_Wisdom,APO_Skilled_Charisma" />
+                    <attribute id="UUID" type="guid" value="ffe2ec24-bceb-4775-9fd3-403be1d0c9f3" />
+                </node>
+                <node id="PassiveList">
                     <attribute id="Name" type="FixedString" value="War Caster ASI Passives" />
                     <attribute id="Passives" type="LSString" value="APO_WarCaster_Intelligence,APO_WarCaster_Wisdom,APO_WarCaster_Charisma" />
                     <attribute id="UUID" type="guid" value="e854378a-6d47-4e31-aba9-b189ae35c8fd" />

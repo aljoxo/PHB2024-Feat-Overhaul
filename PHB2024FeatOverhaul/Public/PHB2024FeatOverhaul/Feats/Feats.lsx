@@ -203,6 +203,12 @@
                 	<attribute id="UUID" type="guid" value="3fe71254-d1b2-44c7-886c-927552fe5f2e" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Skilled" />
+                	<attribute id="PassivesAdded" type="LSString" value="Skilled" />
+                	<attribute id="Selectors" type="LSString" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,SkilledSkills);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,true);SelectPassives(ffe2ec24-bceb-4775-9fd3-403be1d0c9f3,1)" />
+                	<attribute id="UUID" type="guid" value="019564a0-f136-4139-94ea-040f94bbaf19" />
+                </node>
+                <node id="Feat">
                     <!-- Speedy -->
                 	<attribute id="Name" type="FixedString" value="Mobile" />
                 	<attribute id="PassivesAdded" type="LSString" value="Mobile_PassiveBonuses;Mobile_CounterAttackOfOpportunity;Mobile_DashAcrossDifficultTerrain" />
