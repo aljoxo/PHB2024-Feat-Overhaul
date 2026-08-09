@@ -158,6 +158,12 @@
                 	<attribute id="UUID" type="guid" value="681d5307-f0ed-4c94-8cf0-db0c51116f56" />
                 </node>
                 <node id="Feat">
+                    <!-- Speedy -->
+                	<attribute id="Name" type="FixedString" value="Mobile" />
+                	<attribute id="PassivesAdded" type="LSString" value="Mobile_PassiveBonuses;Mobile_CounterAttackOfOpportunity;Mobile_DashAcrossDifficultTerrain" />
+                	<attribute id="UUID" type="guid" value="0a3b07bf-a806-4c77-9c8f-6e7c0965f9dd" />
+                </node>
+                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="WarCaster" />
                 	<attribute id="PassivesAdded" type="LSString" value="WarCaster_Bonuses;WarCaster_OpportunitySpell" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(e854378a-6d47-4e31-aba9-b189ae35c8fd,1)" />

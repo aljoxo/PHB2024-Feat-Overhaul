@@ -1,1 +1,47 @@
 // 2024 Speedy
+// +1 DEX
+// +3m Movement
+// Dash ignores Difficult Terrain
+// Opportunity Attacks have DIS against you
+
+new entry "Mobile_PassiveBonuses"
+type "PassiveData"
+using "Mobile_PassiveBonuses"
+// Speedy
+data "DisplayName" "h1223d1d5g3168g44f6g86d2g991d638de451;1"
+// Your <LSTag Tooltip="MovementSpeed">movement speed</LSTag> increases by [1] and your <LSTag Tooltip="Dexterity">Dexterity</LSTag> is increased by 1.
+data "Description" "hf86f8aeeg2a62g4603gab7eg9304f5d02260;1"
+// data "DescriptionParams" "Distance(3)"
+// data "Icon" "Action_Dash"
+data "Properties" "Highlighted"
+data "Boosts" "ActionResource(Movement,3,0);Ability(Dexterity, 1)"
+
+new entry "Mobile_CounterAttackOfOpportunity"
+type "PassiveData"
+using "Mobile_CounterAttackOfOpportunity"
+// Speedy: Agile Movement
+data "DisplayName" "h88332c90g339cg4f93g8275gdbc07392af66;1"
+// Enemies have <LSTag Tooltip="Disadvantage">Disadvantage</LSTag> on <LSTag Tooltip="OpportunityAttack">Opportunity Attacks</LSTag> against you.
+data "Description" "h7ea7f752g6cc2g461eg8101g69106f457b5e;1"
+data "Icon" "PassiveFeature_Mobile_CounterAttackOfOpportunity"
+data "PriorityOrder" "1"
+data "Properties" "Highlighted"
+data "Boosts" "IF(IsReactionAttack(context.Source)):Disadvantage(AttackTarget)"
+
+// Forwarding Cahoot's bugfix for vanilla mobile status just in case
+new entry "MOBILE_NO_AOO"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MOBILE_NO_AOO"
+data "StatusPropertyFlags" "TickingWithSource"
+
+new entry "Mobile_DashAcrossDifficultTerrain"
+type "PassiveData"
+using "Mobile_DashAcrossDifficultTerrain"
+// Speedy: Dash over Difficult Terrain
+data "DisplayName" "h2933fb58g0bbeg469dg91d8g9785f89fc19f;1"
+// When you <LSTag Type="Spell" Tooltip="Shout_Dash">Dash</LSTag>, <LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN">Difficult Terrain</LSTag> doesn't slow you down.
+// data "Description" "hba2fb532gfa0fg4f6fgb8dcg75df3eaa63dd;3"
+data "Icon" "PassiveFeature_Mobile_DashAcrossDifficultTerrain"
+// data "PriorityOrder" "1"
+data "Properties" "Highlighted"

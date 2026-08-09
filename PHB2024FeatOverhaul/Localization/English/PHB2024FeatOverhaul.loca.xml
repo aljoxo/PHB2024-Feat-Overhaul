@@ -171,6 +171,15 @@
 	<content contentuid="hdf986734gd0eeg4b4bg8683g950da88028a3" version="1">When you wear Medium Armour, the bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; you can gain from your Dexterity &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt; becomes +[1] instead of +[2].</content>
 	<content contentuid="" version="1"></content>
 
+	<!-- Mobile  / Speedy -->
+	<content contentuid="h88332c90g339cg4f93g8275gdbc07392af66" version="1">Speedy: Agile Movement</content>
+	<content contentuid="h7ea7f752g6cc2g461eg8101g69106f457b5e" version="2">Enemies have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; against you.</content>
+	<content contentuid="h1223d1d5g3168g44f6g86d2g991d638de451" version="1">Speedy</content>
+	<content contentuid="hf86f8aeeg2a62g4603gab7eg9304f5d02260" version="1">Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases by [1] and your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by 1.</content>
+	<content contentuid="h2933fb58g0bbeg469dg91d8g9785f89fc19f" version="1">Speedy: Dash over Difficult Terrain</content>
+	<content contentuid="heac419c8g98e3g4760gbb66g490370c0397b" version="1">Speedy</content>
+	<content contentuid="h93a5e38fg1549g460ag8accg69242d30066f" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;Your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; increases, and difficult terrain doesn't slow you down when you &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;&lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; against you.</content>
+
 	<!-- Moderately Armored -->
 	<content contentuid="h4fa75ab0gede8g4ef0g9b97g857aa6f23f9a" version="1">You have &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
 	<content contentuid="h7499fe01g2511g4214g8b6dg856641b29f84" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1 and you gain &lt;LSTag Tooltip="ArmourProficiency"&gt;Armour Proficiency&lt;/LSTag&gt; with Medium Armour.</content>
