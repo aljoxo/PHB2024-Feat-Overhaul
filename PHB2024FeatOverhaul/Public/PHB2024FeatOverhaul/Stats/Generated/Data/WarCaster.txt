@@ -11,7 +11,7 @@ new entry "Interrupt_WarCaster"
 type "InterruptData"
 using "Interrupt_WarCaster"
 data "Conditions" "Goon_AttackOfOpportunityConditions() and not Self(context.Observer, context.Target) and Self(context.Observer, context.Source) and not HasSpellCastBlocked(context.Observer)"
-data "EnableCondition" "((not HasStatus('SG_Polymorph') or Goon_IsUnrestrictedPolymorphStatus())) and (not HasStatus('SG_Blinded') or Goon_CanIgnoreBlindness())"
+data "EnableCondition" "Goon_InterruptEnableConditions() and (not HasStatus('SG_Blinded') or Goon_CanIgnoreBlindness())"
 data "InterruptFlags" "InterruptWhileInvisible"
 
 new entry "APO_WarCaster_Intelligence"
