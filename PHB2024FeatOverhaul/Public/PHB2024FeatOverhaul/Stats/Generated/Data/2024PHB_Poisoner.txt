@@ -1,0 +1,6 @@
+// Homebrewed a lot
+// +1 INT or DEX
+// Ignore resistance to Poison Damage
+// Advantage on poison damage die
+// TO DO: Custom Icons
+// TO DO: brew poison sounds like too much work to implement rn
