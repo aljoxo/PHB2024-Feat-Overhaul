@@ -1,2 +1,37 @@
 // so this is an origin feat in 2024
-// 
+// +1 STR or DEX
+// Make it work with ranged weapons too i guess
+
+new entry "SavageAttacker"
+type "PassiveData"
+using "SavageAttacker"
+// Savage Attacker
+data "DisplayName" "hbd85a616g60e3g4bc2ga7e3g1e5cec464997;2"
+// When making a weapon attacks, you roll your damage dice twice and use the highest result.
+data "Description" "h84ff6c6bgeb96g4563ga96bgeda96e670f9e;1"
+data "Icon" "PassiveFeature_SavageAttacker"
+data "Properties" "Highlighted"
+// Does this even work lmao?
+data "Boosts" "IF(AttackingWithMeleeWeapon(context.Source)):Reroll(Damage, 20, false);IF(AttackingWithRangedWeapon(context.Source)):Reroll(Damage, 20, false)"
+
+new entry "APO_SavageAttacker_Strength"
+type "PassiveData"
+// Savage Attacker: Strength
+data "DisplayName" "h084cff10g3b8dg4ac8gab9eg8f6327a8e415;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_SavageAttacker_Dexterity"
+type "PassiveData"
+// Savage Attacker: Dexterity
+data "DisplayName" "hc333663fg0b99g4db1g9660g61d248aab1eb;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"

@@ -202,6 +202,13 @@
                     <attribute id="UUID" type="guid" value="884cc573-0588-426a-bb16-d71e62a14286"/>
                 </node>
 				<node id="FeatDescription">
+					<attribute id="Description" type="TranslatedString" handle="h3630f61dgfb4bg4809g82e0gb481d57dbc9b" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h272c92eag97cag4e32g9659g1c947e14a32d" version="1" />
+					<attribute id="ExactMatch" type="FixedString" value="SavageAttacker" />
+					<attribute id="FeatId" type="guid" value="e061a323-3430-4cff-88d3-5eae7a1779a4" />
+					<attribute id="UUID" type="guid" value="5551971b-22e1-4107-afe0-28d568fb3446" />
+				</node>
+				<node id="FeatDescription">
 					<attribute id="Description" type="TranslatedString" handle="h93a5e38fg1549g460ag8accg69242d30066f" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="heac419c8g98e3g4760gbb66g490370c0397b" version="1" />
 					<attribute id="ExactMatch" type="FixedString" value="Mobile" />
