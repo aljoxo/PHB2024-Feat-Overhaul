@@ -1,7 +1,16 @@
 // Replaced with 2024 Skill Expert
 // Increase one ability of your choice
-// Gain proficiency in one skill of your choice
-// Gain expertise in one skill of your choice
+// Gain proficiency in three skills of your choice
+// Can't add an expertise selector to a feat for some reason
+
+new entry "Skilled"
+type "PassiveData"
+// Skill Expert
+data "DisplayName" "h2944ce15g4599g428cgb001g4fb8fbf4859a;1"
+// You have gained <LSTag Tooltip="Proficiency">Proficiency</LSTag> in 3 <LSTag Tooltip="Skill">Skills</LSTag> of your choice.
+data "Description" "h4afb2c86ge284g44beg816dg4d25bd7f992d;1"
+data "Icon" "PassiveFeature_Skilled"
+data "Properties" "Highlighted"
 
 new entry "APO_Skilled_Strength"
 type "PassiveData"

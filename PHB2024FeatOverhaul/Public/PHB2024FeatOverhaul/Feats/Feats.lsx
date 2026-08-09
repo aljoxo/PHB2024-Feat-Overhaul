@@ -235,7 +235,7 @@
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="Skilled" />
                 	<attribute id="PassivesAdded" type="LSString" value="Skilled" />
-                	<attribute id="Selectors" type="LSString" value="SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,SkilledSkills);SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,1,true);SelectPassives(ffe2ec24-bceb-4775-9fd3-403be1d0c9f3,1)" />
+                	<attribute id="Selectors" type="LSString" value="SelectPassives(ffe2ec24-bceb-4775-9fd3-403be1d0c9f3,1);SelectSkills(f974ebd6-3725-4b90-bb5c-2b647d41615d,3,SkilledSkills)" />
                 	<attribute id="UUID" type="guid" value="019564a0-f136-4139-94ea-040f94bbaf19" />
                 </node>
                 <node id="Feat">
