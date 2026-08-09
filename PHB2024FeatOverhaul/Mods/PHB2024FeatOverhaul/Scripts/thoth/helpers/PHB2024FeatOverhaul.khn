@@ -39,3 +39,7 @@ function APO_Sharpshooter(entity)
 
     return IsProficientWith(entity, weapon) & (isTwoHanded & isRanged)
 end
+
+function ShieldMasterSaveDC()
+    return 8 + context.Source.ProficiencyBonus + (GetModifier(context.Source.Strength))
+end

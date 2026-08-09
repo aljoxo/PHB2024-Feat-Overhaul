@@ -1,0 +1,63 @@
+// Requires Shield proficiency
+// STR +1
+
+// Shield Bash. If you attack a creature within 5 feet of you as part of the Attack action and hit with a Melee weapon, you can immediately bash the target with your Shield if it's equipped, forcing the target to make a Strength saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, you either push the target 5 feet from you or cause it to have the Prone condition (your choice). You can use this benefit only once on each of your turns.
+
+// Interpose Shield. If you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can take a Reaction to take no damage if you succeed on the saving throw and are holding a Shield.
+
+new entry "ShieldMaster_PassiveBonuses"
+type "PassiveData"
+// Shield Master
+data "DisplayName" "ha8e7cbdag7d28g454dgaca3ga13efdcebebf;1"
+// Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; increases by [1].&lt;br&gt;&lt;br&gt;When you hit a creature with a melee weapon, you can &lt;LSTag Type="Spell" Tooltip="Interrupt_APO_ShieldBash"&gt;Bash&lt;/LSTag&gt; the target with your Shield as part of the same action.
+data "Description" "ha0a658aegf9c6g4438gb073gad55de3fbcea;1"
+data "DescriptionParams" "1"
+data "Icon" "PassiveFeature_ShieldMaster_PassiveBonuses"
+data "Properties" "Highlighted"
+data "Boosts" "Ability(Strength, 1);UnlockInterrupt(Interrupt_APO_ShieldBash)"
+
+new entry "ShieldMaster_Block"
+type "PassiveData"
+// Shield Master: Interpose Shield
+data "DisplayName" "hd86d8ab2g37bcg449cg8469gef8ded47420d;1"
+// If a spell forces you to make a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to shield yourself. &lt;br&gt;&lt;br&gt;On a failed Saving Throw, you only take half damage. On a successful Saving Throw, you don't take any damage.
+data "Description" "hc2fd703fg4d76g4f6eg935dg618782aaf1d1;1"
+data "ExtraDescription" ""
+data "Icon" "PassiveFeature_ShieldMaster_Block"
+data "PriorityOrder" "1"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_ShieldMaster)"
+
+new entry "Interrupt_ShieldMaster"
+type "InterruptData"
+// Shield Master: Interpose Shield
+data "DisplayName" "h9c5c895cg3560g4e9cgae0dg2039afebdd51;1"
+// When you fail a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; on a spell, you can shield yourself taking only half damage on a failed &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. When you succeed, you take no damage.
+data "Description" "h5d8ea501g9abfg4fc2ga71ag1375e62bdac7;1"
+data "Icon" "PassiveFeature_ShieldMaster_Block"
+data "InterruptContext" "OnPreDamage"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Target,context.Observer) and HasDamageEffectFlag(DamageFlags.SavingThrow) and HasSpellFlag(SpellFlags.CanAreaDamageEvade) and not AnyEntityIsItem()"
+data "Properties" "SetRoll(0)"
+data "Cost" "ReactionActionPoint:1"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "Goon_InterruptEnableConditions() and HasShieldEquipped(context.Source)"
+data "EnableContext" "OnEquip;OnStatusApplied;OnStatusRemoved"
+
+new entry "Interrupt_APO_ShieldBash"
+type "InterruptData"
+// Shield Master: Shield Bash
+data "DisplayName" "h2f16ac5dg7232g443fg878fg001d5aaab63a;1"
+// When you hit a creature with a melee weapon, you can Bash the target with your Shield as part of the same action, potentially knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;
+data "Description" "hbae30fe1g8233g4e02g86degc99d7faaf1d0;1"
+data "Icon" "PassiveFeature_ShieldMaster_Shove"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and IsHit() and not (IsCriticalMiss() or IsMiss()) and Goon_IsMeleeMainhandWeaponAttack() and HasLastAttackTriggered()"
+data "Roll" "not SavingThrow(Ability.Strength, ShieldMasterSaveDC())"
+data "Success" "ApplyStatus(PRONE,100,2)"
+data "EnableCondition" "Goon_InterruptEnableConditions() and HasShieldEquipped(context.Source)"
+data "EnableContext" "OnEquip;OnStatusApplied;OnStatusRemoved"
+data "InterruptFlags" "InterruptWhileInvisible"

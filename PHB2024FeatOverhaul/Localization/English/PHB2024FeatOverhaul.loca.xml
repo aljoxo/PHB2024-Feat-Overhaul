@@ -34,7 +34,7 @@
 
 	<!-- Charger -->
 	<content contentuid="h573ede35gca1dg4d4bg9fc2gbc341b559091" version="1">Charger</content>
-	<content contentuid="h9b0d6f7bgb818g4389g9fb7g3d57565ce464" version="1">Let your speed intensify your onslaught. You can &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Push"&gt;Shove&lt;/LSTag&gt; or gain a +[1] bonuns to an &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Attack&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="h9b0d6f7bgb818g4389g9fb7g3d57565ce464" version="1">Let your speed intensify your onslaught. You can &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Push"&gt;Shove&lt;/LSTag&gt; or gain a +[1] bonuns to an &lt;LSTag Type="Spell" Tooltip="Rush_Charger_Attack"&gt;Attack Roll&lt;/LSTag&gt;.</content>
 	<content contentuid="h4cef4197g03f8g4e60gb219g0548a6ad7c19" version="1">Charger: Improved Dash</content>
 	<content contentuid="h39922834g15f8g4244g8789g29eae8d240a1" version="1">When you &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;, your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is increased by [1].</content>
 	<content contentuid="h99762cbbged8bg4959gb7ceg45140cec56e8" version="1">Charger: Shove</content>
@@ -232,7 +232,22 @@
 	<content contentuid="hbc92899eg5a59g4611ga62dgf662f8bcfc90" version="1">Sharpshooter</content>
 	<content contentuid="h1b62314dg9228g4fddga67egc9eeb6b46e80" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1. Your &lt;LSTag Tooltip="RangedWeaponAttack"&gt;ranged weapon attacks&lt;/LSTag&gt; do not receive penalties from &lt;LSTag Tooltip="HighGroundRules"&gt;High Ground Rules&lt;/LSTag&gt;. Additionally, Being in melee range doesn't impose &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; with Ranged weapons.</content>
 	<content contentuid="he298208fg4e1dg49bcgb06egef56027dc131" version="1">When attacking with a Relee weapon you are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with and are wielding in both hands, you can cause the weapon to deal an additional [1].</content>
-	<content contentuid="" version="1">Sharpshooter: Dexterity</content>
+	<content contentuid="heaaaf86cge02dg4db0g8a92g76cef2c311b8" version="1">Sharpshooter: Dexterity</content>
+	<content contentuid="" version="1"></content>
+
+	<!-- Shield Master -->
+	<content contentuid="ha8e7cbdag7d28g454dgaca3ga13efdcebebf" version="1">Shield Master</content>
+	<content contentuid="ha0a658aegf9c6g4438gb073gad55de3fbcea" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; increases by [1].&lt;br&gt;&lt;br&gt;When you hit a creature with a melee weapon, you can &lt;LSTag Type="Spell" Tooltip="Interrupt_APO_ShieldBash"&gt;Bash&lt;/LSTag&gt; the target with your Shield as part of the same action.</content>
+	<content contentuid="hd86d8ab2g37bcg449cg8469gef8ded47420d" version="1">Shield Master: Interpose Shield</content>
+	<content contentuid="hc2fd703fg4d76g4f6eg935dg618782aaf1d1" version="1">If a spell forces you to make a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to shield yourself. &lt;br&gt;&lt;br&gt;On a failed Saving Throw, you only take half damage. On a successful Saving Throw, you don't take any damage.</content>
+	<content contentuid="h9c5c895cg3560g4e9cgae0dg2039afebdd51" version="1">Shield Master: Interpose Shield</content>
+	<content contentuid="h5d8ea501g9abfg4fc2ga71ag1375e62bdac7" version="1">When you fail a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; on a spell, you can shield yourself taking only half damage on a failed &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. When you succeed, you take no damage.</content>
+	<content contentuid="h2f16ac5dg7232g443fg878fg001d5aaab63a" version="1">Shield Master: Shield Bash</content>
+	<content contentuid="hbae30fe1g8233g4e02g86degc99d7faaf1d0" version="1">When you hit a creature with a melee weapon, you can Bash the target with your Shield as part of the same action, potentially knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;</content>
+	<content contentuid="hfbbaba52gb059g457agad76g93dd234299d2" version="1">Shield Master</content>
+	<content contentuid="hc082a6e2g1095g4bb4g8c3egb1e67cea9861" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; increases by [1].&lt;br&gt;&lt;br&gt;When you hit a creature with a melee weapon, you can &lt;LSTag Type="Spell" Tooltip="Interrupt_APO_ShieldBash"&gt;Bash&lt;/LSTag&gt; the target with your Shield as part of the same action.&lt;br&gt;&lt;br&gt;If a spell forces you to make a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to shield yourself. &lt;br&gt;&lt;br&gt;On a failed Saving Throw, you only take half damage. On a successful Saving Throw, you don't take any damage.</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 
 	<!-- War Caster -->
