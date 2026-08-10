@@ -4,6 +4,7 @@
     <region id="Feats">
         <node id="root">
             <children>
+                <!-- Vanilla Feats -->
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="Actor"/>
                     <attribute id="PassivesAdded" type="LSString" value="Actor"/>
@@ -27,12 +28,6 @@
                 	<attribute id="PassivesAdded" type="LSString" value="Charger" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(17d5e5e5-3094-4f6f-815f-c0838122d4bf,1)" />
                 	<attribute id="UUID" type="guid" value="eab25714-15d6-4e26-b809-3fad832d0484" />
-                </node>
-                <node id="Feat">
-                	<attribute id="Name" type="FixedString" value="ColdCaster" />
-                	<attribute id="PassivesAdded" type="LSString" value="APO_ColdCaster;APO_ColdCaster_Frostbite" />
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(b27c9c49-d8ee-4f34-9627-79915e5bde39,1)" />
-                	<attribute id="UUID" type="guid" value="e07e460f-46b9-4e7d-afdb-b23059bcde2f" />
                 </node>
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="CrossbowExpert" />
@@ -71,12 +66,6 @@
                 	<attribute id="UUID" type="guid" value="cec2d95b-451c-40f8-8e17-9e547d363e8e" />
                 </node>
                 <node id="Feat">
-                	<attribute id="Name" type="FixedString" value="FeyTouched" />
-                	<attribute id="PassivesAdded" type="LSString" value="APO_FeyTouched" />
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(49c14119-c608-494b-8dc3-a8adb4490e21,1);SelectSpells(a752bc58-78a8-4328-a593-4dd7ea093d5a,1,0,FeyTouchedSpell,,None,AlwaysPrepared,UntilShortRest)" />
-                	<attribute id="UUID" type="guid" value="4015f267-3cfb-4b1c-8b91-de38beb4d778" />
-                </node>
-                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="GreatWeaponMaster" />
                 	<attribute id="PassivesAdded" type="LSString" value="GreatWeaponMaster_BonusAttack;GreatWeaponMaster_BonusDamage;APO_GreatWeaponMaster_Strength" />
                     <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Strength',13)" />
@@ -94,12 +83,6 @@
                     <attribute id="Selectors" type="LSString" value="SelectPassives(e86cb892-cda9-427b-94e5-0ba2bb3e246e,1)" />
                 	<attribute id="Requirements" type="LSString" value="FeatRequirementProficiency('HeavyArmor')" />
                 	<attribute id="UUID" type="guid" value="0de08fff-ab18-442f-a0b1-f53e7be04c03" />
-                </node>
-                <node id="Feat">
-                    <attribute id="Name" type="FixedString" value="InspiringLeader"/>
-                    <attribute id="PassivesAdded" type="LSString" value="InspiringLeader"/>
-                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Charisma',13)"/>
-                    <attribute id="UUID" type="guid" value="1571bd8f-3969-44cd-ad28-da0001ac43af"/>
                 </node>
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="LightlyArmored" />
@@ -184,12 +167,6 @@
                     <attribute id="UUID" type="guid" value="fdf0be80-cc1e-4501-bd2e-7a1ea737362c" />
                 </node>
                 <node id="Feat">
-                    <attribute id="Name" type="FixedString" value="Putrefy" />
-                    <attribute id="PassivesAdded" type="LSString" value="APO_Putrefy;APO_Putrefy_Necrosis" />
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(6aad47fc-48f0-48bc-8746-8a920d71041d,1)" />
-                    <attribute id="UUID" type="guid" value="800f1a1c-3b58-412a-a394-d02513683c2b" />
-                </node>
-                <node id="Feat">
                     <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
                     <attribute id="Name" type="FixedString" value="Resilient" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(d4b799b4-30e2-412b-b2c9-abb144df8e7d,1)" />
@@ -213,12 +190,6 @@
                 	<attribute id="PassivesAdded" type="LSString" value="Sentinel_Attack;Sentinel_ZeroSpeed;Sentinel_OpportunityAdvantage" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(6bc38c58-0bdb-45d4-b214-45507b0ef37f,1)" />
                 	<attribute id="UUID" type="guid" value="816b1554-9384-49e9-aaa0-05dd622e60f7" />
-                </node>
-                <node id="Feat">
-                	<attribute id="Name" type="FixedString" value="ShadowTouched" />
-                	<attribute id="PassivesAdded" type="LSString" value="APO_ShadowTouched" />
-                    <attribute id="Selectors" type="LSString" value="SelectPassives(dfab08bf-d8de-4c8a-a9f5-da16a1d0d267,1);SelectSpells(8559b2a7-2e2f-4832-a113-b21d3f49aa34,1,0,ShadowTouchedSpell,,None,AlwaysPrepared,UntilShortRest)" />
-                	<attribute id="UUID" type="guid" value="c14dd9ad-1b95-43b6-9727-3da34745283c" />
                 </node>
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="Sharpshooter" />
@@ -257,12 +228,6 @@
                 	<attribute id="UUID" type="guid" value="be0889d2-f9aa-472d-b942-592bff0f1ef3" />
                 </node>
                 <node id="Feat">
-                	<attribute id="Name" type="FixedString" value="Telekinetic" />
-                	<attribute id="PassivesAdded" type="LSString" value="APO_Telekinetic" />
-                	<attribute id="Selectors" type="LSString" value="SelectPassives(daae79d8-8fdc-4441-9130-10cd70df59ed,1)" />
-                	<attribute id="UUID" type="guid" value="b64676bc-c83b-4813-9f83-662f1575cdea" />
-                </node>
-                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="Tough" />
                 	<attribute id="PassivesAdded" type="LSString" value="Tough" />
                 	<attribute id="UUID" type="guid" value="e8d1e7f6-d841-48ff-a83c-f1aaa16597ff" />
@@ -272,6 +237,43 @@
                 	<attribute id="PassivesAdded" type="LSString" value="WarCaster_Bonuses;WarCaster_OpportunitySpell" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(e854378a-6d47-4e31-aba9-b189ae35c8fd,1)" />
                 	<attribute id="UUID" type="guid" value="ed4e367d-d136-4285-abac-077147e84cf2" />
+                </node>
+                <!-- Expanded Feats -->
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="ColdCaster" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_ColdCaster;APO_ColdCaster_Frostbite" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(b27c9c49-d8ee-4f34-9627-79915e5bde39,1)" />
+                	<attribute id="UUID" type="guid" value="e07e460f-46b9-4e7d-afdb-b23059bcde2f" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="FeyTouched" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_FeyTouched" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(49c14119-c608-494b-8dc3-a8adb4490e21,1);SelectSpells(a752bc58-78a8-4328-a593-4dd7ea093d5a,1,0,FeyTouchedSpell,,None,AlwaysPrepared,UntilShortRest)" />
+                	<attribute id="UUID" type="guid" value="4015f267-3cfb-4b1c-8b91-de38beb4d778" />
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="InspiringLeader"/>
+                    <attribute id="PassivesAdded" type="LSString" value="InspiringLeader"/>
+                    <attribute id="Requirements" type="LSString" value="FeatRequirementAbilityGreaterEqual('Charisma',13)"/>
+                    <attribute id="UUID" type="guid" value="1571bd8f-3969-44cd-ad28-da0001ac43af"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="Putrefy" />
+                    <attribute id="PassivesAdded" type="LSString" value="APO_Putrefy;APO_Putrefy_Necrosis" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(6aad47fc-48f0-48bc-8746-8a920d71041d,1)" />
+                    <attribute id="UUID" type="guid" value="800f1a1c-3b58-412a-a394-d02513683c2b" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="ShadowTouched" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_ShadowTouched" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(dfab08bf-d8de-4c8a-a9f5-da16a1d0d267,1);SelectSpells(8559b2a7-2e2f-4832-a113-b21d3f49aa34,1,0,ShadowTouchedSpell,,None,AlwaysPrepared,UntilShortRest)" />
+                	<attribute id="UUID" type="guid" value="c14dd9ad-1b95-43b6-9727-3da34745283c" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Telekinetic" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_Telekinetic" />
+                	<attribute id="Selectors" type="LSString" value="SelectPassives(daae79d8-8fdc-4441-9130-10cd70df59ed,1)" />
+                	<attribute id="UUID" type="guid" value="b64676bc-c83b-4813-9f83-662f1575cdea" />
                 </node>
             </children>
         </node>
