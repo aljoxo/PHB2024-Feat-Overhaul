@@ -21,9 +21,9 @@ data "DisplayName" "h756d6eddgc2fdg4f77g8287g2128846fd914;1"
 data "Description" "hbfd79869gf5eeg4c7dg8b9cg1b6898c4cc79;1"
 data "Icon" "PassiveFeature_Crusher"
 data "Properties" "Highlighted"
-data "StatsFunctorContext"
-data "Conditions"
-data "StatsFunctors" IF(IsCritical()):ApplyStatus()
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsDamageTypeBludgeoning()"
+data "StatsFunctors" IF(IsCritical()):ApplyStatus(APO_CRUSHED,100,1)
 
 new entry "Interrupt_APO_Crusher_Daze"
 type "InterruptData"

@@ -1,5 +1,5 @@
 // STR or DEX +1
-// Savage Attacker with Piercing damage
+// Once per turn, when you hit a creature with an attack that deals Piercing damage, you can reroll one of the attack’s damage dice, and you must use the new roll.
 // When you score a critical hit that deals piercing damage, roll one additional damage die
 // data "Icon" "PassiveFeature_Piercer"
 
@@ -12,3 +12,28 @@
 // data "Icon" "PassiveFeature_BrutalCritical"
 // data "Properties" "Highlighted"
 // data "Boosts" "CriticalHitExtraDice(1, MeleeWeaponAttack);CriticalHitExtraDice(1, MeleeUnarmedAttack);"
+
+new entry "APO_Piercer"
+type "PassiveData"
+
+new entry "APO_Piercer_Strength"
+type "PassiveData"
+// Piercer: Strength
+data "DisplayName" ";1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_Piercer_Dexterity"
+type "PassiveData"
+// Piercer: Dexterity
+data "DisplayName" ";1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"

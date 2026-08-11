@@ -139,6 +139,11 @@
                     <attribute id="Passives" type="LSString" value="APO_Crusher_Strength,APO_Crusher_Constitution" />
                     <attribute id="UUID" type="guid" value="e3940765-e7ba-448d-8f84-f42c51972f4e" />
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Piercer ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_Piercer_Strength,APO_Piercer_Dexterity" />
+                    <attribute id="UUID" type="guid" value="29da047f-32b0-4e8f-8f41-f9c095e686bc" />
+                </node>
             </children>
         </node>
     </region>
