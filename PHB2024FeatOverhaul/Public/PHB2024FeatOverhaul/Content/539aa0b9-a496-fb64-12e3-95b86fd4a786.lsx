@@ -7,7 +7,7 @@
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="539aa0b9-a496-fb64-12e3-95b86fd4a786" />
 					<attribute id="Name" type="LSString" value="PHB2024FeatOverhaul" />
-					<attribute id="SourceFile" type="LSString" value="Public/PHB2024FeatOverhaul/Assets/Textures/Icons/PHB2024FeatOverhaul.dds" />
+					<attribute id="SourceFile" type="LSString" value="Public/PHB2024FeatOverhaul/Assets/Textures/IconsPHB2024FeatOverhaul.dds" />
 					<attribute id="Template" type="FixedString" value="PHB2024FeatOverhaul" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Type" type="int32" value="1" />
