@@ -264,6 +264,12 @@
                     <attribute id="UUID" type="guid" value="1571bd8f-3969-44cd-ad28-da0001ac43af"/>
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Piercer" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_Piercer;APO_Piercer_Critical" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(29da047f-32b0-4e8f-8f41-f9c095e686bc,1)" />
+                	<attribute id="UUID" type="guid" value="c6bb8e7b-0872-4522-8521-46bbb6e8c36c" />
+                </node>
+                <node id="Feat">
                     <attribute id="Name" type="FixedString" value="Putrefy" />
                     <attribute id="PassivesAdded" type="LSString" value="APO_Putrefy;APO_Putrefy_Necrosis" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(6aad47fc-48f0-48bc-8746-8a920d71041d,1)" />

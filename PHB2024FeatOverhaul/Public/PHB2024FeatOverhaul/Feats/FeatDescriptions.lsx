@@ -302,6 +302,13 @@
                     <attribute id="UUID" type="guid" value="a35bb4a6-0582-41ce-ba49-1ffd1cddcf31"/>
                 </node>
 				<node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h921bb961g9766g4369g8830g74ef2fb006c7" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he8846e61g4f2dg4d9dg8ec0gcf87414d3e6e" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="Piercer"/>
+                    <attribute id="FeatId" type="guid" value="c6bb8e7b-0872-4522-8521-46bbb6e8c36c"/>
+                    <attribute id="UUID" type="guid" value="dbb6a5ae-5b67-46b0-8305-d17466b96e79"/>
+                </node>
+				<node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="h99969785g2b58g4555g8d98g5bcb20dc2b10" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h33aaa5f7gbe2bg4285g9b15g79ae9d07d611" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="Putrefy"/>

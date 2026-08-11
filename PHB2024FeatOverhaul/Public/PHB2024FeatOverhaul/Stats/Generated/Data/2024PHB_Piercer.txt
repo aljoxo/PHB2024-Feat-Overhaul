@@ -3,23 +3,30 @@
 // When you score a critical hit that deals piercing damage, roll one additional damage die
 // data "Icon" "PassiveFeature_Piercer"
 
-// new entry "BrutalCritical"
-// type "PassiveData"
-// // "Brutal Critical"
-// data "DisplayName" "h653597fcg1942g4ce1gaefag1ecf2fa01d4a;2"
-// // "You've trained to strike swift and true. When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag>, you roll an extra damage die as well as the normal additional critical dice."
-// data "Description" "h853b555ege835g49e1g9e27g74680e24aef4;4"
-// data "Icon" "PassiveFeature_BrutalCritical"
-// data "Properties" "Highlighted"
-// data "Boosts" "CriticalHitExtraDice(1, MeleeWeaponAttack);CriticalHitExtraDice(1, MeleeUnarmedAttack);"
-
 new entry "APO_Piercer"
 type "PassiveData"
+// Piercer
+data "DisplayName" "h694288edgc324g4e61ga508gbe6e171febfb;1"
+// When you hit a creature with an attack that deals Piercing daamge, you roll your damage dice twice and use the highest result.
+data "Description" "h870e678fgd1c0g40a1gb518gb487d0e4c9f4;1"
+data "Icon" "PassiveFeature_Piercer"
+data "Properties" "Highlighted;OncePerTurn"
+data "Boosts" "IF(AttackingWithMeleeWeapon(context.Source) and IsDamageTypePiercing()):Reroll(Damage, 20, false);IF(IsRangedWeaponAttack() and IsDamageTypePiercing()):Reroll(Damage,20,false);IF(IsRangedOffHandWeaponAttack() and IsDamageTypePiercing()):Reroll(Damage,20,false)"
+
+new entry "APO_Piercer_Critical"
+type "PassiveData"
+// Piercer: Enhanced Critical
+data "DisplayName" "h7ccef382gb87bg4491gb697g80a15207ac5a;1"
+// When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag> against a creature with Piercing damage,  you roll an extra damage die as well as the normal additional critical dice.
+data "Description" "h7c408c4agdc09g45eegb593g7e5addb7306a;1"
+data "Icon" "PassiveFeature_Piercer"
+data "Properties" "Highlighted"
+data "Boosts" "IF(IsDamageTypePiercing()):CriticalHitExtraDice(1, MeleeWeaponAttack);IF(IsDamageTypePiercing()):CriticalHitExtraDice(1, RangedWeaponAttack)"
 
 new entry "APO_Piercer_Strength"
 type "PassiveData"
 // Piercer: Strength
-data "DisplayName" ";1"
+data "DisplayName" "hab770b0cge388g4e4fg87f0ge41f271344ef;1"
 // Your Strength is increased by [1].
 data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
 data "DescriptionParams" "1"
@@ -30,7 +37,7 @@ data "Boosts" "Ability(Strength, 1)"
 new entry "APO_Piercer_Dexterity"
 type "PassiveData"
 // Piercer: Dexterity
-data "DisplayName" ";1"
+data "DisplayName" "hacdfb445g1bf7g4340g836bg94518aaa11e3;1"
 // Your Dexterity is increased by [1].
 data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
 data "DescriptionParams" "1"
