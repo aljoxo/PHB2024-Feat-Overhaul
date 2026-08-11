@@ -9,7 +9,7 @@
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="PHB2024FeatOverhaul" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Public/PHB2024FeatOverhaul/Assets/Textures/IconsPHB2024FeatOverhaul.dds" />
+					<attribute id="SourceFile" type="LSString" value="Public/PHB2024FeatOverhaul/Assets/Textures/Icons/PHB2024FeatOverhaul.dds" />
 					<attribute id="Template" type="FixedString" value="Icons_Items" />
 					<attribute id="Type" type="int32" value="0" />
 				</node>
