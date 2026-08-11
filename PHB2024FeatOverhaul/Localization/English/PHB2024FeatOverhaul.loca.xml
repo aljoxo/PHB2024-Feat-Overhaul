@@ -377,8 +377,8 @@
 	<content contentuid="h7c408c4agdc09g45eegb593g7e5addb7306a" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Piercing damage,  you roll an extra damage die as well as the normal additional critical dice.</content>
 	<content contentuid="hab770b0cge388g4e4fg87f0ge41f271344ef" version="1">Piercer: Strength</content>
 	<content contentuid="hacdfb445g1bf7g4340g836bg94518aaa11e3" version="1">Piercer: Dexterity</content>
-	<content contentuid="" version="1">Piercer</content>
-	<content contentuid="" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Piercing damage,  you roll an extra damage die as well as the normal additional critical dice.&lt;br&gt;&lt;br&gt;Once per Turn, when you hit a creature with an attack that deals Piercing daamge, you roll your damage dice twice and use the highest result.</content>
+	<content contentuid="he8846e61g4f2dg4d9dg8ec0gcf87414d3e6e" version="1">Piercer</content>
+	<content contentuid="h921bb961g9766g4369g8830g74ef2fb006c7" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Piercing damage,  you roll an extra damage die as well as the normal additional critical dice.&lt;br&gt;&lt;br&gt;Once per Turn, when you hit a creature with an attack that deals Piercing daamge, you roll your damage dice twice and use the highest result.</content>
 
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
