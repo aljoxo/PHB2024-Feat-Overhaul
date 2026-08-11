@@ -1,3 +1,4 @@
 // +1 STR or DEX
 // Dealing slashing damage applies hamstring
 // when score a critical hit with slashing damage, the creature has DIS on all attack rolls until the start of your next turn
+// data "Icon" "PassiveFeature_Slasher"

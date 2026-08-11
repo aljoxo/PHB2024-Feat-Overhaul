@@ -1,3 +1,81 @@
 // +1 STR or CON
-// When dealing bludgeoning damage, you can push the target 5 feet
+// Once per turn when dealing bludgeoning damage, you Daze the target
 // When you score a Critical Hit with Bludgeoning damage, attack rolls against that creature have Advantage until the start of your next turn
+// data "Icon" "PassiveFeature_Crusher"
+
+new entry "APO_Crusher"
+type "PassiveData"
+// Crusher
+data "DisplayName" "hfaa38ddcg038fg4344g9bb1ge316d972f7c3;1"
+// When you hit a creature with an attack that deals Bludgeoning damage, you can <LSTag Type="Status" Tooltip="DAZED">Daze</LSTag> that creature.
+data "Description" "hb89a80ccg1e0cg438dga599g14a4a7611c06;1"
+data "Icon" "PassiveFeature_Crusher"
+data "Properties" "Highlighted;OncePerTurn"
+data "Boosts" "UnlockInterrupt(Interrupt_APO_Crusher_Daze)"
+
+new entry "APO_Crusher_Critical"
+type "PassiveData"
+// Crusher: Enhanced Critical
+data "DisplayName" "h756d6eddgc2fdg4f77g8287g2128846fd914;1"
+// When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag> against a creature with Bludgeoning damage, your <LSTag Tooltip="AttackRoll">Attack Roll</LSTag> against the creature have <LSTag Tooltip="Advantage">Advantage</LSTag> until the start of your next turn.
+data "Description" "hbfd79869gf5eeg4c7dg8b9cg1b6898c4cc79;1"
+data "Icon" "PassiveFeature_Crusher"
+data "Properties" "Highlighted"
+data "StatsFunctorContext"
+data "Conditions"
+data "StatsFunctors" IF(IsCritical()):ApplyStatus()
+
+new entry "Interrupt_APO_Crusher_Daze"
+type "InterruptData"
+data "Icon" "PassiveFeature_Crusher"
+// Crusher
+data "DisplayName" "h0db29ab1gcca7g46bbg84c2g7180cd2f466d;1"
+// You can <LSTag Type="Status" Tooltip="DAZED">Daze</LSTag> this creature.
+data "Description" "hd9994c46g1e30g4c0dg9019g02f5623dab29;1"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and IsHit() and not (IsCriticalMiss() or IsMiss()) and IsDamageTypeBludgeoning() and HasLastAttackTriggered()"
+data "Properties" "ApplyStatus(DAZED,100,1)"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions()"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "APO_CRUSHED"
+type "StatusData"
+data "StatusType" "BOOST"
+// Crushed
+data "DisplayName" "h046c30c9g6980g4c63gaa81g5e05f2bb25da;1"
+// Incoming attacks have <LSTag Tooltip="Advantage">Advantage</LSTag>.
+data "Description" "h25c42c88gd978g488dg8f1cg5c5f246bdb41;1"
+data "Icon" "statIcons_OffBalanced"
+data "StillAnimationType" "Weakened"
+data "StillAnimationPriority" "Weakened"
+data "StackId" "APO_CRUSHED"
+data "Boosts" "Advantage(AttackTarget)"
+data "TickType" "StartTurn"
+data "StatusPropertyFlags" "InitiateCombat;TickingWithSource"
+data "StatusGroups" "SG_Condition"
+
+new entry "APO_Crusher_Strength"
+type "PassiveData"
+// Crusher: Strength
+data "DisplayName" "haa8ee3bfg8fa2g4e30g8f90g3c8eb5baa52e;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_Crusher_Constitution"
+type "PassiveData"
+// Crusher: Constitution
+data "DisplayName" "h4239b820g7b48g4352g99ddg15a9a9721ae1;1"
+// Your Constitution is increased by [1].
+data "Description" "ha7a96527gdfeeg4acdgb889g443fa20828e4;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Constitution, 1)"

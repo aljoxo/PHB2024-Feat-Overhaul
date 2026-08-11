@@ -134,6 +134,11 @@
                     <attribute id="Passives" type="LSString" value="APO_Telekinetic_Intelligence,APO_Telekinetic_Wisdom,APO_Telekinetic_Charisma" />
                     <attribute id="UUID" type="guid" value="daae79d8-8fdc-4441-9130-10cd70df59ed" />
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Crusher ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_Crusher_Strength,APO_Crusher_Constitution" />
+                    <attribute id="UUID" type="guid" value="e3940765-e7ba-448d-8f84-f42c51972f4e" />
+                </node>
             </children>
         </node>
     </region>

@@ -9,7 +9,7 @@ type "PassiveData"
 data "DisplayName" "h82726b60g05e3g4209gbbacg0cacbe2769ea;1"
 // When dealing Necrotic damage, you roll your damage dice twice and use the highest result.
 data "Description" "hd25a3601g329eg4cebg9a72gba6408efb356;1"
-data "Icon" "PassiveFeature_TouchOfDeath"
+data "Icon" "PassiveFeature_GrimHarvest"
 data "Properties" "Highlighted"
 data "Boosts" "IF(HasDamageDoneForType(DamageType.Necrotic)):Reroll(Damage,20,false)"
 
@@ -19,7 +19,7 @@ type "PassiveData"
 data "DisplayName" "h66fb38dagb67bg48ffgbef0g18597c603d77;1"
 // When you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.
 data "Description" "h8579983dgaa3eg4810g812dg234fdd0ff7dd;1"
-data "Icon" "PassiveFeature_TouchOfDeath"
+data "Icon" "PassiveFeature_GrimHarvest"
 data "Properties" "Highlighted;OncePerTurn"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsDamageTypeNecrotic()"

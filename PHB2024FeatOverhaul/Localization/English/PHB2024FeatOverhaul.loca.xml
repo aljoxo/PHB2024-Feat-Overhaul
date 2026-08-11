@@ -356,6 +356,20 @@
 	<content contentuid="h54115a81g0d6fg4434gbfa7ge54c0bf75593" version="1">Telekinetic: Wisdom</content>
 	<content contentuid="h1f6e6d7eg0d0fg422cga0c2g6875a89799cc" version="1">Telekinetic: Charisma</content>
 
+	<!-- Crusher -->
+	<content contentuid="hfaa38ddcg038fg4344g9bb1ge316d972f7c3" version="1">Crusher</content>
+	<content contentuid="hb89a80ccg1e0cg438dga599g14a4a7611c06" version="1">When you hit a creature with an attack that deals Bludgeoning damage, you can &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; that creature.</content>
+	<content contentuid="h756d6eddgc2fdg4f77g8287g2128846fd914" version="1">Crusher: Enhanced Critical</content>
+	<content contentuid="hbfd79869gf5eeg4c7dg8b9cg1b6898c4cc79" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Bludgeoning damage, your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; until the start of your next turn.</content>
+	<content contentuid="h0db29ab1gcca7g46bbg84c2g7180cd2f466d" version="1">Crusher</content>
+	<content contentuid="hd9994c46g1e30g4c0dg9019g02f5623dab29" version="1">You can &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; this creature.</content>
+	<content contentuid="h046c30c9g6980g4c63gaa81g5e05f2bb25da" version="1">Crushed</content>
+	<content contentuid="h25c42c88gd978g488dg8f1cg5c5f246bdb41" version="1">Incoming attacks have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;.</content>
+	<content contentuid="haa8ee3bfg8fa2g4e30g8f90g3c8eb5baa52e" version="1">Crusher: Strength</content>
+	<content contentuid="h4239b820g7b48g4352g99ddg15a9a9721ae1" version="1">Crusher: Constitution</content>
+	<content contentuid="hf12f7ac9g8e83g47f7ga43ag306c04640ecc" version="1">Crusher</content>
+	<content contentuid="h2f351f7cg32f6g4160gbeb4g7917ef8bb7ae" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Bludgeoning damage, your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; until the start of your next turn.&lt;br&gt;&lt;br&gt;Once per Turn, When you hit a creature with an attack that deals Bludgeoning damage, you can &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; that creature.</content>
+
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

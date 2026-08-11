@@ -1,3 +1,14 @@
 // STR or DEX +1
 // Savage Attacker with Piercing damage
 // When you score a critical hit that deals piercing damage, roll one additional damage die
+// data "Icon" "PassiveFeature_Piercer"
+
+// new entry "BrutalCritical"
+// type "PassiveData"
+// // "Brutal Critical"
+// data "DisplayName" "h653597fcg1942g4ce1gaefag1ecf2fa01d4a;2"
+// // "You've trained to strike swift and true. When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag>, you roll an extra damage die as well as the normal additional critical dice."
+// data "Description" "h853b555ege835g49e1g9e27g74680e24aef4;4"
+// data "Icon" "PassiveFeature_BrutalCritical"
+// data "Properties" "Highlighted"
+// data "Boosts" "CriticalHitExtraDice(1, MeleeWeaponAttack);CriticalHitExtraDice(1, MeleeUnarmedAttack);"

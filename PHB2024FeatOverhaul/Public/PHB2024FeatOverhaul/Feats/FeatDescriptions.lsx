@@ -281,6 +281,13 @@
                 	<attribute id="UUID" type="guid" value="88b4c431-0598-4a83-b2d8-f4d22bb7bee0" />
                 </node>
 				<node id="FeatDescription">
+                	<attribute id="Description" type="TranslatedString" handle="h2f351f7cg32f6g4160gbeb4g7917ef8bb7ae" version="1" />
+                	<attribute id="DisplayName" type="TranslatedString" handle="hf12f7ac9g8e83g47f7ga43ag306c04640ecc" version="1" />
+                	<attribute id="ExactMatch" type="FixedString" value="Crusher" />
+                	<attribute id="FeatId" type="guid" value="a1e3f938-479c-4f79-80fb-f2b45142e91d" />
+                	<attribute id="UUID" type="guid" value="a0b8f431-a2c3-40b8-ab4b-b12669b1e30b" />
+                </node>
+				<node id="FeatDescription">
                 	<attribute id="Description" type="TranslatedString" handle="hdf466716g29b0g46e8gb2b5gd340ee4c67e5" version="1" />
                 	<attribute id="DisplayName" type="TranslatedString" handle="h2fce2ffbga335g4e6bg8e2fg5fca1fc1d4ac" version="1" />
                 	<attribute id="ExactMatch" type="FixedString" value="FeyTouched" />

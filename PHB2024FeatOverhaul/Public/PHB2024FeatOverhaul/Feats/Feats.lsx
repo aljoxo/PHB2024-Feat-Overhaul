@@ -246,6 +246,12 @@
                 	<attribute id="UUID" type="guid" value="e07e460f-46b9-4e7d-afdb-b23059bcde2f" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Crusher" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_Crusher;APO_Crusher_Critical" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e3940765-e7ba-448d-8f84-f42c51972f4e,1)" />
+                	<attribute id="UUID" type="guid" value="a1e3f938-479c-4f79-80fb-f2b45142e91d" />
+                </node>
+                <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="FeyTouched" />
                 	<attribute id="PassivesAdded" type="LSString" value="APO_FeyTouched" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(49c14119-c608-494b-8dc3-a8adb4490e21,1);SelectSpells(a752bc58-78a8-4328-a593-4dd7ea093d5a,1,0,FeyTouchedSpell,,None,AlwaysPrepared,UntilShortRest)" />
