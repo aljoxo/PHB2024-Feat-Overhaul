@@ -323,6 +323,13 @@
                 	<attribute id="UUID" type="guid" value="2c978a9c-e123-4830-bfca-fc8f1d9b5048" />
                 </node>
 				<node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="heb8f2750g1760g4837g9c37g46159eaddf1f" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9eaa341fg8a2cg413dg881bge8a3b31b68e3" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="Slasher"/>
+                    <attribute id="FeatId" type="guid" value="73313b76-70e4-460f-83d3-20600fb2afd8"/>
+                    <attribute id="UUID" type="guid" value="5cfd6a9d-fd13-46e6-b848-3885a1e9bb63"/>
+                </node>
+				<node id="FeatDescription">
 					<attribute id="Description" type="TranslatedString" handle="h5b90c1f5g5db2g4a53g9088g8c778fb4bd7b" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h3dbb272cg789eg45feg8e12gffb87aacd04c" version="1" />
 					<attribute id="ExactMatch" type="FixedString" value="Telekinetic" />

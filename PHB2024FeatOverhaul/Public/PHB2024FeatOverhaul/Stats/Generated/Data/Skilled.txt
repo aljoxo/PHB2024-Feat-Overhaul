@@ -1,7 +1,7 @@
 // Replaced with 2024 Skill Expert
 // Increase one ability of your choice
 // Gain proficiency in three skills of your choice
-// Can't add an expertise selector to a feat for some reason
+// Can't add an expertise selector to a feat for some reason, maybe Ill think of some other workaround
 
 new entry "Skilled"
 type "PassiveData"

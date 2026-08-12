@@ -11,6 +11,20 @@
                     <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
                     <attribute id="UUID" type="guid" value="475401bb-81fa-445a-b235-fc23743c7b8e"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5d4b6f65gd769g4517g9b5cgfc010f44661a" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="APO_Crusher_Daze_Charge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="d02c94b0-27e7-4ae7-8438-8dfabd15cb5a"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="haf4992eag2a0eg4895g8164g5bfccfcb8516" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="APO_Slasher_Hamstring_Charge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="6aebff8f-ca7c-4a07-ab25-8c954b78aada"/>
+                </node>
             </children>
         </node>
     </region>

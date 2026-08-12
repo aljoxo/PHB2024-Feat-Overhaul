@@ -369,6 +369,7 @@
 	<content contentuid="h4239b820g7b48g4352g99ddg15a9a9721ae1" version="1">Crusher: Constitution</content>
 	<content contentuid="hf12f7ac9g8e83g47f7ga43ag306c04640ecc" version="1">Crusher</content>
 	<content contentuid="h2f351f7cg32f6g4160gbeb4g7917ef8bb7ae" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Bludgeoning damage, your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; until the start of your next turn.&lt;br&gt;&lt;br&gt;Once per Turn, When you hit a creature with an attack that deals Bludgeoning damage, you can &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; that creature.</content>
+	<content contentuid="h5d4b6f65gd769g4517g9b5cgfc010f44661a" version="1">Crusher Charge</content>
 
 	<!-- Piercer -->
 	<content contentuid="h694288edgc324g4e61ga508gbe6e171febfb" version="1">Piercer</content>
@@ -380,7 +381,22 @@
 	<content contentuid="he8846e61g4f2dg4d9dg8ec0gcf87414d3e6e" version="1">Piercer</content>
 	<content contentuid="h921bb961g9766g4369g8830g74ef2fb006c7" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Piercing damage,  you roll an extra damage die as well as the normal additional critical dice.&lt;br&gt;&lt;br&gt;Once per Turn, when you hit a creature with an attack that deals Piercing daamge, you roll your damage dice twice and use the highest result.</content>
 
-	<content contentuid="" version="1"></content>
+	<!-- Slasher -->
+	<content contentuid="h80aa2cbbg1ee8g4ee1ga71egfc915689ffb0" version="1">Slasher</content>
+	<content contentuid="hf3abe9b8ged52g4fc1gb362g5594830ccdbf" version="1">When you hit a creature with an attack that deals Slashing damage, you can &lt;LSTag Type="Status" Tooltip="HAMSTRING"&gt;Hamstring&lt;/LSTag&gt; that creature.</content>
+	<content contentuid="h15b86647ge7b8g4a4fga02dg8ef53f5d61e8" version="1">Slasher: Enhanced Critical</content>
+	<content contentuid="h8706d013g4d1cg454eg8b4bgeec4e1c1ed13" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Slashing damage, the creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; until the start of your next turn.</content>
+	<content contentuid="h607daaa7g6e14g441bga621ge84741af911d" version="1">Slasher</content>
+	<content contentuid="h544668d5g2dbag43abg9298g0d597be847e7" version="1">You can &lt;LSTag Type="Status" Tooltip="HAMSTRING"&gt;Hamstring&lt;/LSTag&gt; this creature.</content>
+	<content contentuid="h040bb640g4148g47fdgb4e2g608228960c56" version="1">Slashed</content>
+	<content contentuid="h950776cage95bg41e8g98c9g1bdeb8342146" version="1">Entity has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
+	<content contentuid="h491106adg250ag4f03ga52ega1a755f7e4c2" version="1">Slasher: Strength</content>
+	<content contentuid="h2b6783f6gf10fg4731g9c48ga2f623e6aa3e" version="1">Slasher: Dexterity</content>
+	<content contentuid="h9eaa341fg8a2cg413dg881bge8a3b31b68e3" version="1">Slasher</content>
+	<content contentuid="heb8f2750g1760g4837g9c37g46159eaddf1f" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Slashing damage, the creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; until the start of your next turn.&lt;br&gt;&lt;br&gt;Once per Turn, when you hit a creature with an attack that deals Slashing damage, you can &lt;LSTag Type="Status" Tooltip="HAMSTRING"&gt;Hamstring&lt;/LSTag&gt; that creature.</content>
+	<content contentuid="haf4992eag2a0eg4895g8164g5bfccfcb8516" version="1">Slasher Charge</content>
+
+	
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

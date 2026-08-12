@@ -1,4 +1,82 @@
 // +1 STR or DEX
-// Dealing slashing damage applies hamstring
+// Once per turn, Dealing slashing damage applies hamstring
 // when score a critical hit with slashing damage, the creature has DIS on all attack rolls until the start of your next turn
 // data "Icon" "PassiveFeature_Slasher"
+
+new entry "APO_Slasher"
+type "PassiveData"
+// Slasher
+data "DisplayName" "h80aa2cbbg1ee8g4ee1ga71egfc915689ffb0;1"
+// When you hit a creature with an attack that deals Slashing damage, you can <LSTag Type="Status" Tooltip="HAMSTRING">Hamstring</LSTag> that creature.
+data "Description" "hf3abe9b8ged52g4fc1gb362g5594830ccdbf;1"
+data "Icon" "PassiveFeature_Slasher"
+data "Properties" "Highlighted;OncePerTurn"
+data "Boosts" "UnlockInterrupt(Interrupt_APO_Slasher_Hamstring);ActionResource(APO_Slasher_Hamstring_Charge,1,0)"
+
+new entry "APO_Slasher_Critical"
+type "PassiveData"
+// Slasher: Enhanced Critical
+data "DisplayName" "h15b86647ge7b8g4a4fga02dg8ef53f5d61e8;1"
+// When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag> against a creature with Slashing damage, the creature has <LSTag Tooltip="Disadvantage">Disadvantage</LSTag> on all <LSTag Tooltip="AttackRoll">Attack Roll</LSTag> until the start of your next turn.
+data "Description" "h8706d013g4d1cg454eg8b4bgeec4e1c1ed13;1"
+data "Icon" "PassiveFeature_Slasher"
+data "Properties" "Highlighted"
+data "StatsFunctorContext" "OnDamage"
+data "Conditions" "IsDamageTypeSlashing()"
+data "StatsFunctors" "IF(IsCritical()):ApplyStatus(APO_SLASHED,100,1)"
+
+new entry "Interrupt_APO_Slasher_Hamstring"
+type "InterruptData"
+data "Icon" "PassiveFeature_Slasher"
+// Slasher
+data "DisplayName" "h607daaa7g6e14g441bga621ge84741af911d;1"
+// You can <LSTag Type="Status" Tooltip="HAMSTRING">Hamstring</LSTag> this creature.
+data "Description" "h544668d5g2dbag43abg9298g0d597be847e7;1"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and IsHit() and not (IsCriticalMiss() or IsMiss()) and IsDamageTypeSlashing() and HasLastAttackTriggered()"
+data "Properties" "ApplyStatus(HAMSTRING,100,1)"
+data "Cost" "APO_Slasher_Daze_Charge:1"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions()"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "APO_SLASHED"
+type "StatusData"
+data "StatusType" "BOOST"
+// Slashed
+data "DisplayName" "h040bb640g4148g47fdgb4e2g608228960c56;1"
+// Entity has <LSTag Tooltip="Disadvantage">Disadvantage</LSTag> on all <LSTag Tooltip="AttackRoll">Attack Roll</LSTag>.
+data "Description" "h950776cage95bg41e8g98c9g1bdeb8342146;1"
+data "Icon" "statIcons_Hindered"
+data "StillAnimationType" "Weakened"
+data "StillAnimationPriority" "Weakened"
+data "StackId" "APO_SLASHED"
+data "Boosts" "Disadvantage(AttackRoll)"
+data "TickType" "StartTurn"
+data "StatusPropertyFlags" "InitiateCombat;TickingWithSource"
+data "StatusGroups" "SG_Condition"
+
+new entry "APO_Slasher_Strength"
+type "PassiveData"
+// Slasher: Strength
+data "DisplayName" "h491106adg250ag4f03ga52ega1a755f7e4c2;1"
+// Your Strength is increased by [1].
+data "Description" "h1e78895fg3a0dg45caga7d9gdb94d56ee0da;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Strength, 1)"
+
+new entry "APO_Slasher_Dexterity"
+type "PassiveData"
+// Slasher: Dexterity
+data "DisplayName" "h2b6783f6gf10fg4731g9c48ga2f623e6aa3e;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
