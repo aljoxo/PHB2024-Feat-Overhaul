@@ -1,2 +1,64 @@
 // 2024 Musician
-// TO DO: Make Feat, im lazy
+// +1 CHA
+// Gain Musical instrument proficiency
+// Performance expertise
+// Encouraging Song. As you finish a Short or Long Rest, you can play a song on a Musical Instrument with which you have proficiency and give Heroic Inspiration to allies who hear the song. The number of allies you can affect in this way equals your Proficiency Bonus.
+
+new entry "Performer"
+type "PassiveData"
+// Musician
+data "DisplayName" "h1c6b40d3g8848g4f79ga6aag3a7612c73b67;2"
+// You know how to play musical instruments and have &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; is increased by [1].
+data "Description" "h85b8a1ffg2956g4937g8a8fg099c944f5fe4;1"
+data "DescriptionParams" "1"
+data "Icon" "PassiveFeature_FontOfInspiration"
+data "Properties" "Highlighted"
+data "Boosts" "Proficiency(MusicalInstrument);ProficiencyBonus(Skill,Performance);ExpertiseBonus(Performance);Ability(Charisma,1)"
+
+// new entry "APO_Performer_Song"
+// type "PassiveData"
+// // Musician: Encouraging Song
+// data "DisplayName" ";1"
+// // Song text
+// data "Description" ";1"
+// data "Icon" "PassiveFeature_FontOfInspiration"
+// data "Properties" "Highlighted"
+// data "Boosts" "UnlockSpell(Target_APO_Performer_Song)"
+// 
+// new entry "Target_APO_Performer_Song"
+// type "SpellData"
+// data "SpellType" "Target"
+// data "Cooldown" "OncePerRest"
+// data "SpellProperties" ""
+// data "TargetRadius" "18"
+// data "TargetConditions" "not Dead() and Ally() and Character()"
+// data "AmountOfTargets" "LevelMapValue(APO_EncouragingSong)"
+// data "Icon" "PassiveFeature_FontOfInspiration"
+// // Encouraging Song
+// data "DisplayName" ";1"
+// // song text
+// data "Description" ";1"
+// data "DescriptionParams" "ProficiencyBonus"
+// data "TooltipStatusApply" ""
+// data "CastSound" "Spell_Cast_Bard_SongOfRest_L1to3"
+// data "TargetSound" "Spell_Impact_Bard_SongOfRest_L1to3"
+// data "CastTextEvent" "Cast"
+// data "InstrumentComponentPrepareSound" "Instrument_Bard_SongOfRest_Prepare"
+// data "InstrumentComponentLoopingSound" "Instrument_Bard_SongOfRest_Loop"
+// data "InstrumentComponentCastSound" "Instrument_Bard_SongOfRest_Cast"
+// data "InstrumentComponentImpactSound" "Instrument_Bard_SongOfRest_Impact"
+// data "PreviewCursor" "Cast"
+// data "CastTextEvent" "Cast"
+// data "CycleConditions" "Ally() and not Dead()"
+// data "UseCosts" "BonusActionPoint:1"
+// data "SpellAnimation" "850cd2f3-dde2-475d-b3a3-f35c47333523,,;,,;62819708-175d-4ad4-95d5-55757e18d981,,;2a6a403d-1b6f-41ea-9324-445761b2cbb3,,;ad775f69-0d9f-4215-bfc2-8e0ec7e32189,,;,,;6bfce8a0-80f1-47a8-97f4-34f4b8b6fe9e,,;,,;,,"
+// data "VerbalIntent" "Buff"
+// data "SpellStyleGroup" "Class"
+// data "SpellFlags" "HasVerbalComponent"
+// data "HitAnimationType" "MagicalNonDamage"
+// data "RequirementEvents" "OnTurn;OnCombatEnded"
+// data "PrepareEffect" "d2c9dc70-d8d8-40fc-87a8-3c14a3ea842a"
+// data "CastEffect" "5e248293-1a8d-4557-a2e1-f399e4552ff0"
+// data "HitEffect" "b4d2ce64-af72-45a2-8146-6a9c3b71f1a6"
+// data "SpellSoundMagnitude" "Big"
+// data "Sheathing" "Instrument"

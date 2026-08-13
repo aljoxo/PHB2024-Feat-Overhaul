@@ -24,6 +24,16 @@
 								<attribute id="Name" type="FixedString" value="APO_HeavyArmorMaster"/>
 								<attribute id="UUID" type="guid" value="b8458244-a994-4a6f-a8e2-e9d92d863302"/>
 							</node>
+							<node id="LevelMapSeries">
+								<attribute id="FallbackValue" type="LSString" value="2"/>
+								<attribute id="Level1" type="LSString" value="2"/>
+								<attribute id="Level5" type="LSString" value="3"/>
+								<attribute id="Level9" type="LSString" value="4"/>
+								<attribute id="Level13" type="LSString" value="5"/>
+								<attribute id="Level17" type="LSString" value="6"/>
+								<attribute id="Name" type="FixedString" value="APO_EncouragingSong"/>
+								<attribute id="UUID" type="guid" value="f7c71806-aaa5-4051-87bf-a528a519206d"/>
+							</node>
 					</children>
 				</node>
 		</region>

@@ -1,5 +1,7 @@
 // Added ASI
 // INT WIS or CHA +1
+// minimum damage roll for chosen element is a 2
+// ignore resistance to chosen element
 
 new entry "ElementalAdept_Acid"
 type "PassiveData"

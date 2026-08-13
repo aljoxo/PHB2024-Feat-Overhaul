@@ -1,6 +1,6 @@
 // +1 INT, WIS, or CHA
 // Casting in melee
-// Replaced increased range w/ no low ground penalty
+// Replaced increased range w/ no low ground penalty --> IgnoreLowGroundPenalty(RangedSpellAttack)
 // bypass cover replaced with learn a cantrip
 // ig IgnorePointBlankDisadvantage() doesn't work with spells since the argument is a WeaponFlag
 // maybe IF(HasStatus('FLANKED') and AttackType.RangedSpellAttack):Advantage(AttackRoll) ???

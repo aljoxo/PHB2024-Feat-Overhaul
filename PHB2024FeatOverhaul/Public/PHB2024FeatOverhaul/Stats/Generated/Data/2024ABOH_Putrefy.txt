@@ -11,7 +11,7 @@ data "DisplayName" "h82726b60g05e3g4209gbbacg0cacbe2769ea;1"
 data "Description" "hd25a3601g329eg4cebg9a72gba6408efb356;1"
 data "Icon" "PassiveFeature_GrimHarvest"
 data "Properties" "Highlighted"
-data "Boosts" "IF(HasDamageDoneForType(DamageType.Necrotic)):Reroll(Damage,20,false)"
+data "Boosts" "IF(Goon_IsSpellDamageTypeNecrotic()):Reroll(Damage,20,false)"
 
 new entry "APO_Putrefy_Necrosis"
 type "PassiveData"

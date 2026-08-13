@@ -186,6 +186,15 @@
 	<content contentuid="h8cdb2475g9ca3g4652g8ab0g84d31d7d1179" version="1">Moderately Armoured: Strength</content>
 	<content contentuid="h41e35ebbg8277g47d5g9120g66bde3382969" version="1">Moderately Armoured: Dexterity</content>
 
+	<!-- Performer / Musician -->
+	<content contentuid="hfe86dbb5ge548g401aga600gad68a51db656" version="1">Musician</content>
+	<content contentuid="hdbcb8c6bg0e0dg4ba5gafc9g1e428b32ac0c" version="1">Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="MusicalInstrumentProficiency"&gt;Musical Instrument Proficiency&lt;/LSTag&gt;.</content>
+	<content contentuid="h1c6b40d3g8848g4f79ga6aag3a7612c73b67" version="1">Musician</content>
+	<content contentuid="h85b8a1ffg2956g4937g8a8fg099c944f5fe4" version="1">You know how to play musical instruments and have &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;. Your &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; is increased by [1].</content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+
 	<!-- Polearm Master -->
 	<content contentuid="h3282e0c5gb4abg4326g95f0g62260654016d" version="1">Polearm Master: Reactive Strike</content>
 	<content contentuid="h37a9b742gd6ffg4921gbd7fg699db8c354d0" version="1">Make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; whenever a creature enters your reach.</content>
@@ -380,7 +389,7 @@
 	<content contentuid="hacdfb445g1bf7g4340g836bg94518aaa11e3" version="1">Piercer: Dexterity</content>
 	<content contentuid="he8846e61g4f2dg4d9dg8ec0gcf87414d3e6e" version="1">Piercer</content>
 	<content contentuid="h921bb961g9766g4369g8830g74ef2fb006c7" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Piercing damage,  you roll an extra damage die as well as the normal additional critical dice.&lt;br&gt;&lt;br&gt;Once per Turn, when you hit a creature with an attack that deals Piercing daamge, you can deal an additional 1d4 Piercing damage.</content>
-	<content contentuid=he9a2c704g6956g40ceg91aagbb1ad2c71330"" version="1">Pierced Charge</content>
+	<content contentuid="he9a2c704g6956g40ceg91aagbb1ad2c71330" version="1">Pierced Charge</content>
 	<content contentuid="h906d5cd5gf709g4cefga8f2g370cc940780b" version="1">Piercer</content>
 	<content contentuid="hf6bfbf81g9ce7g4a41gbf6dg88ebdb337286" version="1">You can deal an additional [1].</content>
 
@@ -415,6 +424,14 @@
 	<content contentuid="h36dd4d41g4d9cg47bdgb20dgee2f445d6776" version="1">Poisoner: Intelligence</content>
 	<content contentuid="h5ab3a1abgf052g4bc2ga9c3gbe20a0592ad1" version="1">Poisoner</content>
 	<content contentuid="hc1a80fcegf85fg4276g9a38ga5f41ae55a6c" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; or &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When dealing Poison damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+
+	<!-- Telepathic -->
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
+	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 
 	<content contentuid="" version="1"></content>

@@ -14,7 +14,7 @@ data "DisplayName" "hde6f2d55g538dg4229ga08bg8ac0fcbec5b1;1"
 data "Description" "hcdff72fbgb3c5g43e3gafdfgcaf67769db29;1"
 data "Icon" "PassiveFeature_ElementalAdept_Cold"
 data "Properties" "Highlighted"
-data "Boosts" "IF(HasDamageDoneForType(DamageType.Cold)):Reroll(Damage,20,false);UnlockSpell(Projectile_RayOfFrost)"
+data "Boosts" "IF(Goon_IsSpellDamageTypeCold()):Reroll(Damage,20,false);UnlockSpell(Projectile_RayOfFrost)"
 
 new entry "APO_ColdCaster_Frostbite"
 type "PassiveData"

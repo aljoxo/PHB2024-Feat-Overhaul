@@ -2,3 +2,4 @@
 // Always have Detect Thoughts Prepared
 // Detect Thoughts can be cast without a spell slot or components
 // uh I guess also Expertise in Insight since Telepathic Utterance can't be adapted.
+
