@@ -27,10 +27,13 @@ type "PassiveData"
 using "MageSlayer_BreakConcentration"
 // Mage Slayer: Concentration Breaker
 data "DisplayName" "he87ad602g089ag4846g8707g5043031e0861;1"
-// Creatures taking a <LSTag Tooltip="SavingThrow">Saving Throw</LSTag> to maintain their <LSTag Tooltip="Concentration">Concentration</LSTag> after you hit them do so with <LSTag Tooltip="Disadvantage">Disadvantage</LSTag>.
-data "Description" "h04821a3fgf86eg4508g927cgbc4b98077078;2"
+// When you damage a creature that is &lt;LSTag Tooltip="Concentration"&gt;Concentrating&lt;/LSTag&gt;, it has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on the &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; it makes to maintain Concentration.
+data "Description" "h98d28acfgfc67g4fbdg854fg02f2383af4b4;1"
 data "Icon" "PassiveFeature_MageSlayer_BreakConcentration"
 data "Properties" "Highlighted"
+// data "StatsFunctorContext" "OnDamage"
+// data "Conditions" "IsMeleeAttack() and IsConcentrating(context.Target)"
+// data "StatsFunctors" "BreakConcentration(context.Target)"
 
 new entry "APO_MageSlayer_GuardedMind"
 type "PassiveData"
@@ -81,3 +84,25 @@ data "DescriptionParams" "1"
 data "Icon" "GenericIcon_Intent_Buff"
 data "Properties" "IsHidden"
 data "Boosts" "Ability(Dexterity, 1)"
+
+// carrying over goon's fixes for MageSlayer in case NPCs have this.
+new entry "Interrupt_MageSlayer"
+type "InterruptData"
+using "Interrupt_MageSlayer"
+// // Mage Slayer
+// data "DisplayName" "ha7485350ga681g4861gbd5bg3d4c8df27e98;1"
+// // Attack an enemy as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; if they cast a spell near you. 
+// data "Description" "h9b63daaeg493bg470fga510g69dc14094f35;2"
+// data "Icon" "PassiveFeature_MageSlayer_AttackACaster"
+// data "InterruptContext" "OnSpellCast"
+// data "InterruptContextScope" "Nearby"
+// data "Container" "YesNoDecision"
+// data "Conditions" "IsAbleToReact(context.Observer) and not Self(context.Source, context.Observer) and Enemy(context.Source, context.Observer) and IsSpell() and not Uninterruptible() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Source) and not AnyEntityIsItem()"
+data "Conditions" "Goon_BasicHarmfulInterruptConditions(false,true) and Goon_InAttackRange(nil,nil,false,true) and Enemy(context.Source, context.Observer) and IsSpell()"
+// data "Properties" "UseAttack(OBSERVER_SOURCE)"
+// data "Cost" "ReactionActionPoint:1"
+// data "InterruptDefaultValue" "Ask;Enabled"
+// data "EnableCondition" "not HasStatus('SG_Disguise')"
+data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions(true)"
+// data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptFlags" "InterruptWhileInvisible"
