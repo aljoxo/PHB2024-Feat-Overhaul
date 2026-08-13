@@ -1,5 +1,7 @@
+// Homebrewed a decent amount
 // STR or DEX +1
 // Once per turn, when you hit a creature with an attack that deals Piercing damage, you can reroll one of the attack’s damage dice, and you must use the new roll.
+// just going to make this add another 1d4 piercing damage once per turn because the above doesn't really implement cleanly
 // When you score a critical hit that deals piercing damage, roll one additional damage die
 // data "Icon" "PassiveFeature_Piercer"
 
@@ -7,11 +9,12 @@ new entry "APO_Piercer"
 type "PassiveData"
 // Piercer
 data "DisplayName" "h694288edgc324g4e61ga508gbe6e171febfb;1"
-// When you hit a creature with an attack that deals Piercing daamge, you roll your damage dice twice and use the highest result.
+// When you hit a creature with an attack that deals Piercing daamge, you can deal an additional [1].
 data "Description" "h870e678fgd1c0g40a1gb518gb487d0e4c9f4;1"
+data "DescriptionParams" "DealDamage(1d4,Piercing)"
 data "Icon" "PassiveFeature_Piercer"
 data "Properties" "Highlighted;OncePerTurn"
-data "Boosts" "IF(AttackingWithMeleeWeapon(context.Source) and IsDamageTypePiercing()):Reroll(Damage, 20, false);IF(IsRangedWeaponAttack() and IsDamageTypePiercing()):Reroll(Damage,20,false);IF(IsRangedOffHandWeaponAttack() and IsDamageTypePiercing()):Reroll(Damage,20,false)"
+data "Boosts" "UnlockInterrupt(Interrupt_APO_Piercer_Pierced);ActionResource(APO_Piercer_Pierced_Charge,1,0)"
 
 new entry "APO_Piercer_Critical"
 type "PassiveData"
@@ -22,6 +25,25 @@ data "Description" "h7c408c4agdc09g45eegb593g7e5addb7306a;1"
 data "Icon" "PassiveFeature_Piercer"
 data "Properties" "Highlighted"
 data "Boosts" "IF(IsDamageTypePiercing()):CriticalHitExtraDice(1, MeleeWeaponAttack);IF(IsDamageTypePiercing()):CriticalHitExtraDice(1, RangedWeaponAttack)"
+
+new entry "Interrupt_APO_Piercer_Pierced"
+type "InterruptData"
+data "Icon" "PassiveFeature_Crusher"
+// Piercer
+data "DisplayName" "h906d5cd5gf709g4cefga8f2g370cc940780b;1"
+// You can deal an additional [1].
+data "Description" "hf6bfbf81g9ce7g4a41gbf6dg88ebdb337286;1"
+data "DescriptionParams" "DealDamage(1d4,Piercing)"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Goon_InterruptConditions() and Self(context.Source,context.Observer) and IsHit() and not (IsCriticalMiss() or IsMiss()) and IsDamageTypePiercing() and HasLastAttackTriggered()"
+data "Properties" "DealDamage(1d4,Piercing)"
+data "Cost" "APO_Piercer_Pierced_Charge:1"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions()"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved"
+data "InterruptFlags" "InterruptWhileInvisible"
 
 new entry "APO_Piercer_Strength"
 type "PassiveData"

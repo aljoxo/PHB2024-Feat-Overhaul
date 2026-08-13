@@ -25,6 +25,13 @@
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="UUID" type="guid" value="6aebff8f-ca7c-4a07-ab25-8c954b78aada"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="he9a2c704g6956g40ceg91aagbb1ad2c71330" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="APO_Piercer_Pierced_Charge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="a44ecd64-4d36-426c-9c4f-b0680f3fa942"/>
+                </node>
             </children>
         </node>
     </region>
