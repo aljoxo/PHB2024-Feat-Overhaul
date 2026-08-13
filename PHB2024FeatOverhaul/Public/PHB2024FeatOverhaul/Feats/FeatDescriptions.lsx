@@ -309,6 +309,13 @@
                     <attribute id="UUID" type="guid" value="dbb6a5ae-5b67-46b0-8305-d17466b96e79"/>
                 </node>
 				<node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hc1a80fcegf85fg4276g9a38ga5f41ae55a6c" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5ab3a1abgf052g4bc2ga9c3gbe20a0592ad1" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="Poisoner"/>
+                    <attribute id="FeatId" type="guid" value="7591dc9e-edad-4b96-8f7c-628295f94018"/>
+                    <attribute id="UUID" type="guid" value="3977849a-ba8d-4f31-a3de-7c298a0ea092"/>
+                </node>
+				<node id="FeatDescription">
                     <attribute id="Description" type="TranslatedString" handle="h99969785g2b58g4555g8d98g5bcb20dc2b10" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h33aaa5f7gbe2bg4285g9b15g79ae9d07d611" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="Putrefy"/>
@@ -328,6 +335,13 @@
                     <attribute id="ExactMatch" type="FixedString" value="Slasher"/>
                     <attribute id="FeatId" type="guid" value="73313b76-70e4-460f-83d3-20600fb2afd8"/>
                     <attribute id="UUID" type="guid" value="5cfd6a9d-fd13-46e6-b848-3885a1e9bb63"/>
+                </node>
+				<node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h5ade4be1ge7eeg427fg9c35g728c632bb2bd" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hba42c706gb75ag4adcg803eg331edad00c1e" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="SpellfireAdept"/>
+                    <attribute id="FeatId" type="guid" value="36c62f2b-c663-42cb-8fba-d710af67b2a5"/>
+                    <attribute id="UUID" type="guid" value="99f0e7e5-61b9-433c-8f0f-2038ac590966"/>
                 </node>
 				<node id="FeatDescription">
 					<attribute id="Description" type="TranslatedString" handle="h5b90c1f5g5db2g4a53g9088g8c778fb4bd7b" version="1" />

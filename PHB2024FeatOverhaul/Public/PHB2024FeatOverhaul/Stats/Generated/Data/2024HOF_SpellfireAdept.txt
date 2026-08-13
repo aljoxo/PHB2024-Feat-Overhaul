@@ -1,6 +1,49 @@
 // Homebrewed
 // INT WIS or CHA +1
 // You learn the Sacred Flame cantrip
-// Once per turn when you take damage from a spell or magical effect, you reduce the total damage taken by 1d4. Can't be used while Incapacitated
 // Advantage on damage die for Radiant spells
 // Radiant spells ignore Resistance
+// data "Icon" "PassiveFeature_Tranquility"
+
+new entry "APO_SpellfireAdept"
+type "PassiveData"
+// Spellfire Adept
+data "DisplayName" "ha24d1f1bgbc73g4984g9112g08e1a7902fed;1"
+// You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame;/LSTag&gt; cantrip. When dealing Radiant damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.
+data "Description" "h0e464e05ga191g4a6bgb70dg4f6308072252;1"
+data "Icon" "PassiveFeature_Tranquility"
+data "Properties" "Highlighted"
+data "Boosts" "IF(HasDamageDoneForType(DamageType.Radiant)):Reroll(Damage,20,false);UnlockSpell(Target_SacredFlame);IgnoreResistance(Radiant,Resistant)"
+
+new entry "APO_SpellfireAdept_Intelligence"
+type "PassiveData"
+// Spellfire Adept: Intelligence
+data "DisplayName" "ha8a2db33gc2adg4f01ga936gb302a8e863fc;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"
+
+new entry "APO_SpellfireAdept_Wisdom"
+type "PassiveData"
+// Spellfire Adept: Wisdom
+data "DisplayName" "h00f639d4ge1f9g4c5cg98e6g4efda7831ec2;1"
+// Your Wisdom is increased by [1].
+data "Description" "hd37842d0g24b9g44ecg9a26gba48693c5953;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Wisdom, 1)"
+
+new entry "APO_SpellfireAdept_Charisma"
+type "PassiveData"
+// Spellfire Adept: Charisma
+data "DisplayName" "hd1615bd7gafa0g4cb1g9992g7000cb1cae7c;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"

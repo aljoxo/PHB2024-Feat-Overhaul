@@ -17,7 +17,7 @@ new entry "Target_APO_MageHand_Telekinetic"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_MageHand"
-data "Cooldown" "OncePerTurnNoRealtime"
+// data "Cooldown" "OncePerTurnNoRealtime"
 // Telekinetic: Mage Hand
 data "DisplayName" "h2749c7ccgf25fg4bd2g9f08g696ac863ed7e;1"
 data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems"

@@ -149,6 +149,16 @@
                     <attribute id="Passives" type="LSString" value="APO_Slasher_Strength,APO_Slasher_Dexterity" />
                     <attribute id="UUID" type="guid" value="c9813fef-f156-4d93-b9ed-705a54c75bb8" />
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Spellfire Adept ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_SpellfireAdept_Intelligence,APO_SpellfireAdept_Wisdom,APO_SpellfireAdept_Charisma" />
+                    <attribute id="UUID" type="guid" value="895c6949-af32-4055-97fc-83ae74cfe863" />
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Poisoner Adept ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_Poisoner_Dexterity,APO_Poisoner_Intelligence" />
+                    <attribute id="UUID" type="guid" value="e1aea4a4-b8a0-41e1-8a15-f132d50e7676" />
+                </node>
             </children>
         </node>
     </region>

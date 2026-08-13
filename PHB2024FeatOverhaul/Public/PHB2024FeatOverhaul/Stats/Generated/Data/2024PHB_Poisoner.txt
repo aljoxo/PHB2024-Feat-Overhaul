@@ -4,3 +4,36 @@
 // Advantage on poison damage die
 // TO DO: Custom Icons
 // TO DO: brew poison sounds like too much work to implement rn
+// data "Icon" "PassiveFeature_ExperimentalAlchemy"
+
+new entry "APO_Poisoner"
+type "PassiveData"
+// Poisoner
+data "DisplayName" "h6eaa56e3g6f3dg4961g8dc0g5dcdad5b2dfe;1"
+// When dealing Poison damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.
+data "Description" "h8f868b88ge7fbg4ed7gb032g4571324a7197;1"
+data "Icon" "PassiveFeature_ExperimentalAlchemy"
+data "Properties" "Highlighted"
+data "Boosts" "IF(HasDamageDoneForType(DamageType.Poison)):Reroll(Damage,20,false);IgnoreResistance(Poison,Resistant)"
+
+new entry "APO_Poisoner_Dexterity"
+type "PassiveData"
+// Poisoner: Dexterity
+data "DisplayName" "h3919d06bgfaddg4d8eg9852ge4ca7c8a3389;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
+new entry "APO_Poisoner_Intelligence"
+type "PassiveData"
+// Poisoner: Intelligence
+data "DisplayName" "h36dd4d41g4d9cg47bdgb20dgee2f445d6776;1"
+// Your Intelligence is increased by [1].
+data "Description" "h80452fa7g9516g47f2gad46g074bdd071f26;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Intelligence, 1)"

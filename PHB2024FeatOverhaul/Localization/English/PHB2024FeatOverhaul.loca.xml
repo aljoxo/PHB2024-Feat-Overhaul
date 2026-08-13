@@ -83,7 +83,7 @@
 	<content contentuid="hb65556e5gbf0cg4dbeg8c90g00cc66310ad9" version="1">Elemental Adept: Wisdom</content>
 	<content contentuid="h02a3b4c3g0a41g4761gaef5ge854684d247a" version="1">Elemental Adept: Charisma</content>
 	<content contentuid="hf16fd335g8727g42abg807cg72e4ad0bbdb7" version="1">Elemental Adept</content>
-	<content contentuid="hb1278a08g4e61g4183ga413g2bba30309af5" version="1">>Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to a damage type of your choice. When you deal damage of that type, you cannot roll a 1.</content>
+	<content contentuid="hb1278a08g4e61g4183ga413g2bba30309af5" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;Your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to a damage type of your choice. When you deal damage of that type, you cannot roll a 1.</content>
 	
 	<!-- Great Weapon Master -->
 	<content contentuid="h00c8787bg52fcg49d6g9125g77fc49220f28" version="1">Great Weapon Master: Hew</content>
@@ -399,7 +399,24 @@
 	<content contentuid="heb8f2750g1760g4837g9c37g46159eaddf1f" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Slashing damage, the creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; until the start of your next turn.&lt;br&gt;&lt;br&gt;Once per Turn, when you hit a creature with an attack that deals Slashing damage, you can &lt;LSTag Type="Status" Tooltip="HAMSTRING"&gt;Hamstring&lt;/LSTag&gt; that creature.</content>
 	<content contentuid="haf4992eag2a0eg4895g8164g5bfccfcb8516" version="1">Slasher Charge</content>
 
+	<!-- Spellfire Adept -->
+	<content contentuid="ha24d1f1bgbc73g4984g9112g08e1a7902fed" version="1">Spellfire Adept</content>
+	<content contentuid="h0e464e05ga191g4a6bgb70dg4f6308072252" version="1">You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame;/LSTag&gt; cantrip. When dealing Radiant damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
+	<content contentuid="ha8a2db33gc2adg4f01ga936gb302a8e863fc" version="1">Spellfire Adept: Intelligence</content>
+	<content contentuid="h00f639d4ge1f9g4c5cg98e6g4efda7831ec2" version="1">Spellfire Adept: Wisdom</content>
+	<content contentuid="hd1615bd7gafa0g4cb1g9992g7000cb1cae7c" version="1">Spellfire Adept: Charisma</content>
+	<content contentuid="hba42c706gb75ag4adcg803eg331edad00c1e" version="1">Spellfire Adept</content>
+	<content contentuid="h5ade4be1ge7eeg427fg9c35g728c632bb2bd" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame;/LSTag&gt; cantrip. When dealing Radiant damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
 	
+	<!-- Poisoner -->
+	<content contentuid="h6eaa56e3g6f3dg4961g8dc0g5dcdad5b2dfe" version="1">Poisoner</content>
+	<content contentuid="h8f868b88ge7fbg4ed7gb032g4571324a7197" version="1">When dealing Poison damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+	<content contentuid="h3919d06bgfaddg4d8eg9852ge4ca7c8a3389" version="1">Poisoner: Dexterity</content>
+	<content contentuid="h36dd4d41g4d9cg47bdgb20dgee2f445d6776" version="1">Poisoner: Intelligence</content>
+	<content contentuid="h5ab3a1abgf052g4bc2ga9c3gbe20a0592ad1" version="1">Poisoner</content>
+	<content contentuid="hc1a80fcegf85fg4276g9a38ga5f41ae55a6c" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; or &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When dealing Poison damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+	<content contentuid="" version="1"></content>
+
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

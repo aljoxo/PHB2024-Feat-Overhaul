@@ -270,6 +270,12 @@
                 	<attribute id="UUID" type="guid" value="c6bb8e7b-0872-4522-8521-46bbb6e8c36c" />
                 </node>
                 <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="Poisoner" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_Poisoner" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(e1aea4a4-b8a0-41e1-8a15-f132d50e7676,1)" />
+                	<attribute id="UUID" type="guid" value="7591dc9e-edad-4b96-8f7c-628295f94018" />
+                </node>
+                <node id="Feat">
                     <attribute id="Name" type="FixedString" value="Putrefy" />
                     <attribute id="PassivesAdded" type="LSString" value="APO_Putrefy;APO_Putrefy_Necrosis" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(6aad47fc-48f0-48bc-8746-8a920d71041d,1)" />
@@ -286,6 +292,12 @@
                 	<attribute id="PassivesAdded" type="LSString" value="APO_Slasher;APO_Slasher_Critical" />
                     <attribute id="Selectors" type="LSString" value="SelectPassives(c9813fef-f156-4d93-b9ed-705a54c75bb8,1)" />
                 	<attribute id="UUID" type="guid" value="73313b76-70e4-460f-83d3-20600fb2afd8" />
+                </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="SpellfireAdept" />
+                	<attribute id="PassivesAdded" type="LSString" value="APO_SpellfireAdept" />
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(895c6949-af32-4055-97fc-83ae74cfe863,1)" />
+                	<attribute id="UUID" type="guid" value="36c62f2b-c663-42cb-8fba-d710af67b2a5" />
                 </node>
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="Telekinetic" />
