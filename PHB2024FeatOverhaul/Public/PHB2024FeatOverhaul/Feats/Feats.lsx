@@ -159,6 +159,7 @@
                 	<attribute id="UUID" type="guid" value="681d5307-f0ed-4c94-8cf0-db0c51116f56" />
                 </node>
                 <node id="Feat">
+                    <!-- Musician -->
                 	<attribute id="Name" type="FixedString" value="Performer" />
                 	<attribute id="PassivesAdded" type="LSString" value="Performer" />
                 	<!-- <attribute id="Selectors" type="LSString" value="SelectAbilities(98acdfcb-3c74-4e1a-8707-5d6da747d430,1,1,PerformerASI)" /> -->
