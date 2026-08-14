@@ -427,13 +427,83 @@
 	<content contentuid="hc1a80fcegf85fg4276g9a38ga5f41ae55a6c" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; or &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When dealing Poison damage with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
 
 	<!-- Telepathic -->
+	<content contentuid="" version="1">Zhentarim Tactics</content>
+	<content contentuid="" version="1">Immediately after a creature hits you with a melee attack, you can make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; against that creature.</content>
+	<content contentuid="" version="1">Zhentarim Tactics: Opportunity Attack</content>
+	<content contentuid="" version="1">When a creature hits you with a melee attack, you can retaliate with an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;.</content>
+	<content contentuid="" version="1">Zhentarim Tactics: Versatile Merc</content>
+	<content contentuid="" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill of your choice.</content>
 	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
+
+	<!-- Zhetarim Tactics -->
+	<content contentuid="h6000bb1egda35g45bbg905bg5435b8cfe887" version="1">Zhentarim Tactics</content>
+	<content contentuid="hb63f1a5fg4017g4ed0g98bagce26b1a46503" version="1">Immediately after a creature hits you with a melee attack, you can make an &lt;LSTag Tooltip="Interrupt_APO_ZhentarimTactics"&gt;Opportunity Attack&lt;/LSTag&gt; against that creature.</content>
+	<content contentuid="hcd59f30ag3ab2g44b5g8db9g4621d056e465" version="1">Zhentarim Tactics: Opportunity Attack</content>
+	<content contentuid="h2ec4b5a0gb8fdg4dd3g853bge6103b2ffd31" version="1">When a creature hits you with a melee attack, you can retaliate with a melee attack.</content>
+	<content contentuid="h8cc497bdg634eg4969ga56eg448e8e81689a" version="1">Zhentarim Tactics: Versatile Merc</content>
+	<content contentuid="h2522ba1fgb4cag4daeg83bcg6dc90ac88484" version="1">Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, you can gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill which you have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;.</content>
+	<content contentuid="h9831c88fg1cffg4afdg8f0eg29e231add382" version="1">Versatile Merc</content>
+	<content contentuid="h09f3d6dfg1687g4be4ga766g2a1456b1927b" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill which you have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;.</content>
+	<content contentuid="h7b455b55g723dg494cga209g57c989336800" version="1">Versatile Merc: Acrobatics</content>
+	<content contentuid="h8521313egb131g4269g8cdegabb27d4b6a08" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Acrobatics if you're not already.</content>
+	<content contentuid="h708f8f6eg04d3g45d8gb86bg3deee463c701" version="1">Versatile Merc: Animal Handling</content>
+	<content contentuid="hadd9d79ag9c99g424bg85f9g53c725b94d3a" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Animal Handling if you're not already.</content>
+	<content contentuid="h5f4bf80fg075eg4495g8fe6gddfbda7725fd" version="1">Versatile Merc: Athletics</content>
+	<content contentuid="h8f46144bgd3fdg4c60gb771g4561f7980816" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Athletics if you're not already.</content>
+	<content contentuid="h46c5ac1fgd4e0g4153g9b2agb97da34cfc5f" version="1">Versatile Merc: Arcana</content>
+	<content contentuid="h5d2bb4f9g9599g48a7gb2b0gd4935d1dd488" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Arcana if you're not already.</content>
+	<content contentuid="h4b767a18g5811g455cgac65g3231d0326bb3" version="1">Versatile Merc: Deception</content>
+	<content contentuid="hdeef992ag3fddg4fa7gb62bgf93c497067a4" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Deception if you're not already.</content>
+	<content contentuid="h81327189gadbeg459eg9dd0gcf5cbc260e17" version="1">Versatile Merc: History</content>
+	<content contentuid="hc9a9f6c3g52c1g424ega8d7ge1f50b25e761" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in History if you're not already.</content>
+	<content contentuid="hd7563988g9950g4423gaecfgb80b5eb1bc2c" version="1">Versatile Merc: Insight</content>
+	<content contentuid="h719b641ega741g4c90gbbcfg756ff1d31ef5" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Insight if you're not already.</content>
+	<content contentuid="h34a669edg19f8g4a52g82a8g789137aedce3" version="1">Versatile Merc: Intimidation</content>
+	<content contentuid="h9536bea1gaabag4f0ag8767g3c48e0c2911a" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Intimidation if you're not already.</content>
+	<content contentuid="h48ef9eccg1d09g4453gab42g653450ec4641" version="1">Versatile Merc: Investigation</content>
+	<content contentuid="hdb346b6eg455dg429fga021gad164b0218e2" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Investigation if you're not already.</content>
+	<content contentuid="h8e9e04f0g4c12g4d12g87d2g699cdf00d644" version="1">Versatile Merc: Medicine</content>
+	<content contentuid="h0d3dc7afg5b46g4b7bg9c95g7087d5ce6328" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Medicine if you're not already.</content>
+	<content contentuid="hf9d34d90g0393g4753gace2g3a1c8bf6c765" version="1">Versatile Merc: Nature</content>
+	<content contentuid="h13609ba8g6987g48cdg811eg1e7c6f9d2a22" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Nature if you're not already.</content>
+	<content contentuid="h0dc639a7gc20bg49a1gaf47gfd44ba7ad3d9" version="1">Versatile Merc: Perception</content>
+	<content contentuid="h588fe0c3g2159g4d4aga321ge31104776b7c" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Perception if you're not already.</content>
+	<content contentuid="h51cdde59ged33g452dg8366g659ab2409767" version="1">Versatile Merc: Performance</content>
+	<content contentuid="ha6a329e0g645ag4cd9g9c3dgcd432c77b6f0" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Performance if you're not already.</content>
+	<content contentuid="ha8e1ee18g1f38g4c83g828fge0d8d141c799" version="1">Versatile Merc: Persuasion</content>
+	<content contentuid="h022e1571g86ecg4862g87b7gbfa36672359b" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Persuasion if you're not already.</content>
+	<content contentuid="ha4280899g954cg4740g91b8gff6f6b656841" version="1">Versatile Merc: Religion</content>
+	<content contentuid="hf31b4e93ga6bag446bg91e8gb8ed5678b5c4" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Religion if you're not already.</content>
+	<content contentuid="hcbd67cf6g8264g418fga065gf6a0d4badd54" version="1">Versatile Merc: Sleight of Hand</content>
+	<content contentuid="h094ff893g290dg40feg9afag5464c8b2eaa8" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Slight of Hand if you're not already.</content>
+	<content contentuid="hc71668efg77e0g4d4egbed0g5850f5049a6a" version="1">Versatile Merc: Stealth</content>
+	<content contentuid="h8473b481g24b4g41e6g98b3g05da5f0103f6" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Stealth if you're not already.</content>
+	<content contentuid="hac6ba981g3ab8g48b4ga248g0c30daff5d54" version="1">Versatile Merc: Survival</content>
+	<content contentuid="haa6eec97g9f65g4fc2gb441g6b0c7accea52" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Suvival if you're not already.</content>
+	<content contentuid="hbcbb7b20gd6b8g46abg885ag9581a34fe2ff" version="1">Versatile Merc</content>
+	<content contentuid="h5a135836ge5dcg4631gb45eg45dd0f62648f" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in chosen skill.</content>
+	<content contentuid="hc73ce569g5251g4eccgb681g0196bdf6b826" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Acrobatics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="ha8404d9bge967g445cgbd59gfcc7d9eb1af5" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Animal Handling &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="he412eb06g04beg483cg96d4g21645440911f" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Athletics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="he0012543gc518g45f4g8ae4gdf596914733b" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Arcana &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h4362570bg308fg4b0fg8294g83971c2cb58c" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Deception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h79242873g534eg4ba9g986eg5a15ce2c3d88" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in History &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h657a0471g94a7g4ec4g9e6ag2563dc4328b6" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Insight &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h8195dad0g62c5g4e99ga99eg909935ef7790" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h6169e224gc761g4420g8693gc82270f261a6" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hb2a1c286gf46dg4209gbe85g2d9704bbef72" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Medicine &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hdb88b59bg0e4ag4e17g8a0egf0188c57617c" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Nature &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h1dd85b92g1696g424fga3a9gb847f6975d31" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hc9ba1511g22f4g499fg898eg9a5ed2ffd4ca" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hed0ba62ag75d0g46abgb6d9g718968faac09" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Persuasion &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h4e3243e4gc62eg40aag9fc9g1e331e29b3dc" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Religion &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h59a855cfg8e99g4708g9ac3g7103fba2264f" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h3354b4dbgee7dg4494ga57bgbf32aecde30f" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="h8d8244ecgc05eg4004gb821g69109bd22244" version="1">Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Survival &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+	<content contentuid="hdc2722f4gf9bbg4bb2ga6d3g2edb50428623" version="1">Zhentarim Tactics: Dexterity</content>
+	<content contentuid="h2253173cg87c8g4079ga8a2g5b332f871e18" version="1">Zhentarim Tactics: Charisma</content>
+	<content contentuid="h27c085b1ge99ag4276g9090g34c46386c431" version="1">Zhentarim Tactics</content>
+	<content contentuid="ha9447254g9287g494ag96fdgeef6ba1f8c4d" version="1">>Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; is increased by 1.&lt;br&gt;&lt;br&gt;Immediately after a creature hits you with a melee attack, you can make an &lt;LSTag Tooltip="Interrupt_APO_ZhentarimTactics"&gt;Opportunity Attack&lt;/LSTag&gt; against that creature.&lt;br&gt;&lt;br&gt;Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, you can gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill which you have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;.</content>
 
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

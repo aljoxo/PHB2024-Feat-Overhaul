@@ -159,6 +159,11 @@
                     <attribute id="Passives" type="LSString" value="APO_Poisoner_Dexterity,APO_Poisoner_Intelligence" />
                     <attribute id="UUID" type="guid" value="e1aea4a4-b8a0-41e1-8a15-f132d50e7676" />
                 </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Zhentarim Tactics Adept ASI Passives" />
+                    <attribute id="Passives" type="LSString" value="APO_ZhentarimTactics_Dexterity,APO_ZhentarimTactics_Charisma" />
+                    <attribute id="UUID" type="guid" value="c010c041-b5ce-4f36-affa-2320fceaaa8f" />
+                </node>
             </children>
         </node>
     </region>

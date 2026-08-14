@@ -4,3 +4,479 @@
 // Interrupt, Reaction cost, melee attack
 // Once per Long Rest, you can choose a skill in which you have proficiency. You have Expertise until you finish your next Long Rest
 
+new entry "APO_ZhentarimTactics"
+type "PassiveData"
+// Zhentarim Tactics
+data "DisplayName" "h6000bb1egda35g45bbg905bg5435b8cfe887;1"
+// Immediately after a creature hits you with a melee attack, you can make an &lt;LSTag Tooltip="Interrupt_APO_ZhentarimTactics"&gt;Opportunity Attack&lt;/LSTag&gt; against that creature.
+data "Description" "hb63f1a5fg4017g4ed0g98bagce26b1a46503;1"
+data "TooltipUseCosts" "ReactionActionPoint:1"
+data "Icon" "PassiveFeature_EscapeTheHorde"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockInterrupt(Interrupt_APO_ZhentarimTactics)"
+
+new entry "Interrupt_APO_ZhentarimTactics"
+type "InterruptData" 
+// Zhentarim Tactics: Opportunity Attack
+data "DisplayName" "hcd59f30ag3ab2g44b5g8db9g4621d056e465;1"
+// When a creature hits you with a melee attack, you can retaliate with a melee attack.
+data "Description" "h2ec4b5a0gb8fdg4dd3g853bge6103b2ffd31;1"
+data "Icon" "PassiveFeature_EscapeTheHorde"
+data "InterruptContext" "OnCastHit"
+data "Conditions" "Goon_BasicHarmfulInterruptConditions(true) and Goon_InAttackRange(false,false) and IsMeleeAttack() and not IsMiss() and HasLastAttackTriggered()"
+data "Properties" "UseSpell(SWAP,Target_MainHandAttack,true,true,true);ApplyStatus(OBSERVER_OBSERVER,APO_INTERRUPT_ZHENTARIMTACTICS,100,0)"
+data "Cost" "ReactionActionPoint:1"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions() and Goon_HasWeaponTypeInSlot(false,false)"
+data "EnableContext" "OnStatusApplied;OnStatusRemoved;OnEquip"
+data "InterruptFlags" "InterruptWhileInvisible"
+
+new entry "APO_INTERRUPT_ZHENTARIMTACTICS"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "StatusEffect" "04e49f47-cceb-4026-a2b2-a14c03f321ef"
+
+new entry "APO_ZhentarimTactics_Expertise"
+type "PassiveData"
+// Zhentarim Tactics: Versatile Merc
+data "DisplayName" "h8cc497bdg634eg4969ga56eg448e8e81689a;1"
+// Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, you can gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill which you have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;.
+data "Description" "h2522ba1fgb4cag4daeg83bcg6dc90ac88484;1"
+data "Icon" "PassiveFeature_JackOfAllTrades"
+data "Properties" "Highlighted"
+data "Boosts" "UnlockSpell(Shout_APO_ZhentarimTactics_Expertise)"
+
+new entry "Shout_APO_ZhentarimTactics_Expertise"
+type "SpellData"
+data "SpellType" "Shout"
+data "ContainerSpells" "Shout_APO_ZhentarimTactics_Acrobatics;Shout_APO_ZhentarimTactics_AnimalHandling;Shout_APO_ZhentarimTactics_Athletics;Shout_APO_ZhentarimTactics_Arcana;Shout_APO_ZhentarimTactics_Deception;Shout_APO_ZhentarimTactics_History;Shout_APO_ZhentarimTactics_Insight;Shout_APO_ZhentarimTactics_Intimidation;Shout_APO_ZhentarimTactics_Investigation;Shout_APO_ZhentarimTactics_Medicine;Shout_APO_ZhentarimTactics_Nature;Shout_APO_ZhentarimTactics_Perception;Shout_APO_ZhentarimTactics_Performance;Shout_APO_ZhentarimTactics_Persuasion;Shout_APO_ZhentarimTactics_Religion;Shout_APO_ZhentarimTactics_SleightOfHand;Shout_APO_ZhentarimTactics_Stealth;Shout_APO_ZhentarimTactics_Survival"
+data "AIFlags" "CanNotUse"
+data "TargetConditions" "Self()"
+data "Icon" "PassiveFeature_JackOfAllTrades"
+// Versatile Merc
+data "DisplayName" "h9831c88fg1cffg4afdg8f0eg29e231add382;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill which you have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;.
+data "Description" "h09f3d6dfg1687g4be4ga766g2a1456b1927b;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC,100,-1)"
+data "CastSound" "Spell_Cast_Utility_ComprehendLanguages_L1to3"
+data "VocalComponentSound" "Vocal_Component_ComprehendLanguages"
+data "TargetSound" "Spell_Impact_Utility_ComprehendLanguages_L1to3"
+data "CastTextEvent" "Cast"
+data "UseCosts" "ActionPoint:1"
+data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;bcc3b0d9-f04f-4448-aab0-e0ad641167cc,,;bf924cc6-8b39-4c3b-b1c0-eda264cf6150,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,,"
+data "VerbalIntent" "Utility"
+data "SpellStyleGroup" "Intent"
+data "SpellFlags" "IsLinkedSpellContainer"
+data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
+data "CastEffect" "e918985b-1855-4543-ba15-e7890ee5d649"
+
+new entry "Shout_APO_ZhentarimTactics_Acrobatics"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_ACROBATICS,100,-1)"
+// Versatile Merc: Acrobatics
+data "DisplayName" "h7b455b55g723dg494cga209g57c989336800;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Acrobatics if you're not already.
+data "Description" "h8521313egb131g4269g8cdegabb27d4b6a08;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_ACROBATICS,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Dexterity,Skill.Acrobatics,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_AnimalHandling"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_ANIMALHANDLING,100,-1)"
+// Versatile Merc: Animal Handling
+data "DisplayName" "h708f8f6eg04d3g45d8gb86bg3deee463c701;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Animal Handling if you're not already.
+data "Description" "hadd9d79ag9c99g424bg85f9g53c725b94d3a;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_ANIMALHANDLING,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Wisdom,Skill.AnimalHandling,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Athletics"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_ATHLETICS,100,-1)"
+// Versatile Merc: Athletics
+data "DisplayName" "h5f4bf80fg075eg4495g8fe6gddfbda7725fd;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Athletics if you're not already.
+data "Description" "h8f46144bgd3fdg4c60gb771g4561f7980816;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_ATHLETICS,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Strength,Skill.Athletics,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Arcana"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_ARCANA,100,-1)"
+// Versatile Merc: Arcana
+data "DisplayName" "h46c5ac1fgd4e0g4153g9b2agb97da34cfc5f;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Arcana if you're not already.
+data "Description" "h5d2bb4f9g9599g48a7gb2b0gd4935d1dd488;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_ARCANA,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Intelligence,Skill.Arcana,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Deception"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_DECEPTION,100,-1)"
+// Versatile Merc: Deception
+data "DisplayName" "h4b767a18g5811g455cgac65g3231d0326bb3;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Deception if you're not already.
+data "Description" "hdeef992ag3fddg4fa7gb62bgf93c497067a4;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_DECEPTION,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Charisma,Skill.Deception,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_History"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_HISTORY,100,-1)"
+// Versatile Merc: History
+data "DisplayName" "h81327189gadbeg459eg9dd0gcf5cbc260e17;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in History if you're not already.
+data "Description" "hc9a9f6c3g52c1g424ega8d7ge1f50b25e761;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_HISTORY,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Intelligence,Skill.History,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Insight"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_INSIGHT,100,-1)"
+// Versatile Merc: Insight
+data "DisplayName" "hd7563988g9950g4423gaecfgb80b5eb1bc2c;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Insight if you're not already.
+data "Description" "h719b641ega741g4c90gbbcfg756ff1d31ef5;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_INSIGHT,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Wisdom,Skill.Insight,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Intimidation"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_INTIMIDATION,100,-1)"
+// Versatile Merc: Intimidation
+data "DisplayName" "h34a669edg19f8g4a52g82a8g789137aedce3;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Intimidation if you're not already.
+data "Description" "h9536bea1gaabag4f0ag8767g3c48e0c2911a;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_INTIMIDATION,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Charisma,Skill.Intimidation,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Investigation"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_INVESTIGATION,100,-1)"
+// Versatile Merc: Investigation
+data "DisplayName" "h48ef9eccg1d09g4453gab42g653450ec4641;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Investigation if you're not already.
+data "Description" "hdb346b6eg455dg429fga021gad164b0218e2;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_INVESTIGATION,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Intelligence,Skill.Investigation,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Medicine"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_MEDICINE,100,-1)"
+// Versatile Merc: Medicine
+data "DisplayName" "h8e9e04f0g4c12g4d12g87d2g699cdf00d644;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Medicine if you're not already.
+data "Description" "h0d3dc7afg5b46g4b7bg9c95g7087d5ce6328;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_MEDICINE,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Wisdom,Skill.Medicine,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Nature"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_NATURE,100,-1)"
+// Versatile Merc: Nature
+data "DisplayName" "hf9d34d90g0393g4753gace2g3a1c8bf6c765;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Nature if you're not already.
+data "Description" "h13609ba8g6987g48cdg811eg1e7c6f9d2a22;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_NATURE,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Intelligence,Skill.Nature,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Perception"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_PERCEPTION,100,-1)"
+// Versatile Merc: Perception
+data "DisplayName" "h0dc639a7gc20bg49a1gaf47gfd44ba7ad3d9;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Perception if you're not already.
+data "Description" "h588fe0c3g2159g4d4aga321ge31104776b7c;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_PERCEPTION,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Wisdom,Skill.Perception,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Performance"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_PERFORMANCE,100,-1)"
+// Versatile Merc: Performance
+data "DisplayName" "h51cdde59ged33g452dg8366g659ab2409767;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Performance if you're not already.
+data "Description" "ha6a329e0g645ag4cd9g9c3dgcd432c77b6f0;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_PERFORMANCE,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Charisma,Skill.Performance,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Persuasion"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_PERSUASION,100,-1)"
+// Versatile Merc: Persuasion
+data "DisplayName" "ha8e1ee18g1f38g4c83g828fge0d8d141c799;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Persuasion if you're not already.
+data "Description" "h022e1571g86ecg4862g87b7gbfa36672359b;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_PERSUASION,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Charisma,Skill.Persuasion,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Religion"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_RELIGION,100,-1)"
+// Versatile Merc: Religion
+data "DisplayName" "ha4280899g954cg4740g91b8gff6f6b656841;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Religion if you're not already.
+data "Description" "hf31b4e93ga6bag446bg91e8gb8ed5678b5c4;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_RELIGION,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Intelligence,Skill.Religion,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_SleightOfHand"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_SLEIGHTOFHAND,100,-1)"
+// Versatile Merc: Sleight of Hand
+data "DisplayName" "hcbd67cf6g8264g418fga065gf6a0d4badd54;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Slight of Hand if you're not already.
+data "Description" "h094ff893g290dg40feg9afag5464c8b2eaa8;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_SLEIGHTOFHAND,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Dexterity,Skill.SleightOfHand,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Stealth"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_STEALTH,100,-1)"
+// Versatile Merc: Stealth
+data "DisplayName" "hc71668efg77e0g4d4egbed0g5850f5049a6a;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Stealth if you're not already.
+data "Description" "h8473b481g24b4g41e6g98b3g05da5f0103f6;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_STEALTH,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Dexterity,Skill.Stealth,context.Source)"
+
+new entry "Shout_APO_ZhentarimTactics_Survival"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellContainerID" "Shout_APO_ZhentarimTactics_Expertise"
+data "SpellProperties" "ApplyStatus(APO_VERSATILE_MERC_SURVIVAL,100,-1)"
+// Versatile Merc: Survival
+data "DisplayName" "hac6ba981g3ab8g48b4ga248g0c30daff5d54;1"
+// Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Suvival if you're not already.
+data "Description" "haa6eec97g9f65g4fc2gb441g6b0c7accea52;1"
+data "TooltipStatusApply" "ApplyStatus(APO_VERSATILE_MERC_SURVIVAL,100,-1)"
+data "RequirementConditions" "HasProficiencyBonus(Ability.Wisdom,Skill.Survival,context.Source)"
+
+new entry "APO_VERSATILE_MERC"
+type "StatusData"
+// Versatile Merc
+data "DisplayName" "hbcbb7b20gd6b8g46abg885ag9581a34fe2ff;1"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in chosen skill.
+data "Description" "h5a135836ge5dcg4631gb45eg45dd0f62648f;1"
+data "Icon" "PassiveFeature_JackOfAllTrades"
+data "StackId" "APO_VERSATILE_MERC"
+data "StatusGroups" "SG_RemoveOnRespec"
+
+new entry "APO_VERSATILE_MERC_ACROBATICS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Acrobatics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "hc73ce569g5251g4eccgb681g0196bdf6b826;1"
+data "Boosts" "ExpertiseBonus(Acrobatics)"
+
+new entry "APO_VERSATILE_MERC_ANIMALHANDLING"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Animal Handling &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "ha8404d9bge967g445cgbd59gfcc7d9eb1af5;1"
+data "Boosts" "ExpertiseBonus(AnimalHandling)"
+
+new entry "APO_VERSATILE_MERC_ATHLETICS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Athletics &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "he412eb06g04beg483cg96d4g21645440911f;1"
+data "Boosts" "ExpertiseBonus(Athletics)"
+
+new entry "APO_VERSATILE_MERC_ARCANA"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Arcana &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "he0012543gc518g45f4g8ae4gdf596914733b;1"
+data "Boosts" "ExpertiseBonus(Arcana)"
+
+new entry "APO_VERSATILE_MERC_DECEPTION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Deception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "h4362570bg308fg4b0fg8294g83971c2cb58c;1"
+data "Boosts" "ExpertiseBonus(Deception)"
+
+new entry "APO_VERSATILE_MERC_HISTORY"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in History &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "h79242873g534eg4ba9g986eg5a15ce2c3d88;1"
+data "Boosts" "ExpertiseBonus(History)"
+
+new entry "APO_VERSATILE_MERC_INSIGHT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Insight &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "h657a0471g94a7g4ec4g9e6ag2563dc4328b6;1"
+data "Boosts" "ExpertiseBonus(Insight)"
+
+new entry "APO_VERSATILE_MERC_INTIMIDATION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Intimidation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "h8195dad0g62c5g4e99ga99eg909935ef7790;1"
+data "Boosts" "ExpertiseBonus(Intimidation)"
+
+new entry "APO_VERSATILE_MERC_INVESTIGATION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Investigation &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "h6169e224gc761g4420g8693gc82270f261a6;1"
+data "Boosts" "ExpertiseBonus(Investigation)"
+
+new entry "APO_VERSATILE_MERC_MEDICINE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Medicine &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "hb2a1c286gf46dg4209gbe85g2d9704bbef72;1"
+data "Boosts" "ExpertiseBonus(Medicine)"
+
+new entry "APO_VERSATILE_MERC_NATURE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Nature &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "hdb88b59bg0e4ag4e17g8a0egf0188c57617c;1"
+data "Boosts" "ExpertiseBonus(Nature)"
+
+new entry "APO_VERSATILE_MERC_PERCEPTION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Perception &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "h1dd85b92g1696g424fga3a9gb847f6975d31;1"
+data "Boosts" "ExpertiseBonus(Perception)"
+
+new entry "APO_VERSATILE_MERC_PERFORMANCE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Performance &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "hc9ba1511g22f4g499fg898eg9a5ed2ffd4ca;1"
+data "Boosts" "ExpertiseBonus(Performance)"
+
+new entry "APO_VERSATILE_MERC_PERSUASION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Persuasion &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "hed0ba62ag75d0g46abgb6d9g718968faac09;1"
+data "Boosts" "ExpertiseBonus(Persuasion)"
+
+new entry "APO_VERSATILE_MERC_RELIGION"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Religion &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "h4e3243e4gc62eg40aag9fc9g1e331e29b3dc;1"
+data "Boosts" "ExpertiseBonus(Religion)"
+
+new entry "APO_VERSATILE_MERC_SLEIGHTOFHAND"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Sleight of Hand &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "h59a855cfg8e99g4708g9ac3g7103fba2264f;1"
+data "Boosts" "ExpertiseBonus(SleightOfHand)"
+
+new entry "APO_VERSATILE_MERC_STEALTH"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "h3354b4dbgee7dg4494ga57bgbf32aecde30f;1"
+data "Boosts" "ExpertiseBonus(Stealth)"
+
+new entry "APO_VERSATILE_MERC_SURVIVAL"
+type "StatusData"
+data "StatusType" "BOOST"
+using "APO_VERSATILE_MERC"
+// Has &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in Survival &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.
+data "Description" "h8d8244ecgc05eg4004gb821g69109bd22244;1"
+data "Boosts" "ExpertiseBonus(Survival)"
+
+new entry "APO_ZhentarimTactics_Dexterity"
+type "PassiveData"
+// Zhentarim Tactics: Dexterity
+data "DisplayName" "hdc2722f4gf9bbg4bb2ga6d3g2edb50428623;1"
+// Your Dexterity is increased by [1].
+data "Description" "h60cae1c4g80b5g4b9eg9ceeg254006fff361;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Dexterity, 1)"
+
+new entry "APO_ZhentarimTactics_Charisma"
+type "PassiveData"
+// Zhentarim Tactics: Charisma
+data "DisplayName" "h2253173cg87c8g4079ga8a2g5b332f871e18;1"
+// Your Charisma is increased by [1].
+data "Description" "ha713ab95gbc52g43e3g8750g383e123d6b70;1"
+data "DescriptionParams" "1"
+data "Icon" "GenericIcon_Intent_Buff"
+data "Properties" "IsHidden"
+data "Boosts" "Ability(Charisma, 1)"
