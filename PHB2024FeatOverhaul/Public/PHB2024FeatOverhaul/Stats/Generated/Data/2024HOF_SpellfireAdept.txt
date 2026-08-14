@@ -9,8 +9,9 @@ new entry "APO_SpellfireAdept"
 type "PassiveData"
 // Spellfire Adept
 data "DisplayName" "ha24d1f1bgbc73g4984g9112g08e1a7902fed;1"
-// You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame;/LSTag&gt; cantrip. When dealing Radiant damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.
+// You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame;/LSTag&gt; cantrip. When dealing[1] with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.
 data "Description" "h0e464e05ga191g4a6bgb70dg4f6308072252;1"
+data "DescriptionParams" "DealDamage(,Radiant)"
 data "Icon" "PassiveFeature_Tranquility"
 data "Properties" "Highlighted"
 data "Boosts" "IF(Goon_IsSpellDamageTypeRadiant()):Reroll(Damage,20,false);UnlockSpell(Target_SacredFlame);IgnoreResistance(Radiant,Resistant)"

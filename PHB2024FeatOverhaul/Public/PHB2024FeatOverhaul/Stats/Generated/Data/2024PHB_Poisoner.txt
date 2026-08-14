@@ -10,8 +10,9 @@ new entry "APO_Poisoner"
 type "PassiveData"
 // Poisoner
 data "DisplayName" "h6eaa56e3g6f3dg4961g8dc0g5dcdad5b2dfe;1"
-// When dealing Poison damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.
+// When dealing[1] with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.
 data "Description" "h8f868b88ge7fbg4ed7gb032g4571324a7197;1"
+data "DescriptionParams" "DealDamage(,Poison)"
 data "Icon" "PassiveFeature_ExperimentalAlchemy"
 data "Properties" "Highlighted"
 data "Boosts" "IF(Goon_IsSpellDamageTypePoison()):Reroll(Damage,20,false);IgnoreResistance(Poison,Resistant)"

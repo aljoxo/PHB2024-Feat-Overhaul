@@ -7,8 +7,9 @@ new entry "APO_Putrefy"
 type "PassiveData"
 // Putrefy
 data "DisplayName" "h82726b60g05e3g4209gbbacg0cacbe2769ea;1"
-// When dealing Necrotic damage, you roll your damage dice twice and use the highest result.
+// When dealing[1] with an attack or spell, you roll your damage dice twice and use the highest result.
 data "Description" "hd25a3601g329eg4cebg9a72gba6408efb356;1"
+data "DescriptionParams" "DealDamage(,Necrotic)"
 data "Icon" "PassiveFeature_GrimHarvest"
 data "Properties" "Highlighted"
 data "Boosts" "IF(Goon_IsSpellDamageTypeNecrotic()):Reroll(Damage,20,false)"

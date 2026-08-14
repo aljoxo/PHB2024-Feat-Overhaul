@@ -10,8 +10,9 @@ new entry "APO_ColdCaster"
 type "PassiveData"
 // Cold Caster
 data "DisplayName" "hde6f2d55g538dg4229ga08bg8ac0fcbec5b1;1"
-// You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt; cantrip. When dealing Cold damage, you roll your damage dice twice and use the highest result.
+// You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt; cantrip. When dealing[1] with an attack or spell, you roll your damage dice twice and use the highest result.
 data "Description" "hcdff72fbgb3c5g43e3gafdfgcaf67769db29;1"
+data "DescriptionParams" "DealDamage(,Cold)"
 data "Icon" "PassiveFeature_ElementalAdept_Cold"
 data "Properties" "Highlighted"
 data "Boosts" "IF(Goon_IsSpellDamageTypeCold()):Reroll(Damage,20,false);UnlockSpell(Projectile_RayOfFrost)"

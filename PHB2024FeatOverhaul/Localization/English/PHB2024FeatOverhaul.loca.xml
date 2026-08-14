@@ -309,11 +309,11 @@
 	<content contentuid="h628352b9g8c27g496dgb7f6gf88121cf1218" version="1">Putrefy: Wisdom</content>
 	<content contentuid="h7eefb233g7e91g4454g8d47gbe74dea25f07" version="1">Putrefy: Charisma</content>
 	<content contentuid="h82726b60g05e3g4209gbbacg0cacbe2769ea" version="1">Putrefy</content>
-	<content contentuid="hd25a3601g329eg4cebg9a72gba6408efb356" version="1">When dealing Necrotic damage, you roll your damage dice twice and use the highest result.</content>
+	<content contentuid="hd25a3601g329eg4cebg9a72gba6408efb356" version="1">When dealing[1] with an attack or spell, you roll your damage dice twice and use the highest result.</content>
 	<content contentuid="h8579983dgaa3eg4810g812dg234fdd0ff7dd" version="1">When you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.</content>
 	<content contentuid="h66fb38dagb67bg48ffgbef0g18597c603d77" version="1">Putrefy: Necrosis</content>
 	<content contentuid="h33aaa5f7gbe2bg4285g9b15g79ae9d07d611" version="1">Putrefy</content>
-	<content contentuid="h99969785g2b58g4555g8d98g5bcb20dc2b10" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;When dealing Necrotic damage, you roll your damage dice twice and use the highest result. Additionally, when you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.</content>
+	<content contentuid="h99969785g2b58g4555g8d98g5bcb20dc2b10" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;When dealing Necrotic damage with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, when you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.</content>
 	
 	<!-- Cold Caster -->
 	<content contentuid="ha2af5949gedf0g48a4gafc3g5f08c68229bc" version="1">Frostbite</content>
@@ -322,11 +322,11 @@
 	<content contentuid="h472f21adg6e62g4648gbeefg45958ad6e058" version="1">Cold Caster: Wisdom</content>
 	<content contentuid="h2e5abfc0gd190g4009g86abgc8a3f073e969" version="1">Cold Caster: Charisma</content>
 	<content contentuid="hde6f2d55g538dg4229ga08bg8ac0fcbec5b1" version="1">Cold Caster</content>
-	<content contentuid="hcdff72fbgb3c5g43e3gafdfgcaf67769db29" version="1">You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt; cantrip. When dealing Cold damage, you roll your damage dice twice and use the highest result.</content>
+	<content contentuid="hcdff72fbgb3c5g43e3gafdfgcaf67769db29" version="1">You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt; cantrip. When dealing[1] with an attack or spell, you roll your damage dice twice and use the highest result.</content>
 	<content contentuid="h7fdb4e93g8ecbg41cegac12gda793daf6d5d" version="1">Cold Caster: Frostbite</content>
 	<content contentuid="hf8c24c88g88fdg4c4fgb4acg3bafe10bb281" version="1">When you deal Cold damage, you can afflict the target with &lt;LSTag Type="Status" Tooltip="APO_FROSTBITE"&gt;Frostbite&lt;/LSTag&gt; the target until the end of your next turn.</content>
 	<content contentuid="h144f26abg9c66g4ee3g8e39gd534915f0dfb" version="1">Cold Caster</content>
-	<content contentuid="hdd15741eg8e6fg4b10gbcb8gba54d21e9c5e" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt; cantrip and when dealing Cold damage, you roll your damage dice twice and use the highest result.&lt;br&gt;&lt;br&gt;When you deal Cold damage, you can afflict the target with &lt;LSTag Type="Status" Tooltip="APO_FROSTBITE"&gt;Frostbite&lt;/LSTag&gt; the target until the end of your next turn.</content>
+	<content contentuid="hdd15741eg8e6fg4b10gbcb8gba54d21e9c5e" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfFrost"&gt;Ray of Frost&lt;/LSTag&gt; cantrip and when dealing Cold damage with an attack or spell, you roll your damage dice twice and use the highest result.&lt;br&gt;&lt;br&gt;When you deal Cold damage, you can afflict the target with &lt;LSTag Type="Status" Tooltip="APO_FROSTBITE"&gt;Frostbite&lt;/LSTag&gt; the target until the end of your next turn.</content>
 	<content contentuid="" version="1"></content>
 
 	<!-- Inspiring Leader -->
@@ -411,20 +411,20 @@
 
 	<!-- Spellfire Adept -->
 	<content contentuid="ha24d1f1bgbc73g4984g9112g08e1a7902fed" version="1">Spellfire Adept</content>
-	<content contentuid="h0e464e05ga191g4a6bgb70dg4f6308072252" version="1">You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame;/LSTag&gt; cantrip. When dealing Radiant damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
+	<content contentuid="h0e464e05ga191g4a6bgb70dg4f6308072252" version="1">You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame;/LSTag&gt; cantrip. When dealing[1] with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
 	<content contentuid="ha8a2db33gc2adg4f01ga936gb302a8e863fc" version="1">Spellfire Adept: Intelligence</content>
 	<content contentuid="h00f639d4ge1f9g4c5cg98e6g4efda7831ec2" version="1">Spellfire Adept: Wisdom</content>
 	<content contentuid="hd1615bd7gafa0g4cb1g9992g7000cb1cae7c" version="1">Spellfire Adept: Charisma</content>
 	<content contentuid="hba42c706gb75ag4adcg803eg331edad00c1e" version="1">Spellfire Adept</content>
-	<content contentuid="h5ade4be1ge7eeg427fg9c35g728c632bb2bd" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame;/LSTag&gt; cantrip. When dealing Radiant damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
+	<content contentuid="h5ade4be1ge7eeg427fg9c35g728c632bb2bd" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame;/LSTag&gt; cantrip. When dealing Radiant damage with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
 	
 	<!-- Poisoner -->
 	<content contentuid="h6eaa56e3g6f3dg4961g8dc0g5dcdad5b2dfe" version="1">Poisoner</content>
-	<content contentuid="h8f868b88ge7fbg4ed7gb032g4571324a7197" version="1">When dealing Poison damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+	<content contentuid="h8f868b88ge7fbg4ed7gb032g4571324a7197" version="1">When dealing[1] with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
 	<content contentuid="h3919d06bgfaddg4d8eg9852ge4ca7c8a3389" version="1">Poisoner: Dexterity</content>
 	<content contentuid="h36dd4d41g4d9cg47bdgb20dgee2f445d6776" version="1">Poisoner: Intelligence</content>
 	<content contentuid="h5ab3a1abgf052g4bc2ga9c3gbe20a0592ad1" version="1">Poisoner</content>
-	<content contentuid="hc1a80fcegf85fg4276g9a38ga5f41ae55a6c" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; or &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When dealing Poison damage, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
+	<content contentuid="hc1a80fcegf85fg4276g9a38ga5f41ae55a6c" version="1">Your &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; or &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When dealing Poison damage with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage.</content>
 
 	<!-- Telepathic -->
 	<content contentuid="" version="1"></content>
