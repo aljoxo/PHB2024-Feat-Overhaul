@@ -280,8 +280,8 @@
 	<content contentuid="ha3e7b1aeg35afg4c4agb9eeg7923c752004d" version="1">Spell Sniper: Intelligence</content>
 	<content contentuid="hcbef1e4fg86bag4026g8bcag1046a3176f05" version="1">Spell Sniper: Wisdom</content>
 	<content contentuid="h1d6748c8g5084g4c6cgb965g9afb55ddef73" version="1">Spell Sniper: Charisma</content>
-	<content contentuid="" version="1"></content>
-	<content contentuid="" version="1"></content>
+	<content contentuid="h80953551g6768g4b24gb94dge1647ced92b1" version="1">Your &lt;LSTag Tooltip="RangedSpellAttack"&gt;ranged spell attacks&lt;/LSTag&gt; do not receive penalties from &lt;LSTag Tooltip="HighGroundRules"&gt;High Ground Rules&lt;/LSTag&gt;. Additionally, the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking with a spell is reduced by 1. This effect can stack.</content>
+	<content contentuid="he5dbdf82gd91fg4a1agae36gb9a0ba36752e" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn a &lt;LSTag Tooltip="Cantrip"&gt;cantrip&lt;/LSTag&gt;. Your &lt;LSTag Tooltip="RangedSpellAttack"&gt;ranged spell attacks&lt;/LSTag&gt; do not receive penalties from &lt;LSTag Tooltip="HighGroundRules"&gt;High Ground Rules&lt;/LSTag&gt;. Additionally the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with spells is reduced by 1. This effect can stack.</content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>
 	<content contentuid="" version="1"></content>

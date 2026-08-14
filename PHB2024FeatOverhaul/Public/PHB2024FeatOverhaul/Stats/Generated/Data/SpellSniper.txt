@@ -6,7 +6,15 @@
 // maybe IF(HasStatus('FLANKED') and AttackType.RangedSpellAttack):Advantage(AttackRoll) ???
 // or maybe IF(Goon_DistanceCheck(1.5) and AttackType.RangedSpellAttack):Advantage(AttackRoll)
 
-// TO DO: Make the feat
+new entry "SpellSniper_Critical"
+type "PassiveData"
+// Spell Sniper
+data "DisplayName" "h3abb25c3g5277g4e27g8a7dg11e16d12fcdd;1"
+// Your &lt;LSTag Tooltip="RangedSpellAttack"&gt;ranged spell attacks&lt;/LSTag&gt; do not receive penalties from &lt;LSTag Tooltip="HighGroundRules"&gt;High Ground Rules&lt;/LSTag&gt;. Additionally, the number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking with a spell is reduced by 1. This effect can stack.
+data "Description" "h80953551g6768g4b24gb94dge1647ced92b1;1"
+data "Icon" "PassiveFeature_SpellSniper_Snipe"
+data "Properties" "Highlighted"
+data "Boosts" "IF(IsSpell() and IsSpellAttack()):ReduceCriticalAttackThreshold(1);IgnoreLowGroundPenalty(RangedSpellAttack)"
 
 new entry "APO_SpellSniper_Intelligence"
 type "PassiveData"

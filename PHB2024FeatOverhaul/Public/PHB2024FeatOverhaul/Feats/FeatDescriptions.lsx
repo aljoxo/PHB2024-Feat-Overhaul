@@ -251,8 +251,7 @@
 					<attribute id="UUID" type="guid" value="00a17a40-2f3a-429f-a8fc-e3dc264f6670" />
 				</node>
 				<node id="FeatDescription">
-					<!-- You learn a <LSTag Tooltip="Cantrip">cantrip</LSTag>, and the number you need to <LSTag Tooltip="AttackRoll">roll</LSTag> a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag> with spells is reduced by 1. This effect can stack. -->
-					<attribute id="Description" type="TranslatedString" handle="h40691a88g9970g4279gb27fg3383b444aa40" version="5" />
+					<attribute id="Description" type="TranslatedString" handle="he5dbdf82gd91fg4a1agae36gb9a0ba36752e" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hd4a3bef0gf582g4dbeg93b6g3789fe09decf" version="2" />
 					<attribute id="ExactMatch" type="FixedString" value="SpellSniper" />
 					<attribute id="FeatId" type="guid" value="c02f22c9-9a06-4001-b917-4d5cf09be399" />
