@@ -7,7 +7,7 @@ type "PassiveData"
 using "SavageAttacker"
 // Savage Attacker
 data "DisplayName" "hbd85a616g60e3g4bc2ga7e3g1e5cec464997;2"
-// When making a weapon attacks, you roll your damage dice twice and use the highest result.
+// When making a weapon attack, you roll your damage dice twice and use the highest result.
 data "Description" "h84ff6c6bgeb96g4563ga96bgeda96e670f9e;1"
 data "Icon" "PassiveFeature_SavageAttacker"
 data "Properties" "Highlighted"

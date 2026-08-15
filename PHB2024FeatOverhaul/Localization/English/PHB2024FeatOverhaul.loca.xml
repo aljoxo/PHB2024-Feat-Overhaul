@@ -232,7 +232,7 @@
 
 	<!-- Savage Attacker -->
 	<content contentuid="h3630f61dgfb4bg4809g82e0gb481d57dbc9b" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;When making melee weapon attacks, you roll your damage dice twice and use the highest result.</content>
-	<content contentuid="h84ff6c6bgeb96g4563ga96bgeda96e670f9e" version="1">When making a weapon attacks, you roll your damage dice twice and use the highest result.</content>
+	<content contentuid="h84ff6c6bgeb96g4563ga96bgeda96e670f9e" version="1">When making a weapon attack, you roll your damage dice twice and use the highest result.</content>
 	<content contentuid="h084cff10g3b8dg4ac8gab9eg8f6327a8e415" version="1">Savage Attacker: Strength</content>
 	<content contentuid="hc333663fg0b99g4db1g9660g61d248aab1eb" version="1">Savage Attacker: Dexterity</content>
 
