@@ -41,7 +41,7 @@ new entry "APO_ZhentarimTactics_Expertise"
 type "PassiveData"
 // Zhentarim Tactics: Versatile Merc
 data "DisplayName" "h8cc497bdg634eg4969ga56eg448e8e81689a;1"
-// Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, you can gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill which you have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;.
+// Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, you can gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill you are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in.
 data "Description" "h2522ba1fgb4cag4daeg83bcg6dc90ac88484;1"
 data "Icon" "PassiveFeature_JackOfAllTrades"
 data "Properties" "Highlighted"

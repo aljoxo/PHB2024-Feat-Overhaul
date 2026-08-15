@@ -7,7 +7,7 @@ new entry "APO_Telekinetic"
 type "PassiveData"
 // Telekinetic
 data "DisplayName" "h8f006851g557dg4989ga742g9eb58271839b;1"
-// You increased your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by 1, learned &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Telekinetic: Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.
+// You learn the &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.
 data "Description" "h5d0f0fe0gd5c3g405fg869fg00e176efcff3;1"
 data "Icon" "PassiveFeature_DarkDevotion"
 data "Properties" "Highlighted"

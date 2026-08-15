@@ -348,7 +348,7 @@
 	<!-- Fey Touched -->
 	<content contentuid="hdf466716g29b0g46e8gb2b5gd340ee4c67e5" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt; and choose a level 1 Divination or Enchantment spell. Both &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt; and the selected spell can be cast without consuming a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="h2fce2ffbga335g4e6bg8e2fg5fca1fc1d4ac" version="1">Fey Touched</content>
-	<content contentuid="h2607b691g4ae1g4830g90c7gc314adc3e7f6" version="1">You increased your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by 1, learned &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt;, and learned a level 1 Divination or Enchantment spell.</content>
+	<content contentuid="h2607b691g4ae1g4830g90c7gc314adc3e7f6" version="1">You learn the &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt; spell and a level 1 Divination or Enchantment spell. Both of these spells can be cast once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="hf2a6b90eg8bafg4611g81degd16f3fddc9ec" version="1">Fey Touched</content>
 	<content contentuid="hf1dac87dgd75ag4546g8dd4gf6670f298858" version="1">Fey Touched: Intelligence</content>
 	<content contentuid="h4a4db3e2g4573g4e7bgb19dg2e3cfd64e970" version="1">Fey Touched: Wisdom</content>
@@ -356,7 +356,7 @@
 	
 	<!-- Shadow Touched -->
 	<content contentuid="hd2cf797fg160dg44a4g8683g845abf33f36b" version="1">Shadow Touched</content>
-	<content contentuid="h289e0a93gae98g4769g8e23g6fa02800858e" version="1">You increased your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by 1, learned &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt;, and learned a level 1 Illusion or Necromancy spell.</content>
+	<content contentuid="h289e0a93gae98g4769g8e23g6fa02800858e" version="1">You learn the &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt; spell and a level 1 Illusion or Necromancy spell. Both of these spells can be cast once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="h9f683735g0c91g4380g913fg97c6baf5c636" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt; and choose a level 1 Illusion or Necromancy spell. Both &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt; and the selected spell can be cast without consuming a &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slot&lt;/LSTag&gt; once per &lt;LSTag Tooltip="ShortRest"&gt;Short Rest&lt;/LSTag&gt;.</content>
 	<content contentuid="h05412485g7f1ag4ecfgbea8g9181a4ed707c" version="1">Shadow Touched</content>
 	<content contentuid="h93b2b81ag8f66g4b0fgb4b1g1edc8f6708de" version="1">Shadow Touched: Intelligence</content>
@@ -368,7 +368,7 @@
 	<content contentuid="hb5cc59abg9a24g4579gba26gac0fcad35706" version="1">Try to telekinetically push a target away.</content>
 	<content contentuid="h2749c7ccgf25fg4bd2g9f08g696ac863ed7e" version="1">Telekinetic: Mage Hand</content>
 	<content contentuid="h8f006851g557dg4989ga742g9eb58271839b" version="1">Telekinetic</content>
-	<content contentuid="h5d0f0fe0gd5c3g405fg869fg00e176efcff3" version="1">You increased your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; by 1, learned &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.</content>
+	<content contentuid="h5d0f0fe0gd5c3g405fg869fg00e176efcff3" version="1"You learn the &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.</content>
 	<content contentuid="h3dbb272cg789eg45feg8e12gffb87aacd04c" version="1">Telekinetic</content>
 	<content contentuid="h5b90c1f5g5db2g4a53g9088g8c778fb4bd7b" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Telekinetic: Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.</content>
 	<content contentuid="h7af59495g6937g4bdag83fbgec4509fb5155" version="1">Telekinetic: Intelligence</content>
@@ -450,7 +450,7 @@
 	<content contentuid="hcd59f30ag3ab2g44b5g8db9g4621d056e465" version="1">Zhentarim Tactics: Opportunity Attack</content>
 	<content contentuid="h2ec4b5a0gb8fdg4dd3g853bge6103b2ffd31" version="1">When a creature hits you with a melee attack, you can retaliate with a melee attack.</content>
 	<content contentuid="h8cc497bdg634eg4969ga56eg448e8e81689a" version="1">Zhentarim Tactics: Versatile Merc</content>
-	<content contentuid="h2522ba1fgb4cag4daeg83bcg6dc90ac88484" version="1">Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, you can gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill which you have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;.</content>
+	<content contentuid="h2522ba1fgb4cag4daeg83bcg6dc90ac88484" version="1">Once per &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;, you can gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill you are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; in.</content>
 	<content contentuid="h9831c88fg1cffg4afdg8f0eg29e231add382" version="1">Versatile Merc</content>
 	<content contentuid="h09f3d6dfg1687g4be4ga766g2a1456b1927b" version="1">Gain &lt;LSTag Tooltip="Expertise"&gt;Expertise&lt;/LSTag&gt; in a skill which you have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt;.</content>
 	<content contentuid="h7b455b55g723dg494cga209g57c989336800" version="1">Versatile Merc: Acrobatics</content>
