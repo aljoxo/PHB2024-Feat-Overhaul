@@ -7,7 +7,7 @@ type "PassiveData"
 using "Sentinel_Attack"
 // Sentinel: Guardian
 data "DisplayName" "hc6f345b0g9a58g4987gbc4dga8e0fcc46cfb;1"
-// When an enemy within melee range &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengages&lt;/LSTag&gt;, or takes a similar action, or attacks an ally, you can use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to make a weapon attack against that enemy.
+// When an enemy within melee range &lt;LSTag Type="Spell" Tooltip="Shout_Disengage"&gt;Disengages&lt;/LSTag&gt;, or takes a similar action, or attacks an another creature that you can see, you can use a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to make a weapon attack against that enemy.
 data "Description" "h9ce25f34g4204g42c1gafffgdeefba26a4cb;1"
 // data "Icon" "PassiveFeature_Sentinel_Attack"
 // data "Properties" "Highlighted"
@@ -16,8 +16,9 @@ data "Boosts" "UnlockInterrupt(Interrupt_Sentinel);UnlockInterrupt(Interrupt_Sen
 new entry "Interrupt_Sentinel"
 type "InterruptData"
 using "Interrupt_Sentinel"
-data "Conditions" "Goon_BasicHarmfulInterruptConditions(false,true) and Goon_InAttackRange(nil,nil,false,true) and not Self(context.Target, context.Observer) and Ally(context.Target, context.Observer) and not HasPassive('Sentinel_Attack',context.Target) and IsMeleeAttack()"
-data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions()"
+data "Conditions" "Goon_BasicHarmfulInterruptConditions(false,true) and Goon_InAttackRange(nil,nil,false,true) and not Self(context.Target, context.Observer) and not Ally(context.Source, context.Observer) and not HasPassive('Sentinel_Attack',context.Target) and IsAttack()"
+data "Properties" "UseSpell(OBSERVER_SOURCE,APO_Target_MainHandAttack_Generic,true,true,true)"
+data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions() and Goon_HasWeaponEquipped(true,true)"
 data "InterruptFlags" "InterruptWhileInvisible"
 
 new entry "Interrupt_Sentinel_Disengage"
