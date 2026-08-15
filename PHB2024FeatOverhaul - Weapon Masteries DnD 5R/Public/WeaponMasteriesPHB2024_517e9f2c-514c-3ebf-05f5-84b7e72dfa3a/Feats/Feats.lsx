@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Feats">
+        <node id="root">
+            <children>
+                <!-- <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="ChizWeaponMaster2024"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CHIZ_WM_WeaponMasteryFeat"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(37c37148-73b4-48e0-8252-8f1049ca7d68,1,1)"/>
+                    <attribute id="UUID" type="guid" value="80ec241d-af2e-451f-b420-7212919ecc96"/>
+                </node> -->
+            </children>
+        </node>
+    </region>
+</save>

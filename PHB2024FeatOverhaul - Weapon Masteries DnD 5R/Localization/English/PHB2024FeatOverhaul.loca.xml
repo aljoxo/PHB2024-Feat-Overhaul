@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	
+	<!-- Weapon Master -->
+	<content contentuid="haba8418bg10b0g4dcag91beg5e65a74e1c47" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;Your training with weapons allows you to use the mastery property of one weapon of your choice. Whenever you finish a Long Rest, you can change the kind of weapon to another.&lt;br&gt;&lt;br&gt;There are eight Weapon Masteries, each attached to specific a group of weapon types:&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Passive" Tooltip="CHIZ_WM_Base_Cleave"&gt;Cleave&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="CHIZ_WM_Base_Graze"&gt;Graze&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="CHIZ_WM_Base_Nick"&gt;Nick&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="CHIZ_WM_Base_Push"&gt;Push&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="CHIZ_WM_Base_Sap"&gt;Sap&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="CHIZ_WM_Base_Slow"&gt;Slow&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="CHIZ_WM_Base_Topple"&gt;Topple&lt;/LSTag&gt; and &lt;LSTag Type="Passive" Tooltip="CHIZ_WM_Base_Vex"&gt;Vex&lt;/LSTag&gt;.</content>
+
+</contentList>

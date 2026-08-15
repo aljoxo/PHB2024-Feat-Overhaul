@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="FeatDescriptions">
+        <node id="root">
+            <children>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="haba8418bg10b0g4dcag91beg5e65a74e1c47" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2697cbd2g593bg89e5ga73fg16e35959e904" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="ChizWeaponMaster2024"/>
+                    <attribute id="FeatId" type="guid" value="80ec241d-af2e-451f-b420-7212919ecc96"/>
+                    <attribute id="UUID" type="guid" value="3c88edc2-f1d5-408a-a79d-104cd97e0767"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
