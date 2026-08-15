@@ -278,6 +278,13 @@
 					<attribute id="FeatId" type="guid" value="ed4e367d-d136-4285-abac-077147e84cf2" />
 					<attribute id="UUID" type="guid" value="ce02138b-918a-4191-87d1-092892642ff8" />
 				</node>
+				<node id="FeatDescription">
+					<attribute id="Description" type="TranslatedString" handle="hbf651e53g0556g4a68gac3bg72cd03085a8a" version="4" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hcb1dcc3fgb362g41cfgb4bfgf54454f240c1" version="1" />
+					<attribute id="ExactMatch" type="FixedString" value="WeaponMaster" />
+					<attribute id="FeatId" type="guid" value="b153e75c-27a2-4412-95cd-60b477121679" />
+					<attribute id="UUID" type="guid" value="e1c40138-38a8-4067-87a6-597b52f379fa" />
+				</node>
 				<!-- Expanded Feats -->
 				<node id="FeatDescription">
                 	<attribute id="Description" type="TranslatedString" handle="hdd15741eg8e6fg4b10gbcb8gba54d21e9c5e" version="1" />

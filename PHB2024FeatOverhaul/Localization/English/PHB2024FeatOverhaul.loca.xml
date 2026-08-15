@@ -308,7 +308,12 @@
 	<content contentuid="h3536b810g8ef4g4b70g8179g4444dc44a526" version="1">War Caster: Wisdom</content>
 	<content contentuid="h952c8b37gff52g42b1gbbdfg6ec122766efe" version="1">War Caster: Charisma</content>
 	
-	<!-- Weapon Master-->
+	<!-- Weapon Master -->
+	<content contentuid="hf2832eb6ge09cg4713g86e2ge42542cb32f9" version="1">Weapon Master: Strength</content>
+	<content contentuid="hf2824b31g7533g4a52gb2eag34fe44cb170b" version="1">Weapon Master: Dexterity</content>
+	<content contentuid="hbf651e53g0556g4a68gac3bg72cd03085a8a" version="1">Your &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; with four weapons of your choice.</content>
+	<content contentuid="hcb1dcc3fgb362g41cfgb4bfgf54454f240c1" version="1">Weapon Master</content>
+	<content contentuid="" version="1"></content>
 
 	<!-- Putrefy -->
 	<content contentuid="h64a17119g48afg4d96g8137ged0e04326936" version="1">Putrefy: Strength</content>

@@ -245,6 +245,12 @@
                     <attribute id="Selectors" type="LSString" value="SelectPassives(e854378a-6d47-4e31-aba9-b189ae35c8fd,1)" />
                 	<attribute id="UUID" type="guid" value="ed4e367d-d136-4285-abac-077147e84cf2" />
                 </node>
+                <node id="Feat">
+                	<attribute id="Name" type="FixedString" value="WeaponMaster" />
+                	<attribute id="PassivesAdded" type="LSString" value="WeaponMaster" />
+                	<attribute id="Selectors" type="LSString" value="SelectPassives(621e7122-7218-4982-9d5c-6356e78b0f45,1);SelectPassives(f21e6b94-44e8-4ae0-a6f1-0c81abac03a2,4,WeaponMasterProficiencies)" />
+                	<attribute id="UUID" type="guid" value="b153e75c-27a2-4412-95cd-60b477121679" />
+                </node>
                 <!-- Expanded Feats -->
                 <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="ColdCaster" />
