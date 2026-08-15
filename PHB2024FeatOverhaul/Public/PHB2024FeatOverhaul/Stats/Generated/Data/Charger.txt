@@ -32,11 +32,12 @@ data "SpellType" "Rush"
 using "Rush_Charger_Attack"
 data "Cooldown" "OncePerTurn"
 data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)"
-data "SpellSuccess" "DealDamage(MainMeleeWeapon+, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand)"
+data "SpellSuccess" "DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand)"
 // Charger: Weapon Attack
 data "DisplayName" "h9819b876g3b73g4d52g9e73gd0943d0058fd;1"
 // Charge forward and slam your weapon into the first enemy in your way, you gain a +[1] bonus to this <LSTag Tooltip="AttackRoll">Attack Roll</LSTag>.
 data "Description" "hcf054604g933bg4a2ega6ccg69284d9c3647;1"
+data "DescriptionParams" "1d8"
 data "TooltipDamageList" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)"
 data "UseCosts" "ActionPoint:1"
 
