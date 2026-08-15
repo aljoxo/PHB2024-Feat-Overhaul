@@ -373,7 +373,7 @@
 	<content contentuid="hb5cc59abg9a24g4579gba26gac0fcad35706" version="1">Try to telekinetically push a target away.</content>
 	<content contentuid="h2749c7ccgf25fg4bd2g9f08g696ac863ed7e" version="1">Telekinetic: Mage Hand</content>
 	<content contentuid="h8f006851g557dg4989ga742g9eb58271839b" version="1">Telekinetic</content>
-	<content contentuid="h5d0f0fe0gd5c3g405fg869fg00e176efcff3" version="1"You learn the &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.</content>
+	<content contentuid="h5d0f0fe0gd5c3g405fg869fg00e176efcff3" version="1">You learn the &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.</content>
 	<content contentuid="h3dbb272cg789eg45feg8e12gffb87aacd04c" version="1">Telekinetic</content>
 	<content contentuid="h5b90c1f5g5db2g4a53g9088g8c778fb4bd7b" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Target_APO_MageHand_Telekinetic"&gt;Telekinetic: Mage Hand&lt;/LSTag&gt; cantrip, and can attempt to telekinetically &lt;LSTag Type="Spell" Tooltip="Target_APO_Telekinetic_Shove"&gt;Shove&lt;/LSTag&gt; creatures.</content>
 	<content contentuid="h7af59495g6937g4bdag83fbgec4509fb5155" version="1">Telekinetic: Intelligence</content>

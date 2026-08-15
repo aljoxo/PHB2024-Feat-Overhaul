@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="322"/>
+	<region id="Feats">
+		<node id="root">
+			<children>
+				<node id="Feat">
+					<attribute id="Name" type="FixedString" value="WarCaster"/>
+					<attribute id="PassivesAdded" type="LSString" value="WarCaster_Bonuses;UAWarCaster_Reactions_2014"/>
+					<attribute id="Selectors" type="LSString" value="SelectPassives(e854378a-6d47-4e31-aba9-b189ae35c8fd,1)" />
+					<attribute id="UUID" type="guid" value="ed4e367d-d136-4285-abac-077147e84cf2"/>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
