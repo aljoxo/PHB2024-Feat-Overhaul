@@ -407,7 +407,7 @@
 	<content contentuid="h80aa2cbbg1ee8g4ee1ga71egfc915689ffb0" version="1">Slasher</content>
 	<content contentuid="hf3abe9b8ged52g4fc1gb362g5594830ccdbf" version="1">When you hit a creature with an attack that deals Slashing damage, you can &lt;LSTag Type="Status" Tooltip="HAMSTRING"&gt;Hamstring&lt;/LSTag&gt; that creature.</content>
 	<content contentuid="h15b86647ge7b8g4a4fga02dg8ef53f5d61e8" version="1">Slasher: Enhanced Critical</content>
-	<content contentuid="h8706d013g4d1cg454eg8b4bgeec4e1c1ed13" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Slashing damage, the creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; until the start of your next turn.</content>
+	<content contentuid="h8706d013g4d1cg454eg8b4bgeec4e1c1ed13" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Slashing damage, the creature has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; until the start of your next turn.</content>
 	<content contentuid="h607daaa7g6e14g441bga621ge84741af911d" version="1">Slasher</content>
 	<content contentuid="h544668d5g2dbag43abg9298g0d597be847e7" version="1">You can &lt;LSTag Type="Status" Tooltip="HAMSTRING"&gt;Hamstring&lt;/LSTag&gt; this creature.</content>
 	<content contentuid="h040bb640g4148g47fdgb4e2g608228960c56" version="1">Slashed</content>

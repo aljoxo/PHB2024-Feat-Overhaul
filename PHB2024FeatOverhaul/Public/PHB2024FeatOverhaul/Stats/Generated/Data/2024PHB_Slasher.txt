@@ -17,7 +17,7 @@ new entry "APO_Slasher_Critical"
 type "PassiveData"
 // Slasher: Enhanced Critical
 data "DisplayName" "h15b86647ge7b8g4a4fga02dg8ef53f5d61e8;1"
-// When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag> against a creature with Slashing damage, the creature has <LSTag Tooltip="Disadvantage">Disadvantage</LSTag> on all <LSTag Tooltip="AttackRoll">Attack Roll</LSTag> until the start of your next turn.
+// When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag> against a creature with Slashing damage, the creature has <LSTag Tooltip="Disadvantage">Disadvantage</LSTag> on all <LSTag Tooltip="AttackRoll">Attack Rolls</LSTag> until the start of your next turn.
 data "Description" "h8706d013g4d1cg454eg8b4bgeec4e1c1ed13;1"
 data "Icon" "PassiveFeature_Slasher"
 data "Properties" "Highlighted"
