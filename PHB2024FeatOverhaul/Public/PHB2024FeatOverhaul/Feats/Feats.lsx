@@ -318,12 +318,12 @@
                 	<attribute id="Selectors" type="LSString" value="SelectPassives(daae79d8-8fdc-4441-9130-10cd70df59ed,1)" />
                 	<attribute id="UUID" type="guid" value="b64676bc-c83b-4813-9f83-662f1575cdea" />
                 </node>
-                <node id="Feat">
+                <!-- <node id="Feat">
                 	<attribute id="Name" type="FixedString" value="ZhentarimTactics" />
                 	<attribute id="PassivesAdded" type="LSString" value="APO_ZhentarimTactics;APO_ZhentarimTactics_Expertise" />
                 	<attribute id="Selectors" type="LSString" value="SelectPassives(c010c041-b5ce-4f36-affa-2320fceaaa8f,1)" />
                 	<attribute id="UUID" type="guid" value="bf33280a-4ee0-42ff-bcf9-acb6d76311e7" />
-                </node>
+                </node> -->
             </children>
         </node>
     </region>

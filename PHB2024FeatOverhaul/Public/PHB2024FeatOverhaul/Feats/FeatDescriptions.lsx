@@ -363,13 +363,13 @@
 					<attribute id="FeatId" type="guid" value="b64676bc-c83b-4813-9f83-662f1575cdea" />
 					<attribute id="UUID" type="guid" value="22310131-ff80-40ce-879f-743f020babe4" />
 				</node>
-				<node id="FeatDescription">
+				<!-- <node id="FeatDescription">
 					<attribute id="Description" type="TranslatedString" handle="ha9447254g9287g494ag96fdgeef6ba1f8c4d" version="1" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h27c085b1ge99ag4276g9090g34c46386c431" version="1" />
 					<attribute id="ExactMatch" type="FixedString" value="ZhentarimTactics" />
 					<attribute id="FeatId" type="guid" value="bf33280a-4ee0-42ff-bcf9-acb6d76311e7" />
 					<attribute id="UUID" type="guid" value="5dd7d32d-74eb-4ed4-9f36-25e17934eb9a" />
-				</node>
+				</node> -->
             </children>
         </node>
     </region>
