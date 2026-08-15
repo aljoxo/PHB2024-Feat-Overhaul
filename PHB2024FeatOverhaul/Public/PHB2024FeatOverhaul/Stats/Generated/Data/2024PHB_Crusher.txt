@@ -17,7 +17,7 @@ new entry "APO_Crusher_Critical"
 type "PassiveData"
 // Crusher: Enhanced Critical
 data "DisplayName" "h756d6eddgc2fdg4f77g8287g2128846fd914;1"
-// When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag> against a creature with Bludgeoning damage, your <LSTag Tooltip="AttackRoll">Attack Roll</LSTag> against the creature have <LSTag Tooltip="Advantage">Advantage</LSTag> until the start of your next turn.
+// When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag> against a creature with Bludgeoning damage, your <LSTag Tooltip="AttackRoll">Attack Rolls</LSTag> against the creature have <LSTag Tooltip="Advantage">Advantage</LSTag> until the start of your next turn.
 data "Description" "hbfd79869gf5eeg4c7dg8b9cg1b6898c4cc79;1"
 data "Icon" "PassiveFeature_Crusher"
 data "Properties" "Highlighted"

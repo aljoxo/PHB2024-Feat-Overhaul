@@ -18,8 +18,9 @@ new entry "APO_Putrefy_Necrosis"
 type "PassiveData"
 // Putrefy: Necrosis
 data "DisplayName" "h66fb38dagb67bg48ffgbef0g18597c603d77;1"
-// When you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.
+// When you deal[1], you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.
 data "Description" "h8579983dgaa3eg4810g812dg234fdd0ff7dd;1"
+data "DescriptionParams" "DealDamage(,Necrotic)"
 data "Icon" "PassiveFeature_GrimHarvest"
 data "Properties" "Highlighted;OncePerTurn"
 data "StatsFunctorContext" "OnDamage"

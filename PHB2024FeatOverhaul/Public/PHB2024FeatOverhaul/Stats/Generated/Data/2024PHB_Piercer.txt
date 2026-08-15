@@ -20,7 +20,7 @@ new entry "APO_Piercer_Critical"
 type "PassiveData"
 // Piercer: Enhanced Critical
 data "DisplayName" "h7ccef382gb87bg4491gb697g80a15207ac5a;1"
-// When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag> against a creature with Piercing damage,  you roll an extra damage die as well as the normal additional critical dice.
+// When you land a <LSTag Tooltip="CriticalHit">Critical Hit</LSTag> against a creature with Piercing damage, you roll an extra damage die as well as the normal additional critical dice.
 data "Description" "h7c408c4agdc09g45eegb593g7e5addb7306a;1"
 data "Icon" "PassiveFeature_Piercer"
 data "Properties" "Highlighted"

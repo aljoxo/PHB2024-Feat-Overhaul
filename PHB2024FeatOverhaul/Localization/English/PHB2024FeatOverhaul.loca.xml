@@ -319,7 +319,7 @@
 	<content contentuid="h7eefb233g7e91g4454g8d47gbe74dea25f07" version="1">Putrefy: Charisma</content>
 	<content contentuid="h82726b60g05e3g4209gbbacg0cacbe2769ea" version="1">Putrefy</content>
 	<content contentuid="hd25a3601g329eg4cebg9a72gba6408efb356" version="1">When dealing[1] with an attack or spell, you roll your damage dice twice and use the highest result.</content>
-	<content contentuid="h8579983dgaa3eg4810g812dg234fdd0ff7dd" version="1">When you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.</content>
+	<content contentuid="h8579983dgaa3eg4810g812dg234fdd0ff7dd" version="1">When you deal[1], you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.</content>
 	<content contentuid="h66fb38dagb67bg48ffgbef0g18597c603d77" version="1">Putrefy: Necrosis</content>
 	<content contentuid="h33aaa5f7gbe2bg4285g9b15g79ae9d07d611" version="1">Putrefy</content>
 	<content contentuid="h99969785g2b58g4555g8d98g5bcb20dc2b10" version="1">Increase one &lt;LSTag Tooltip="AbilityScore"&gt;Ability Score&lt;/LSTag&gt; by 1.&lt;br&gt;&lt;br&gt;When dealing Necrotic damage with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, when you deal Necrotic damage, you can &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poison&lt;/LSTag&gt; the target until the start of your next turn.</content>
@@ -379,7 +379,7 @@
 	<content contentuid="hfaa38ddcg038fg4344g9bb1ge316d972f7c3" version="1">Crusher</content>
 	<content contentuid="hb89a80ccg1e0cg438dga599g14a4a7611c06" version="1">When you hit a creature with an attack that deals Bludgeoning damage, you can &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; that creature.</content>
 	<content contentuid="h756d6eddgc2fdg4f77g8287g2128846fd914" version="1">Crusher: Enhanced Critical</content>
-	<content contentuid="hbfd79869gf5eeg4c7dg8b9cg1b6898c4cc79" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Bludgeoning damage, your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; until the start of your next turn.</content>
+	<content contentuid="hbfd79869gf5eeg4c7dg8b9cg1b6898c4cc79" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Bludgeoning damage, your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against the creature have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; until the start of your next turn.</content>
 	<content contentuid="h0db29ab1gcca7g46bbg84c2g7180cd2f466d" version="1">Crusher</content>
 	<content contentuid="hd9994c46g1e30g4c0dg9019g02f5623dab29" version="1">You can &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Daze&lt;/LSTag&gt; this creature.</content>
 	<content contentuid="h046c30c9g6980g4c63gaa81g5e05f2bb25da" version="1">Crushed</content>
@@ -394,7 +394,7 @@
 	<content contentuid="h694288edgc324g4e61ga508gbe6e171febfb" version="1">Piercer</content>
 	<content contentuid="h870e678fgd1c0g40a1gb518gb487d0e4c9f4" version="1">When you hit a creature with an attack that deals Piercing daamge, you can deal an additional [1].</content>
 	<content contentuid="h7ccef382gb87bg4491gb697g80a15207ac5a" version="1">Piercer: Enhanced Critical</content>
-	<content contentuid="h7c408c4agdc09g45eegb593g7e5addb7306a" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Piercing damage,  you roll an extra damage die as well as the normal additional critical dice.</content>
+	<content contentuid="h7c408c4agdc09g45eegb593g7e5addb7306a" version="1">When you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against a creature with Piercing damage, you roll an extra damage die as well as the normal additional critical dice.</content>
 	<content contentuid="hab770b0cge388g4e4fg87f0ge41f271344ef" version="1">Piercer: Strength</content>
 	<content contentuid="hacdfb445g1bf7g4340g836bg94518aaa11e3" version="1">Piercer: Dexterity</content>
 	<content contentuid="he8846e61g4f2dg4d9dg8ec0gcf87414d3e6e" version="1">Piercer</content>
