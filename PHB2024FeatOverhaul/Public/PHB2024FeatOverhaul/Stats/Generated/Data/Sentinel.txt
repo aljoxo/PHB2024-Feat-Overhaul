@@ -18,7 +18,7 @@ type "InterruptData"
 using "Interrupt_Sentinel"
 data "Conditions" "Goon_BasicHarmfulInterruptConditions(false,true) and Goon_InAttackRange(nil,nil,false,true) and not Self(context.Target, context.Observer) and not Ally(context.Source, context.Observer) and not HasPassive('Sentinel_Attack',context.Target) and IsAttack()"
 data "Properties" "UseSpell(OBSERVER_SOURCE,APO_Target_MainHandAttack_Generic,true,true,true)"
-data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions() and Goon_HasWeaponEquipped(true,true)"
+data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions() and Goon_HasWeaponEquipped(true,false)"
 data "InterruptFlags" "InterruptWhileInvisible"
 
 new entry "Interrupt_Sentinel_Disengage"

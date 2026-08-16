@@ -27,7 +27,7 @@ data "Properties" "IF(not HasPassive('Sentinel_ZeroSpeed',context.Source) and no
 // data "Stack" "AttackOfOpportunity"
 // data "InterruptDefaultValue" "Ask;Enabled"
 // data "EnableCondition" "not HasAnyStatus({'SG_Polymorph','SG_Blinded'}) or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'});"
-data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions()"
+data "EnableCondition" "Goon_BasicHarmfulInterruptEnableConditions() and Goon_HasWeaponEquipped(true,false)"
 // data "EnableContext" "OnStatusApplied;OnStatusRemoved"
 data "InterruptFlags" "InterruptWhileInvisible"
 
