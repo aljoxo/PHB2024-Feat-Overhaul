@@ -430,7 +430,7 @@
 	<content contentuid="h00f639d4ge1f9g4c5cg98e6g4efda7831ec2" version="1">Spellfire Adept: Wisdom</content>
 	<content contentuid="hd1615bd7gafa0g4cb1g9992g7000cb1cae7c" version="1">Spellfire Adept: Charisma</content>
 	<content contentuid="hba42c706gb75ag4adcg803eg331edad00c1e" version="1">Spellfire Adept</content>
-	<content contentuid="h5ade4be1ge7eeg427fg9c35g728c632bb2bd" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame;/LSTag&gt; cantrip. When dealing Radiant damage with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
+	<content contentuid="h5ade4be1ge7eeg427fg9c35g728c632bb2bd" version="1">Your &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1.&lt;br&gt;&lt;br&gt;You learn the &lt;LSTag Type="Spell" Tooltip="Target_SacredFlame"&gt;Sacred Flame&lt;/LSTag&gt; cantrip. When dealing Radiant damage with an attack or spell, you roll your damage dice twice and use the highest result. Additionally, your spells and attacks ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
 	
 	<!-- Poisoner -->
 	<content contentuid="h6eaa56e3g6f3dg4961g8dc0g5dcdad5b2dfe" version="1">Poisoner</content>
