@@ -27,7 +27,7 @@ data "Icon" "PassiveFeature_ElementalAdept_Cold"
 data "Properties" "Highlighted;OncePerTurn"
 data "StatsFunctorContext" "OnDamage"
 data "Conditions" "IsDamageTypeCold()"
-data "StatsFunctors" "ApplyStatus(APO_FROSTBITE,100,1)"
+data "StatsFunctors" "ApplyStatus(APO_FROSTBITE,100,2)"
 
 new entry "APO_FROSTBITE"
 type "StatusData"
